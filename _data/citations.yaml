@@ -1,192 +1,1851 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1136/bmjment-2025-301594
+  title: 'Prognostic predictions in psychosis: exploring the complementary role of
+    machine learning models'
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
+  - Violet van Dee
+  - Seyed M Kia
+  - Caterina Fregosi
+  - Wilma E Swildens
+  - Anne Alkema
+  - Albert Batalla
+  - Coen van den Berg
+  - Danko Coric
+  - Edwin van Dellen
+  - Lotte G Dijkstra
+  - Arthur van den Doel
+  - Livia S Dominicus
+  - John Enterman
+  - Frank L Gerritse
+  - Marte Z van der Horst
+  - Fedor van Houwelingen
+  - Charlotte S Koch
+  - Lisanne E M Koomen
+  - Marjan Kromkamp
+  - Michelle Lancee
+  - Brian E Mouthaan
+  - Diane F van Rappard
+  - Eline J Regeer
+  - Raymond W J Salet
+  - Metten Somers
+  - Jorgen Straalman
+  - Marjolein H T de Vette
+  - Judith Voogt
+  - Inge Winter-van Rossum
+  - Rene S Kahn
+  - Wiepke Cahn
+  - Hugo G Schnack
+  publisher: BMJ Mental Health
+  date: '2025-06-01'
+  link: https://doi.org/hbjp4r
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.01.30.25321382
+  title: 'Prognostic predictions in psychosis: exploring the complementary role of
+    machine learning models'
+  authors:
+  - Violet van Dee
+  - Seyed Mostafa Kia
+  - Caterina Fregosi
+  - Wilma E. Swildens
+  - Anne Alkema
+  - Albert Batalla
+  - Coen van den Berg
+  - Danko Coric
+  - Edwin van Dellen
+  - Lotte G. Dijkstra
+  - Arthur van den Doel
+  - Livia S. Dominicus
+  - John Enterman
+  - Frank L. Gerritse
+  - Marte Z. van der Horst
+  - Fedor van Houwelingen
+  - Charlotte S. Koch
+  - Lisanne E.M. Koomen
+  - Marjan Kromkamp
+  - Michelle Lancee
+  - Brian E. Mouthaan
+  - Diane F. van Rappard
+  - Eline J. Regeer
+  - Raymond W.J. Salet
+  - Metten Somers
+  - Jorgen Straalman
+  - Marjolein H.T. de Vette
+  - Judith Voogt
+  - Inge Winter-van Rossum
+  - "Ren\xE9 S. Kahn"
+  - Wiepke Cahn
+  - Hugo G. Schnack
   publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  date: '2025-02-02'
+  link: https://doi.org/hbjp4s
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1111/acps.13754
+  title: "Psychosis Prognosis Predictor: A continuous and uncertainty\u2010aware prediction\
+    \ of treatment outcome in first\u2010episode psychosis"
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - "Dani\xEBl P. J. van Opstal"
+  - Seyed Mostafa Kia
+  - Lea Jakob
+  - Metten Somers
+  - Iris E. C. Sommer
+  - "Inge Winter\u2010van Rossum"
+  - "Ren\xE9 S. Kahn"
+  - Wiepke Cahn
+  - Hugo G. Schnack
+  publisher: Acta Psychiatrica Scandinavica
+  date: '2024-09-18'
+  link: https://doi.org/hbjp4t
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1371/journal.pone.0308329
+  title: 'Nonlinear latent representations of high-dimensional task-fMRI data: Unveiling
+    cognitive and behavioral insights in heterogeneous spatial maps'
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Mariam Zabihi
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Stijn de Boer
+  - Charlotte Fraza
+  - Richard Dinga
+  - Alberto Llera Arenas
+  - Danilo Bzdok
+  - Christian F. Beckmann
+  - Andre Marquand
+  publisher: PLOS ONE
+  date: '2024-08-08'
+  link: https://doi.org/hbjp4v
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/schbul/sbae107
+  title: A 10-Year Longitudinal Study of Brain Cortical Thickness in People with First-Episode
+    Psychosis Using Normative Models
+  authors:
+  - Pierre Berthet
+  - Beathe C Haatveit
+  - Rikka Kjelkenes
+  - Amanda Worker
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Saige Rutherford
+  - Dag Alnaes
+  - Richard Dinga
+  - Mads L Pedersen
+  - Andreas Dahl
+  - Sara Fernandez-Cabello
+  - Paola Dazzan
+  - Ingrid Agartz
+  - "Ragnar Nesv\xE5g"
+  - Torill Ueland
+  - Ole A Andreassen
+  - Carmen Simonsen
+  - Lars T Westlye
+  - Ingrid Melle
+  - Andre Marquand
+  publisher: Schizophrenia Bulletin
+  date: '2024-07-05'
+  link: https://doi.org/gt74wn
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/dad2.12559
+  title: Alzheimer's disease heterogeneity revealed by neuroanatomical normative modeling
+  authors:
+  - Flavia Loreto
+  - Serena Verdi
+  - Seyed Mostafa Kia
+  - Aleksandar Duvnjak
+  - Haneen Hakeem
+  - Anna Fitzgerald
+  - Neva Patel
+  - Johan Lilja
+  - Zarni Win
+  - Richard Perry
+  - Andre F. Marquand
+  - James H. Cole
+  - Paresh Malhotra
+  publisher: 'Alzheimer''s &amp; Dementia: Diagnosis, Assessment &amp; Disease Monitoring'
+  date: '2024-01-01'
+  link: https://doi.org/hbjp4x
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1049/pbhe056e_ch3
+  title: Gender and emotion recognition from EEG and eye movement patterns
+  authors:
+  - Maneesh Bilalpur
+  - Seyed Mostafa Kia
+  - Mohan Kankanhalli
+  - Ramanathan Subramanian
+  - M. Murugappan
+  publisher: 'Affective Computing Applications using Artificial Intelligence in Healthcare:
+    Methods, approaches and challenges in system design'
+  date: '2024-06-04'
+  link: https://doi.org/hbjp4z
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.04.19.24306008
+  title: A 10-Year Longitudinal Study of Brain Cortical Thickness in People with First-Episode
+    Psychosis using Normative Models
+  authors:
+  - Pierre Berthet
+  - Beathe C. Haatveit
+  - Rikka Kjelkenes
+  - Amanda Worker
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Saige Rutherford
+  - Dag Alnaes
+  - Richard Dinga
+  - Mads L. Pedersen
+  - Andreas Dahl
+  - Sara Fernandez-Cabello
+  - Paola Dazzan
+  - Ingrid Agartz
+  - "Ragnar Nesv\xE5g"
+  - Torill Ueland
+  - Ole A. Andreassen
+  - Carmen Simonsen
+  - Lars T. Westlye
+  - Ingrid Melle
+  - Andre Marquand
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2024-04-22'
+  link: https://doi.org/g9jwm7
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1002/HBM.26565
+  title: Estimating cortical thickness trajectories in children across different scanners
+    using transfer learning from normative models
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - C. Gaiser
+  - P. Berthet
+  - S. M. Kia
+  - M. A. Frens
+  - C. F. Beckmann
+  - R. L. Muetzel
+  - Andre F. Marquand
+  publisher: Human Brain Mapping
+  date: '2024-02-01'
+  link: https://doi.org/hbjp42
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1101/2024.12.15.628527
+  title: Lifespan Normative Modeling of Brain Microstructure
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
+  - "Julio E. Villal\xF3n-Reina"
+  - Alyssa H. Zhu
+  - Sebastian Benavidez
+  - Clara A. Moreau
+  - Yixue Feng
+  - Tamoghna Chattopadhyay
+  - Leila Nabulsi
+  - Leila Kushan
+  - John P. John
+  - Himanshu Joshi
+  - Sophia I. Thomopoulos
+  - Katherine E. Lawrence
+  - Talia M. Nir
+  - Neda Jahanshad
+  - Carrie E. Bearden
+  - Seyed Mostafa Kia
+  - Andre F. Marquand
+  - Paul M. Thompson
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  date: '2024-12-17'
+  link: https://doi.org/hbjp43
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1101/2024.10.20.24315248
+  title: Multiscale heterogeneity of functional connectivity in autism
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Faisal S Alquaddoomi
-  - Joseph T Burke
-  - Lo Sosinski
-  - David A Mayer
-  - Evan P Brenner
-  - Samuel Z Chen
-  - Jacob D Krol
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
+  - Iva Ilioska
+  - Marianne Oldehinkel
+  - Alberto Llera
+  - "Maro\u0161 Rovn\xFD"
+  - Ting Mei
+  - Seyed Mostafa Kia
+  - Dorothea L. Floris
+  - Julian Tillmann
+  - Rosemary J. Holt
+  - Eva Loth
+  - Tony Charman
+  - Declan G. M. Murphy
+  - Christine Ecker
+  - Tobias Banaschewski
+  - Maarten Mennes
+  - Christian F. Beckmann
+  - Andre Marquand
+  - Jan K. Buitelaar
+  - Alex Fornito
   publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  date: '2024-10-22'
+  link: https://doi.org/hbjp44
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1101/2024.08.04.606523
+  title: Multiscale heterogeneity of white matter morphometry in psychiatric disorders
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
+  - Ashlea Segal
+  - Robert E Smith
+  - Sidhant Chopra
+  - Stuart Oldham
+  - Linden Parkes
+  - Kevin M Aquino
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Barbara Franke
+  - Martine Hoogman
+  - Christian F Beckmann
+  - Lars T Westlye
+  - Ole A Andreassen
+  - Andrew Zaleskey
+  - Harrison J Ben
+  - Christopher G Davey
+  - Carles Soriano-Mas
+  - Narcis Cardoner
+  - Jeggan Tiego
+  - Murat Yucel
+  - Leah Braganza
+  - Chao Suo
+  - Michael Berk
+  - Sue Cotton
+  - Mark A Bellgrove
+  - Andre F Marquand
+  - Alex Fornito
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-08-06'
+  link: https://doi.org/hbjp45
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.10.05.510988
+  title: Non-Gaussian Normative Modelling With Hierarchical Bayesian Regression
+  authors:
+  - Augustijn A.A. de Boer
+  - Johanna M. M. Bayer
+  - Seyed Mostafa Kia
+  - Saige Rutherford
+  - Mariam Zabihi
+  - Charlotte Fraza
+  - Pieter Barkema
+  - Lars T. Westlye
+  - Ole A. Andreassen
+  - Max Hinne
+  - Christian F. Beckmann
+  - Andre Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-10-07'
+  link: https://doi.org/gsxxkk
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1162/imag_a_00132
+  title: Non-Gaussian normative modelling with hierarchical Bayesian regression
+  authors:
+  - Augustijn A. A. de Boer
+  - Johanna M. M. Bayer
+  - Seyed Mostafa Kia
+  - Saige Rutherford
+  - Mariam Zabihi
+  - Charlotte Fraza
+  - Pieter Barkema
+  - Lars T. Westlye
+  - Ole A. Andreassen
+  - Max Hinne
+  - Christian F. Beckmann
+  - Andre Marquand
+  publisher: Imaging Neuroscience
+  date: '2024-04-01'
+  link: https://doi.org/hbjp46
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2024.02.04.24302268
+  title: 'Structural brain abnormalities and aggressive behaviour in schizophrenia:
+    Mega-analysis of data from 2095 patients and 2861 healthy controls via the ENIGMA
+    consortium'
+  authors:
+  - Jelle Lamsma
+  - Adrian Raine
+  - Seyed M. Kia
+  - Wiepke Cahn
+  - Dominic Arold
+  - Nerisa Banaj
+  - Annarita Barone
+  - Katharina Brosch
+  - Rachel Brouwer
+  - Arturo Brunetti
+  - Vince D. Calhoun
+  - Qian H. Chew
+  - Sunah Choi
+  - Young-Chul Chung
+  - Mariateresa Ciccarelli
+  - Derin Cobia
+  - Sirio Cocozza
+  - Udo Dannlowski
+  - Paola Dazzan
+  - Andrea de Bartolomeis
+  - Marta Di Forti
+  - Alexandre Dumais
+  - Jesse T. Edmond
+  - Stefan Ehrlich
+  - Ulrika Evermann
+  - "Kira Flinkenfl\xFCgel"
+  - Foivos Georgiadis
+  - David C. Glahn
+  - Janik Goltermann
+  - Melissa J. Green
+  - Dominik Grotegerd
+  - Amalia Guerrero-Pedraza
+  - Minji Ha
+  - Elliot L. Hong
+  - Hilleke Hulshoff Pol
+  - Felice Iasevoli
+  - Stefan Kaiser
+  - Vasily Kaleda
+  - Andriana Karuk
+  - Minah Kim
+  - Tilo Kircher
+  - Matthias Kirschner
+  - Peter Kochunov
+  - Jun Soo Kwon
+  - Irina Lebedeva
+  - Rebekka Lencer
+  - Tiago R. Marques
+  - Susanne Meinert
+  - Robin Murray
+  - "Igor Nenadi\u0107"
+  - Dana Nguyen
+  - Godfrey Pearlson
+  - Fabrizio Piras
+  - Edith Pomarol-Clotet
+  - Giuseppe Pontillo
+  - "St\xE9phane Potvin"
+  - Adrian Preda
+  - "Yann Quid\xE9"
+  - Amanda Rodrigue
+  - Kelly Rootes-Murdy
+  - Raymond Salvador
+  - Antonin Skoch
+  - Kang Sim
+  - Gianfranco Spalletta
+  - Filip Spaniel
+  - Frederike Stein
+  - Florian Thomas-Odenthal
+  - "Andr\xE0s Tik\xE0sz"
+  - David Tomecek
+  - Alexander Tomyshev
+  - Mario Tranfa
+  - Uyanga Tsogt
+  - Jessica A. Turner
+  - Theo G. M. van Erp
+  - Neeltje E. M. van Haren
+  - Jim van Os
+  - Daniela Vecchio
+  - Lei Wang
+  - Adrian Wroblewski
+  - Thomas Nickl-Jockschat
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-02-05'
+  link: https://doi.org/hbjp47
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.12688/wellcomeopenres.19591.2
+  title: 'Predictive Clinical Neuroscience Portal (PCNportal): instant online access
+    to research-grade normative models for clinical neuroscientists.'
+  authors:
+  - Pieter Barkema
+  - Saige Rutherford
+  - Hurng-Chun Lee
+  - Seyed Mostafa Kia
+  - Hannah Savage
+  - Christian Beckmann
+  - Andre Marquand
+  publisher: Wellcome Open Research
+  date: '2023-11-20'
+  link: https://doi.org/hbjp48
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41593-023-01410-8
+  title: A stable and replicable neural signature of lifespan adversity in the adult
+    brain
+  authors:
+  - Nathalie E. Holz
+  - Mariam Zabihi
+  - Seyed Mostafa Kia
+  - Maximillian Monninger
+  - Pascal-M. Aggensteiner
+  - Sebastian Siehl
+  - Dorothea L. Floris
+  - Arun L. W. Bokde
+  - "Sylvane Desrivi\xE8res"
+  - Herta Flor
+  - Antoine Grigis
+  - Hugh Garavan
+  - Penny Gowland
+  - Andreas Heinz
+  - "R\xFCdiger Br\xFChl"
+  - Jean-Luc Martinot
+  - "Marie-Laure Paill\xE8re Martinot"
+  - Dimitri Papadopoulos Orfanos
+  - "Tom\xE1\u0161 Paus"
+  - Luise Poustka
+  - "Juliane H. Fr\xF6hner"
+  - Michael N. Smolka
+  - Nilakshi Vaidya
+  - Henrik Walter
+  - Robert Whelan
+  - Gunter Schumann
+  - Andreas Meyer-Lindenberg
+  - Daniel Brandeis
+  - Jan K. Buitelaar
+  - Frauke Nees
+  - Christian Beckmann
+  - Jean-Luc Martinot
+  - "Marie-Laure Paill\xE8re Martinot"
+  - "Juliane H. Fr\xF6hner"
+  - Michael N. Smolka
+  - Henrik Walter
+  - Tobias Banaschewski
+  - Andre F. Marquand
+  publisher: Nature Neuroscience
+  date: '2023-08-21'
+  link: https://doi.org/gsmsbg
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S003329172200068X
+  title: Age-related brain deviations and aggression
+  authors:
+  - Nathalie E. Holz
+  - Dorothea L. Floris
+  - Alberto Llera
+  - Pascal M. Aggensteiner
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Sarah Baumeister
+  - "Boris B\xF6ttinger"
+  - Jeffrey C. Glennon
+  - Pieter J. Hoekstra
+  - Andrea Dietrich
+  - Melanie C. Saam
+  - Ulrike M. E. Schulze
+  - David J. Lythgoe
+  - Steve C. R. Williams
+  - Paramala Santosh
+  - Mireia Rosa-Justicia
+  - Nuria Bargallo
+  - Josefina Castro-Fornieles
+  - Celso Arango
+  - Maria J. Penzol
+  - Susanne Walitza
+  - Andreas Meyer-Lindenberg
+  - Marcel Zwiers
+  - Barbara Franke
+  - Jan Buitelaar
+  - Jilly Naaijen
+  - Daniel Brandeis
+  - Christian Beckmann
+  - Tobias Banaschewski
+  - Andre F. Marquand
+  publisher: Psychological Medicine
+  date: '2022-04-22'
+  link: https://doi.org/hbjp49
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.03.02.530742
+  title: Estimating cortical thickness trajectories in children across different scanners
+    using transfer learning from normative models
+  authors:
+  - C. Gaiser
+  - P. Berthet
+  - S.M. Kia
+  - M. A. Frens
+  - C. F. Beckmann
+  - R. L. Muetzel
+  - A. Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-03-02'
+  link: https://doi.org/hbjp5b
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41398-023-02661-6
+  title: Extreme deviations from the normative model reveal cortical heterogeneity
+    and associations with negative symptom severity in first-episode psychosis from
+    the OPTiMiSE and GAP studies
+  authors:
+  - Amanda Worker
+  - Pierre Berthert
+  - Andrew J. Lawrence
+  - Seyed Mostafa Kia
+  - Celso Arango
+  - Richard Dinga
+  - Silvana Galderisi
+  - "Birte Glenth\xF8j"
+  - "Ren\xE9 S. Kahn"
+  - Anoushka Leslie
+  - Robin M. Murray
+  - Carmine M. Pariante
+  - Christos Pantelis
+  - Mark Weiser
+  - Inge Winter-van Rossum
+  - Philip McGuire
+  - Paola Dazzan
+  - Andre F. Marquand
+  publisher: Translational Psychiatry
+  date: '2023-12-02'
+  link: https://doi.org/hbjp5c
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.12688/wellcomeopenres.19591.1
+  title: 'Predictive Clinical Neuroscience Portal (PCNportal): instant online access
+    to research-grade normative models for clinical neuroscientists.'
+  authors:
+  - Pieter Barkema
+  - Saige Rutherford
+  - Hurng-Chun Lee
+  - Seyed Mostafa Kia
+  - Hannah Savage
+  - Christian Beckmann
+  - Andre Marquand
+  publisher: Wellcome Open Research
+  date: '2023-07-26'
+  link: https://doi.org/hbjp5d
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2023.07.05.23292252
+  title: 'Psychosis Prognosis Predictor: A Continuous and Uncertainty-Aware Prediction
+    of Treatment Outcome in First-Episode Psychosis'
+  authors:
+  - "Dani\xEBl P.J. van Opstal"
+  - Seyed Mostafa Kia
+  - Lea Jakob
+  - Metten Somers
+  - Iris E. C. Sommer
+  - Inge Winter-van Rossum
+  - "Ren\xE9 S. Kahn"
+  - Wiepke Cahn
+  - Hugo G. Schnack
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-07-07'
+  link: https://doi.org/hbjp5f
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001043129200008
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001043129200008
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41593-023-01404-6
+  title: Regional, circuit and network heterogeneity of brain abnormalities in psychiatric
+    disorders
+  authors:
+  - Ashlea Segal
+  - Linden Parkes
+  - Kevin Aquino
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Barbara Franke
+  - Martine Hoogman
+  - Christian F. Beckmann
+  - Lars T. Westlye
+  - Ole A. Andreassen
+  - Andrew Zalesky
+  - Ben J. Harrison
+  - Christopher G. Davey
+  - Carles Soriano-Mas
+  - "Narc\xEDs Cardoner"
+  - Jeggan Tiego
+  - "Murat Y\xFCcel"
+  - Leah Braganza
+  - Chao Suo
+  - Michael Berk
+  - Sue Cotton
+  - Mark A. Bellgrove
+  - Andre F. Marquand
+  - Alex Fornito
+  publisher: Nature Neuroscience
+  date: '2023-08-14'
+  link: https://doi.org/gtcpcf
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1212/WNL.0000000000207298
+  title: Revealing Individual Neuroanatomical Heterogeneity in Alzheimer Disease Using
+    Neuroanatomical Normative Modeling
+  authors:
+  - Serena Verdi
+  - Seyed Mostafa Kia
+  - Keir X.X. Yong
+  - Duygu Tosun
+  - Jonathan M. Schott
+  - Andre F. Marquand
+  - James H. Cole
+  publisher: Neurology
+  date: '2023-06-13'
+  link: https://doi.org/hbjp5g
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FPSYT.2023.1237490
+  title: Revealing the impact of psychiatric comorbidities on treatment outcome in
+    early psychosis using counterfactual model explanation
+  authors:
+  - Violet van Dee
+  - Seyed Mostafa Kia
+  - Inge Winter-van Rossum
+  - "Ren\xE9 S. Kahn"
+  - Wiepke Cahn
+  - Hugo G. Schnack
+  publisher: Frontiers in Psychiatry
+  date: '2023-10-12'
+  link: https://doi.org/gtw94g
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.NEUROIMAGE.2022.119699
+  title: Accommodating site variation in neuroimaging data using normative and hierarchical
+    Bayesian models
+  authors:
+  - Johanna M.M. Bayer
+  - Richard Dinga
+  - Seyed Mostafa Kia
+  - Akhil R. Kottaram
+  - Thomas Wolfers
+  - Jinglei Lv
+  - Andrew Zalesky
+  - Lianne Schmaal
+  - Andre Marquand
+  publisher: NeuroImage
+  date: '2022-12-01'
+  link: https://doi.org/g984n2
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7554/ELIFE.72904.SA2
+  title: 'Author response: Charting brain growth and aging at high spatial precision'
+  authors:
+  - Saige Rutherford
+  - Charlotte Fraza
+  - Richard Dinga
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Mariam Zabihi
+  - Pierre Berthet
+  - Amanda Worker
+  - Serena Verdi
+  - Derek Andrews
+  - Laura KM Han
+  - Johanna MM Bayer
+  - Paola Dazzan
+  - Phillip McGuire
+  - Roel T Mocking
+  - Aart Schene
+  - Chandra Sripada
+  - Ivy F Tso
+  - Elizabeth R Duval
+  - Soo-Eun Chang
+  - Brenda WJH Penninx
+  - Mary M Heitzeg
+  - S Alexandra Burt
+  - Luke W Hyde
+  - David Amaral
+  - Christine Wu Nordahl
+  - Ole A Andreasssen
+  - Lars T Westlye
+  - Roland Zahn
+  - Henricus G Ruhe
+  - Christian Beckmann
+  - Andre F Marquand
+  publisher: eLife Sciences Publications, Ltd
+  date: '2022-01-24'
+  link: https://doi.org/hbjp5h
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.7554/ELIFE.72904
+  title: Charting brain growth and aging at high spatial precision
+  authors:
+  - Saige Rutherford
+  - Charlotte Fraza
+  - Richard Dinga
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Mariam Zabihi
+  - Pierre Berthet
+  - Amanda Worker
+  - Serena Verdi
+  - Derek Andrews
+  - Laura KM Han
+  - Johanna MM Bayer
+  - Paola Dazzan
+  - Phillip McGuire
+  - Roel T Mocking
+  - Aart Schene
+  - Chandra Sripada
+  - Ivy F Tso
+  - Elizabeth R Duval
+  - Soo-Eun Chang
+  - Brenda WJH Penninx
+  - Mary M Heitzeg
+  - S Alexandra Burt
+  - Luke W Hyde
+  - David Amaral
+  - Christine Wu Nordahl
+  - Ole A Andreasssen
+  - Lars T Westlye
+  - Roland Zahn
+  - Henricus G Ruhe
+  - Christian Beckmann
+  - Andre F Marquand
+  publisher: eLife
+  date: '2022-02-01'
+  link: https://doi.org/hbjp5j
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/JOURNAL.PONE.0278776
+  title: Closing the life-cycle of normative modeling using federated hierarchical
+    Bayesian regression
+  authors:
+  - Seyed Mostafa Kia
+  - Hester Huijsdens
+  - Saige Rutherford
+  - Augustijn de Boer
+  - Richard Dinga
+  - Thomas Wolfers
+  - Pierre Berthet
+  - Maarten Mennes
+  - Ole A. Andreassen
+  - Lars T. Westlye
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: PLOS ONE
+  date: '2022-12-08'
+  link: https://doi.org/g5qjqx
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.11.02.22281597
+  title: "Examining real-world Alzheimer\u2019s disease heterogeneity using neuroanatomical\
+    \ normative modelling"
+  authors:
+  - Flavia Loreto
+  - Serena Verdi
+  - Seyed Mostafa Kia
+  - Aleksandar Duvnjak
+  - Haneen Hakeem
+  - Anna Fitzgerald
+  - Neva Patel
+  - Johan Lilja
+  - Zarni Win
+  - Richard Perry
+  - Andre F. Marquand
+  - James H. Cole
+  - Paresh Malhotra
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-11-04'
+  link: https://doi.org/hbjp5k
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.03.10.434856
+  title: Explanatory latent representation of heterogeneous spatial maps of task-fMRI
+    in large-scale datasets
+  authors:
+  - Mariam Zabihi
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Stijn de Boer
+  - Charlotte Fraza
+  - Sourena Soheili-Nezhad
+  - Richard Dinga
+  - Alberto Llera Arenas
+  - Danilo Bzdok
+  - Christian F. Beckmann
+  - Andre Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-03-14'
+  link: https://doi.org/hbjp5m
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-031-16431-6_20
+  title: Multi-site Normative Modeling of Diffusion Tensor Imaging Metrics Using Hierarchical
+    Bayesian Regression
+  authors:
+  - "Julio E. Villal\xF3n-Reina"
+  - Clara A. Moreau
+  - Talia M. Nir
+  - Neda Jahanshad
+  - Anne Maillard
+  - David Romascano
+  - Bogdan Draganski
+  - "Sarah Lipp\xE9"
+  - Carrie E. Bearden
+  - Seyed Mostafa Kia
+  - Andre F. Marquand
+  - Sebastien Jacquemont
+  - Paul M. Thompson
+  publisher: Lecture Notes in Computer Science
+  date: '2022-01-01'
+  link: https://doi.org/hbjp5n
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2206.01640
+  title: 'PROMISSING: Pruning Missing Values in Neural Networks'
+  authors:
+  - Seyed Mostafa Kia
+  - Nastaran Mohammadian Rad
+  - Daniel van Opstal
+  - Bart van Schie
+  - Andre F. Marquand
+  - Josien Pluim
+  - Wiepke Cahn
+  - Hugo G. Schnack
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/hbjp5p
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:12297953
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12297953
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: isbn:9783031178986
+  title: 'Machine learning in clinical neuroimaging: 5th international workshop, MLCN
+    2022 held in conjunction with MICCAI 2022, Singapore, September 18, 2022, proceedings'
+  authors: []
+  publisher: Springer
+  date: '2022-01-01'
+  link: ''
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.03.07.22271986
+  title: Regional, circuit, and network heterogeneity of brain abnormalities in psychiatric
+    disorders
+  authors:
+  - Ashlea Segal
+  - Linden Parkes
+  - Kevin Aquino
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Barbara Franke
+  - Martine Hoogman
+  - Christian F. Beckmann
+  - Lars T. Westlye
+  - Ole A. Andreassen
+  - Andrew Zalesky
+  - Ben J. Harrison
+  - Christopher Davey
+  - Carles Soriano-Mas
+  - "Narc\xEDs Cardoner"
+  - Jeggan Tiego
+  - "Murat Y\xFCcel"
+  - Leah Braganza
+  - Chao Suo
+  - Michael Berk
+  - Sue Cotton
+  - Mark A. Bellgrove
+  - Andre F. Marquand
+  - Alex Fornito
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-03-10'
+  link: https://doi.org/hbjp5q
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2022.06.30.22277053
+  title: "Revealing Individual Neuroanatomical Heterogeneity in Alzheimer\u2019s Disease"
+  authors:
+  - Serena Verdi
+  - Seyed Mostafa Kia
+  - Keir Yong
+  - Duygu Tosun
+  - Jonathan M. Schott
+  - Andre F. Marquand
+  - James H. Cole
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-07-03'
+  link: https://doi.org/hbjp5r
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.08.08.455583
+  title: The Normative Modeling Framework for Computational Psychiatry
+  authors:
+  - Saige Rutherford
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Charlotte Fraza
+  - Mariam Zabihi
+  - Richard Dinga
+  - Pierre Berthet
+  - Amanda Worker
+  - Serena Verdi
+  - Henricus G. Ruhe
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-08-10'
+  link: https://doi.org/gsvdn7
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41596-022-00696-5
+  title: The normative modeling framework for computational psychiatry
+  authors:
+  - Saige Rutherford
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Charlotte Fraza
+  - Mariam Zabihi
+  - Richard Dinga
+  - Pierre Berthet
+  - Amanda Worker
+  - Serena Verdi
+  - Henricus G. Ruhe
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: Nature Protocols
+  date: '2022-06-01'
+  link: https://doi.org/gsb9j5
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.02.09.430363
+  title: Accommodating site variation in neuroimaging data using normative and hierarchical
+    Bayesian models
+  authors:
+  - Johanna M. M. Bayer
+  - Richard Dinga
+  - Seyed Mostafa Kia
+  - Akhil R. Kottaram
+  - Thomas Wolfers
+  - Jinglei Lv
+  - Andrew Zalesky
+  - Lianne Schmaal
+  - Andre Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-02-11'
+  link: https://doi.org/gsw4hx
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.08.08.455487
+  title: Charting Brain Growth and Aging at High Spatial Precision
+  authors:
+  - Saige Rutherford
+  - Charlotte Fraza
+  - Richard Dinga
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Mariam Zabihi
+  - Pierre Berthet
+  - Amanda Worker
+  - Serena Verdi
+  - Derek Andrews
+  - Laura Han
+  - Johanna Bayer
+  - Paola Dazzan
+  - Phillip McGuire
+  - Roel T. Mocking
+  - Aaart Schene
+  - Brenda W. Pennix
+  - Chandra Sripada
+  - Ivy F. Tso
+  - Elizabeth R. Duval
+  - Soo-Eun Chang
+  - Mary Heitzeg
+  - S. Alexandra Burt
+  - Luke Hyde
+  - David Amaral
+  - Christine Wu Nordahl
+  - Ole A. Andreasssen
+  - Lars T. Westlye
+  - Roland Zahn
+  - Henricus G. Ruhe
+  - Christian Beckmann
+  - Andre F. Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-08-08'
+  link: https://doi.org/gpcvt4
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.05.28.446120
+  title: Federated Multi-Site Normative Modeling using Hierarchical Bayesian Regression
+  authors:
+  - Seyed Mostafa Kia
+  - Hester Huijsdens
+  - Saige Rutherford
+  - Richard Dinga
+  - Thomas Wolfers
+  - Maarten Mennes
+  - Ole A. Andreassen
+  - Lars T. Westlye
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-05-30'
+  link: https://doi.org/hbjp5s
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41537-021-00162-3
+  title: 'Individualized prediction of three- and six-year outcomes of psychosis in
+    a longitudinal multicenter study: a machine learning approach'
+  authors:
+  - Jessica de Nijs
+  - Thijs J. Burger
+  - Ronald J. Janssen
+  - Seyed Mostafa Kia
+  - "Dani\xEBl P. J. van Opstal"
+  - Mariken B. de Koning
+  - Lieuwe de Haan
+  - Behrooz Z. Alizadeh
+  - Agna A. Bartels-Velthuis
+  - Nico J. van Beveren
+  - Richard Bruggeman
+  - Lieuwe de Haan
+  - Philippe Delespaul
+  - Jurjen J. Luykx
+  - Inez Myin-Germeys
+  - Rene S. Kahn
+  - Frederike Schirmbeck
+  - Claudia J. P. Simons
+  - Therese van Amelsvoort
+  - Jim van Os
+  - Ruud van Winkel
+  - Wiepke Cahn
+  - Hugo G. Schnack
+  publisher: npj Schizophrenia
+  date: '2021-07-02'
+  link: https://doi.org/gs4vhh
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2021.06.14.448106
+  title: Normative modeling of neuroimaging data using generalized additive models
+    of location scale and shape
+  authors:
+  - Richard Dinga
+  - Charlotte J. Fraza
+  - Johanna M.M. Bayer
+  - Seyed Mostafa Kia
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: Cold Spring Harbor Laboratory
+  date: '2021-06-14'
+  link: https://doi.org/gk39n5
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-87586-2
+  title: Machine Learning in Clinical Neuroimaging
+  authors: []
+  publisher: Lecture Notes in Computer Science
+  date: '2021-01-01'
+  link: https://doi.org/hbjp5t
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2020.05.08.20095091
+  title: Replicating extensive brain structural heterogeneity in individuals with
+    schizophrenia and bipolar disorder
+  authors:
+  - Thomas Wolfers
+  - Jaroslav Rokicki
+  - "Dag Aln\xE6s"
+  - Pierre Berthet
+  - Ingrid Agartz
+  - Seyed Mostafa Kia
+  - Tobias Kaufmann
+  - Mariam Zabihi
+  - Torgeir Moberget
+  - Ingrid Melle
+  - Christian F Beckmann
+  - Ole A Andreassen
+  - Andre F Marquand
+  - Lars T Westlye
+  publisher: Cold Spring Harbor Laboratory
   date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  link: https://doi.org/hbjp5v
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/HBM.25386
+  title: Replicating extensive brain structural heterogeneity in individuals with
+    schizophrenia and bipolar disorder
+  authors:
+  - Thomas Wolfers
+  - Jaroslav Rokicki
+  - "Dag Aln\xE6s"
+  - Pierre Berthet
+  - Ingrid Agartz
+  - Seyed Mostafa Kia
+  - Tobias Kaufmann
+  - Mariam Zabihi
+  - Torgeir Moberget
+  - Ingrid Melle
+  - Christian F. Beckmann
+  - Ole A. Andreassen
+  - Andre F. Marquand
+  - Lars T. Westlye
+  publisher: Human Brain Mapping
+  date: '2021-02-27'
+  link: https://doi.org/gjw8tv
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41398-020-01057-0
+  title: Fractionating autism based on neuroanatomical normative modeling
+  authors:
+  - Mariam Zabihi
+  - Dorothea L. Floris
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Julian Tillmann
+  - Alberto Llera Arenas
+  - Carolin Moessnang
+  - Tobias Banaschewski
+  - Rosemary Holt
+  - Simon Baron-Cohen
+  - Eva Loth
+  - Tony Charman
+  - Thomas Bourgeron
+  - Declan Murphy
+  - Christine Ecker
+  - Jan K. Buitelaar
+  - Christian F. Beckmann
+  - Andre Marquand
+  publisher: Translational Psychiatry
+  date: '2020-11-06'
+  link: https://doi.org/g6zknc
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2006.13386
+  title: Gender and Emotion Recognition from Implicit User Behavior Signals
+  authors:
+  - Maneesh Bilalpur
+  - Seyed Mostafa Kia
+  - Mohan Kankanhalli
+  - Ramanathan Subramanian
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbjp5w
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-59728-3_68
+  title: Hierarchical Bayesian Regression for Multi-site Normative Modeling of Neuroimaging
+    Data
+  authors:
+  - Seyed Mostafa Kia
+  - Hester Huijsdens
+  - Richard Dinga
+  - Thomas Wolfers
+  - Maarten Mennes
+  - Ole A. Andreassen
+  - Lars T. Westlye
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: Lecture Notes in Computer Science
+  date: '2020-01-01'
+  link: https://doi.org/hbjp5x
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.2005.12055
+  title: Hierarchical Bayesian Regression for Multi-Site Normative Modeling of Neuroimaging
+    Data
+  authors:
+  - Seyed Mostafa Kia
+  - Hester Huijsdens
+  - Richard Dinga
+  - Thomas Wolfers
+  - Maarten Mennes
+  - Ole A. Andreassen
+  - Lars T. Westlye
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbjp5z
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: isbn:9783030668426
+  title: 'Machine learning in clinical neuroimaging and radiogenomics in neuro-oncology:
+    third international workshop, MLCN 2020, and second international workshop, RNO-AI
+    2020, held in conjunction with MICCAI 2020, Lima, Peru, October 4-8, 2020: proceedings'
+  authors: []
+  publisher: Springer
+  date: '2020-01-01'
+  link: ''
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41380-019-0441-1
+  title: Conceptualizing mental disorders as deviations from normative functioning
+  authors:
+  - Andre F. Marquand
+  - Seyed Mostafa Kia
+  - Mariam Zabihi
+  - Thomas Wolfers
+  - Jan K. Buitelaar
+  - Christian F. Beckmann
+  publisher: Molecular Psychiatry
+  date: '2019-06-14'
+  link: https://doi.org/ggdcsc
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41380-019-0451-Z
+  title: 'Correction: Conceptualizing mental disorders as deviations from normative
+    functioning'
+  authors:
+  - Andre F. Marquand
+  - Seyed Mostafa Kia
+  - Mariam Zabihi
+  - Thomas Wolfers
+  - Jan K. Buitelaar
+  - Christian F. Beckmann
+  publisher: Molecular Psychiatry
+  date: '2019-06-26'
+  link: https://doi.org/hbjp52
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.NEUBIOREV.2019.07.010
+  title: 'From pattern classification to stratification: towards conceptualizing the
+    heterogeneity of Autism Spectrum Disorder'
+  authors:
+  - Thomas Wolfers
+  - Dorothea L. Floris
+  - Richard Dinga
+  - Daan van Rooij
+  - Christina Isakoglou
+  - Seyed Mostafa Kia
+  - Mariam Zabihi
+  - Alberto Llera
+  - Rajanikanth Chowdanayaka
+  - Vinod J. Kumar
+  - Han Peng
+  - Charles Laidi
+  - Dafnis Batalle
+  - Ralica Dimitrova
+  - Tony Charman
+  - Eva Loth
+  - Meng-Chuan Lai
+  - Emily Jones
+  - Sarah Baumeister
+  - Carolin Moessnang
+  - Tobias Banaschewski
+  - Christine Ecker
+  - Guillaume Dumas
+  - "Jonathan O\u2019Muircheartaigh"
+  - Declan Murphy
+  - Jan K. Buitelaar
+  - Andre F. Marquand
+  - Christian F. Beckmann
+  publisher: Neuroscience &amp; Biobehavioral Reviews
+  date: '2019-09-01'
+  link: https://doi.org/gq2wk2
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/B978-0-12-815739-8.00005-5
+  title: Linear methods for classification
+  authors:
+  - Andre F. Marquand
+  - Seyed Mostafa Kia
+  publisher: Machine Learning
+  date: '2020-01-01'
+  link: https://doi.org/hbjp53
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: issn:26403498
+  title: ISSN 2640-3498 (Online) | Proceedings of Machine Learning Research | The
+    ISSN Portal
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://portal.issn.org/resource/ISSN/26403498
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:001229369900024
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001229369900024
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.BIOPSYCH.2019.03.100
+  title: 86. Understanding the Heterogeneous Phenotype of Psychiatric Disorders Using
+    Normative Models
+  authors:
+  - Andre Marquand
+  - Thomas Wolfers
+  - Mariam Zabihi
+  - Seyed Mostafa Kia
+  - Richard Dinga
+  - Christian Beckmann
+  publisher: Biological Psychiatry
+  date: '2019-05-01'
+  link: https://doi.org/hbjp54
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- title: MLCN 2018 preface
+  publisher: Lecture Notes in Computer Science (including subseries Lecture Notes
+    in Artificial Intelligence and Lecture Notes in Bioinformatics)
+  date: '2022-05-29'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85056454550&partnerID=MN8TOARS
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1812.04998
+  title: Neural Processes Mixed-Effect Models for Deep Normative Modeling of Clinical
+    Neuroimaging Data
+  authors:
+  - Seyed Mostafa Kia
+  - Andre F. Marquand
+  publisher: arXiv
+  date: '2018-01-01'
+  link: https://doi.org/hbjp55
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1806.01047
+  title: Normative Modeling of Neuroimaging Data using Scalable Multi-Task Gaussian
+    Processes
+  authors:
+  - Seyed Mostafa Kia
+  - Andre Marquand
+  publisher: arXiv
+  date: '2018-01-01'
+  link: https://doi.org/hbjp56
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1808.00036
+  title: Scalable Multi-Task Gaussian Process Tensor Regression for Normative Modeling
+    of Structured Variation in Neuroimaging Data
+  authors:
+  - Seyed Mostafa Kia
+  - Christian F. Beckmann
+  - Andre F. Marquand
+  publisher: arXiv
+  date: '2018-01-01'
+  link: https://doi.org/hbjp57
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:https://doi.org/10.1016/j.sigpro.2017.10.011
+  title: Deep learning for automatic stereotypical motor movement detection using
+    wearable sensors in autism spectrum disorders
+  authors:
+  - Nastaran Mohammadian Rad
+  - Seyed Mostafa Kia
+  - Calogero Zarbo
+  - Twan Van Laarhoven
+  - Giuseppe Jurman
+  - Paola Venuti
+  - Elena Marchiori
+  - Cesare Furlanello
+  publisher: Signal Processing
+  date: '2018-03-01'
+  link: https://doi.org/gct8q6
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1709.05956
+  title: Deep Learning for Automatic Stereotypical Motor Movement Detection using
+    Wearable Sensors in Autism Spectrum Disorders
+  authors:
+  - Nastaran Mohammadian Rad
+  - Seyed Mostafa Kia
+  - Calogero Zarbo
+  - Twan van Laarhoven
+  - Giuseppe Jurman
+  - Paola Venuti
+  - Elena Marchiori
+  - Cesare Furlanello
+  publisher: arXiv
+  date: '2017-01-01'
+  link: https://doi.org/hbjp58
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACII.2017.8273588
+  title: Discovering gender differences in facial emotion recognition via implicit
+    behavioral cues
+  authors:
+  - Maneesh Bilalpur
+  - Seyed Mostafa Kia
+  - Tat-Seng Chua
+  - Ramanathan Subramanian
+  publisher: 2017 Seventh International Conference on Affective Computing and Intelligent
+    Interaction (ACII)
+  date: '2017-10-01'
+  link: https://doi.org/ghws36
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1708.08729
+  title: Discovering Gender Differences in Facial Emotion Recognition via Implicit
+    Behavioral Cues
+  authors:
+  - Maneesh Bilalpur
+  - Seyed Mostafa Kia
+  - Tat-Seng Chua
+  - Ramanathan Subramanian
+  publisher: arXiv
+  date: '2017-01-01'
+  link: https://doi.org/hbjp59
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3136755.3136790
+  title: Gender and emotion recognition with implicit user signals
+  authors:
+  - Maneesh Bilalpur
+  - Seyed Mostafa Kia
+  - Manisha Chawla
+  - Tat-Seng Chua
+  - Ramanathan Subramanian
+  publisher: Proceedings of the 19th ACM International Conference on Multimodal Interaction
+  date: '2017-11-03'
+  link: https://doi.org/ghws38
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1708.08735
+  title: Gender and Emotion Recognition with Implicit User Signals
+  authors:
+  - Maneesh Bilalpur
+  - Seyed Mostafa Kia
+  - Manisha Chawla
+  - Tat-Seng Chua
+  - Ramanathan Subramanian
+  publisher: arXiv
+  date: '2017-01-01'
+  link: https://doi.org/hbjp6b
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JNEUMETH.2017.05.004
+  title: Group-level spatio-temporal pattern recovery in MEG decoding using multi-task
+    joint feature learning
+  authors:
+  - Seyed Mostafa Kia
+  - Fabian Pedregosa
+  - Anna Blumenthal
+  - Andrea Passerini
+  publisher: Journal of Neuroscience Methods
+  date: '2017-06-01'
+  link: https://doi.org/gbkf6w
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FNINS.2016.00619
+  title: 'Interpretability of Multivariate Brain Maps in Linear Brain Decoding: Definition,
+    and Heuristic Quantification in Multivariate Analysis of MEG Time-Locked Effects'
+  authors:
+  - Seyed Mostafa Kia
+  - Sandro Vega Pons
+  - Nathan Weisz
+  - Andrea Passerini
+  publisher: Frontiers in Neuroscience
+  date: '2017-01-23'
+  link: https://doi.org/hbjp6c
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2298/TSCI140126112P
+  title: Modeling the cooling performance of vortex tube using a genetic algorithm-based
+    artificial neural network
+  authors:
+  - Hassan Pouraria
+  - Seyed Kia
+  - Warn-Gyu Park
+  - Bahman Mehdizadeh
+  publisher: Thermal Science
+  date: '2016-01-01'
+  link: https://doi.org/hbjp6d
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-319-45174-9_1
+  title: Multi-Task Learning for Interpretation of Brain Decoding Models
+  authors:
+  - Seyed Mostafa Kia
+  - Sandro Vega-Pons
+  - Emanuele Olivetti
+  - Paolo Avesani
+  publisher: Lecture Notes in Computer Science
+  date: '2016-01-01'
+  link: https://doi.org/hbjp6f
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICDMW.2016.0076
+  title: Stereotypical Motor Movement Detection in Dynamic Feature Space
+  authors:
+  - Nastaran Mohammadian Rad
+  - Seyed Mostafa Kia
+  - Calogero Zarbo
+  - Giuseppe Jurman
+  - Paola Venuti
+  - Cesare Furlanello
+  publisher: 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW)
+  date: '2016-12-01'
+  link: https://doi.org/hbjp6g
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TAFFC.2015.2392932
+  title: 'DECAF: MEG-Based Multimodal Database for Decoding Affective Physiological
+    Responses'
+  authors:
+  - Mojtaba Khomami Abadi
+  - Ramanathan Subramanian
+  - Seyed Mostafa Kia
+  - Paolo Avesani
+  - Ioannis Patras
+  - Nicu Sebe
+  publisher: IEEE Transactions on Affective Computing
+  date: '2015-07-01'
+  link: https://doi.org/gfxd9p
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-319-23231-7_61
+  title: Movie Genre Classification by Exploiting MEG Brain Signals
+  authors:
+  - Pouya Ghaemmaghami
+  - Mojtaba Khomami Abadi
+  - Seyed Mostafa Kia
+  - Paolo Avesani
+  - Nicu Sebe
+  publisher: Lecture Notes in Computer Science
+  date: '2015-01-01'
+  link: https://doi.org/hbjp6h
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/PRNI.2014.6858538
+  title: MEG decoding across subjects
+  authors:
+  - Emanuele Olivetti
+  - Seved Mostafa Kia
+  - Paolo Avesani
+  publisher: 2014 International Workshop on Pattern Recognition in Neuroimaging
+  date: '2014-06-01'
+  link: https://doi.org/hbjp6j
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/PRNI.2014.6858537
+  title: Sensor-level maps with the kernel two-sample test
+  authors:
+  - Emanuele Olivetti
+  - Seyed Mostafa Kia
+  - Paolo Avesani
+  publisher: 2014 International Workshop on Pattern Recognition in Neuroimaging
+  date: '2014-06-01'
+  link: https://doi.org/hbjp6k
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/FG.2013.6553809
+  title: Decoding affect in videos employing the MEG brain signal
+  authors:
+  - Mojtaba Khomami Abadi
+  - Mostafa Kia
+  - Ramanathan Subramanian
+  - Paolo Avesani
+  - Nicu Sebe
+  publisher: 2013 10th IEEE International Conference and Workshops on Automatic Face
+    and Gesture Recognition (FG)
+  date: '2013-04-01'
+  link: https://doi.org/hbjp6m
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/PRNI.2013.42
+  title: Discrete Cosine Transform for MEG Signal Decoding
+  authors:
+  - Seyed Mostafa Kia
+  - Emanuele Olivetti
+  - Paolo Avesani
+  publisher: 2013 International Workshop on Pattern Recognition in Neuroimaging
+  date: '2013-06-01'
+  link: https://doi.org/hbjp6n
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/PRNI.2013.41
+  title: The Kernel Two-Sample Test vs. Brain Decoding
+  authors:
+  - Emanuele Olivetti
+  - Danilo Benozzo
+  - Seyed Mostafa Kia
+  - Marta Ellero
+  - Thomas Hartmann
+  publisher: 2013 International Workshop on Pattern Recognition in Neuroimaging
+  date: '2013-06-01'
+  link: https://doi.org/hbjp6p
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACII.2013.102
+  title: User-centric Affective Video Tagging from MEG and Peripheral Physiological
+    Responses
+  authors:
+  - Mojtaba Khomami Abadi
+  - Seyed Mostafa Kia
+  - Ramanathan Subramanian
+  - Paolo Avesani
+  - Nicu Sebe
+  publisher: 2013 Humaine Association Conference on Affective Computing and Intelligent
+    Interaction
+  date: '2013-09-01'
+  link: https://doi.org/hbjp6q
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/978-3-030-00931-1_15
+  title: Normative Modeling of Neuroimaging Data Using Scalable Multi-task Gaussian
+    Processes
+  authors:
+  - Seyed Mostafa Kia
+  - Andre Marquand
+  publisher: Lecture Notes in Computer Science
+  date: '2018-01-01'
+  link: https://doi.org/g8ftkw
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -202,9 +1861,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -221,21 +1877,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
