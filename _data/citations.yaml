@@ -1848,61 +1848,57 @@
   seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1101/2025.06.23.660997
+  title: 'MEGaNorm: Normative Modeling of MEG Brain Oscillations Across the Human
+    Lifespan'
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
+  - Mohammad Zamanzadeh
+  - Ymke Verduyn
+  - Augustijn de Boer
+  - Tomas Ros
+  - Thomas Wolfers
+  - Richard Dinga
+  - "Marie \u0160af\xE1\u0159 Postma"
+  - Andre F. Marquand
+  - Marijn van Wingerden
+  - Seyed Mostafa Kia
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-23'
+  link: https://doi.org/hbjp9h
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: "Normative modeling provides a principled framework for quantifying\
+    \ individual deviations from typical brain development and is increasingly used\
+    \ to study heterogeneity in neuropsychiatric conditions. While widely applied\
+    \ to structural phenotypes, functional normative models remain underdeveloped.\
+    \ Here, we introduce MEGaNorm, the first normative modeling framework for charting\
+    \ lifespan trajectories of resting-state magnetoencephalography (MEG) brain oscillations.\
+    \ Using a large, multi-site dataset comprising 1,846 individuals aged 6\u2013\
+    88 and spanning three MEG systems, we model relative oscillatory power in canonical\
+    \ frequency bands using hierarchical Bayesian regression, accounting for age,\
+    \ sex, and site effects. To support interpretation at multiple scales, we introduce\
+    \ Neuro-Oscillo Charts, visual tools that summarize normative trajectories at\
+    \ the population level and quantify individual-level deviations, enabling personalized\
+    \ assessment of functional brain dynamics. Applying this framework to a Parkinson\u2019\
+    s disease cohort (n = 160), we show that normative deviation scores reveal disease-related\
+    \ abnormalities and uncover a continuum of patients in theta\u2013beta deviation\
+    \ space. This work provides the first lifespan-encompassing normative reference\
+    \ for MEG oscillations, enabling population-level characterization and individualized\
+    \ benchmarking. All models and tools are openly available and designed for federated,\
+    \ continual adaptation as new data become available, offering a scalable resource\
+    \ for precision neuropsychiatry."
+  image: https://github.com/ML4PNP/MEGaNorm/raw/main/docs/images/pipeline_overview.png
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
   - type: source
     text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
+    link: https://www.biorxiv.org/content/10.1101/2025.06.23.660997v1
+  - type: source
+    text: GitHub
+    link: https://github.com/ML4PNP/MEGaNorm
   - type: website
-    link: http://manubot.org/
+    link: https://www.biorxiv.org/content/10.1101/2025.06.23.660997v1
   tags:
   - open science
   - collaboration
-  repo: greenelab/meta-review
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
-  authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  repo: https://github.com/ML4PNP/MEGaNorm
   plugin: sources.py
   file: sources.yaml
