@@ -51,7 +51,7 @@ Our lab builds open-source software for machine learning on EEG and MEG data, en
   include feature.html
   image="images/software.png"
   link="software"
-  title="Software"
+  title="Our Software"
   flip=true
   style="bare"
   text=text
@@ -76,6 +76,6 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
   include feature.html
   image="images/team.png"
   link="team"
-  title="Team"
+  title="Our Team"
   text=text
 %}
