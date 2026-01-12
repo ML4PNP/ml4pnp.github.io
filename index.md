@@ -38,8 +38,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="software"
+  text="Browse our software"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,8 +50,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="software"
+  title="Software"
   flip=true
   style="bare"
   text=text
@@ -76,6 +76,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Team"
   text=text
 %}
