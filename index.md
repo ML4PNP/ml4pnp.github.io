@@ -1,9 +1,9 @@
 ---
 ---
 
-# ML4PNP's Website
+# Machine Learning for Precision Neuropsychiatry (ML4PNP)
 
-An engaging 1-3 sentence description of your lab.
+ML4PNP is a research lab focused on developing machine learning solutions for neuroimaging data, aiming to enable precision medicine in neuropsychiatry by supporting early diagnosis, treatment selection, and outcome prediction at the individual level.
 
 {% include section.html %}
 
