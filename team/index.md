@@ -7,14 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are an interdisciplinary team of researchers, PhD candidates, and students combining machine learning and neuroimaging expertise to advance precision neuropsychiatry.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" sort="order" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" sort="order" %}
+{% include list.html data="members" component="portrait" sort="order" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
