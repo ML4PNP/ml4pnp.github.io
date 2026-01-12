@@ -10,6 +10,7 @@ aliases:
   - M Kia
 links:
   home-page: https://research.tilburguniversity.edu/en/persons/seyed-mostafa-kia/
+  google-scholar: T2HOkiIAAAAJ
   orcid: 0000-0002-7128-814X
   github: https://github.com/smkia
 ---
