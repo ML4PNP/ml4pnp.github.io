@@ -1,17 +1,17 @@
 # site properties and page defaults
 title: Machine Learning for Precision Neuropsychiatry (ML4PNP)
-subtitle: 
-description: Research on machine learning, normative modeling, EEG/MEG, and precision neuropsychiatry.
+subtitle: ML4PNP
+description: Research lab on applications of machine learning for precision neuropsychiatry.
 header: images/background.png
 footer: images/background.png
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@ML4PNP.com
+  email: s.m.kia@tilburguniversity.edu
   github: ML4PNP
-  twitter: ML4PNP
-  youtube: ML4PNP
+  #twitter: ML4PNP
+  #youtube: ML4PNP
 
 ### jekyll settings
 
