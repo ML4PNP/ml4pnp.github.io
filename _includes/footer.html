@@ -22,13 +22,27 @@
       {% include button.html type=key text="" link=value style="bare" %}
     {% endfor %}
   </div>
-
+  
   <div>
     &copy; {{ site.time | date: "%Y" }}
     {{ site.title }}
-    &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
+    &nbsp; | &nbsp;
+    <a href="https://www.tilburguniversity.edu">
+      Tilburg University
+    </a>
+  </div>
+
+  <div class="footer-affiliation">
+    <a
+      href="https://www.tilburguniversity.edu"
+      target="_blank"
+      rel="noopener"
+      aria-label="Tilburg University"
+    >
+    <img
+      src="{{ '/images/Tilburg-University-Logo.png' | relative_url }}"
+      alt="Tilburg University logo"
+    >
     </a>
   </div>
 
