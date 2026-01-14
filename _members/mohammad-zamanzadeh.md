@@ -10,7 +10,7 @@ aliases:
 links:
   home-page: 
   orcid: 
-  github: https://github.com/zamanzadeh98
+  github: zamanzadeh98
 
 order: 2
 

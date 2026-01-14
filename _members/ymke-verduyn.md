@@ -10,7 +10,7 @@ aliases:
 links:
   home-page: 
   orcid: 
-  github: https://github.com/ymkeverduyn
+  github: ymkeverduyn
 
 order: 3
 

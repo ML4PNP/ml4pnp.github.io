@@ -10,7 +10,7 @@ aliases:
 links:
   home-page: 
   orcid: 
-  github: https://github.com/MariaDiana28
+  github: MariaDiana28
 
 order: 4
 
