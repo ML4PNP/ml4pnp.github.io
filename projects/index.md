@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Our projects bring together method development, data analysis, and clinical collaboration within funded research initiatives, translating computational ideas into sustained and coordinated research efforts.
+Our projects focus on developing and applying machine learning methods in neuroimaging and healthcare, with a strong emphasis on real-world relevance and societal impact. They combine methodological innovation with large-scale data analysis, clinical collaboration, and human-centered design to address challenges in mental health, brain aging, and healthcare operations. Across projects, we aim to translate computational research into robust, interpretable, and actionable tools that support personalized care, informed decision-making, and sustainable healthcare systems.
 
 {% include tags.html tags="current, past, meg, eeg, normative modeling, machine learning, digital health" %}
 
