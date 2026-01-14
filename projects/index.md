@@ -17,10 +17,10 @@ Our projects bring together method development, data analysis, and clinical coll
 
 ## Featured
 
-{% include list.html component="card" data="featured_projects" filter="group == 'featured'" %}
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
 ## More
 
-{% include list.html component="card" data="other_projects" filter="!group" style="small" %}
+{% include list.html component="card" data="projects" filter="!group" style="small" %}
