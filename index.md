@@ -28,7 +28,7 @@ Our projects bring together method development, data analysis, and clinical coll
 
 {%
   include feature.html
-  image="images/software.png"
+  image="images/projects.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -102,7 +102,7 @@ Our research focuses on developing and validating machine learning methods for n
 
 {%
   include feature.html
-  image="images/research.png"
+  image="images/publications.png"
   link="publications"
   title="Our Publications"
   text=text
