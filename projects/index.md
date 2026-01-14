@@ -9,7 +9,7 @@ nav:
 
 Our projects bring together method development, data analysis, and clinical collaboration within funded research initiatives, translating computational ideas into sustained and coordinated research efforts.
 
-{% include tags.html tags="current, past" %}
+{% include tags.html tags="current, past, meg, eeg, normative modeling, machine learning, digital health" %}
 
 {% include search-info.html %}
 
