@@ -13,31 +13,7 @@ ML4PNP is a research lab within the Computational Models of Brain and Behavior r
 
 {% capture text %}
 
-Our team brings together researchers at different career stages with expertise in machine learning, neuroimaging, and clinical neuroscience, working collaboratively in an interdisciplinary research environment.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/team.png"
-  link="team"
-  title="Our Team"
-  text=text
-%}
-
-
-{% capture text %}
-
-We develop and maintain open-source software that implements and benchmarks machine learning methods for neuroimaging data, supporting reproducible research and scalable analysis across studies and sites.
+Our projects bring together method development, data analysis, and clinical collaboration within funded research initiatives, translating computational ideas into sustained and coordinated research efforts.
 
 {%
   include button.html
@@ -59,6 +35,30 @@ We develop and maintain open-source software that implements and benchmarks mach
   style="bare"
   text=text
 %}
+
+{% capture text %}
+
+Our team brings together researchers at different career stages with expertise in machine learning, neuroimaging, and clinical neuroscience, working collaboratively in an interdisciplinary research environment.
+
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/team.png"
+  link="team"
+  title="Our Team"
+  text=text
+%}
+
 
 {% capture text %}
 
@@ -104,7 +104,7 @@ Our research focuses on developing and validating machine learning methods for n
   include feature.html
   image="images/research.png"
   link="publications"
-  title="Our Research"
+  title="Our Publications"
   text=text
 %}
 
