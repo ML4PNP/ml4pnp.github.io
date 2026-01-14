@@ -13,12 +13,12 @@ ML4PNP is a research lab within the Computational Models of Brain and Behavior r
 
 {% capture text %}
 
-Our research focuses on developing and validating machine learning methods for neuroimaging, with results disseminated through peer-reviewed publications and open scientific outputs.
+Our team brings together researchers at different career stages with expertise in machine learning, neuroimaging, and clinical neuroscience, working collaboratively in an interdisciplinary research environment.
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="team"
+  text="Meet our team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -28,9 +28,35 @@ Our research focuses on developing and validating machine learning methods for n
 
 {%
   include feature.html
-  image="images/research.png"
-  link="research"
-  title="Our Research"
+  image="images/team.png"
+  link="team"
+  title="Our Team"
+  text=text
+%}
+
+
+{% capture text %}
+
+We develop and maintain open-source software that implements and benchmarks machine learning methods for neuroimaging data, supporting reproducible research and scalable analysis across studies and sites.
+
+{%
+  include button.html
+  link="projects"
+  text="Browse our projects"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/software.png"
+  link="projects"
+  title="Our Projects"
+  flip=true
+  style="bare"
   text=text
 %}
 
@@ -61,12 +87,12 @@ We develop and maintain open-source software that implements and benchmarks mach
 
 {% capture text %}
 
-Our team brings together researchers at different career stages with expertise in machine learning, neuroimaging, and clinical neuroscience, working collaboratively in an interdisciplinary research environment.
+Our research focuses on developing and validating machine learning methods for neuroimaging, with results disseminated through peer-reviewed publications and open scientific outputs.
 
 {%
   include button.html
-  link="team"
-  text="Meet our team"
+  link="publications"
+  text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -76,8 +102,9 @@ Our team brings together researchers at different career stages with expertise i
 
 {%
   include feature.html
-  image="images/team.png"
-  link="team"
-  title="Our Team"
+  image="images/research.png"
+  link="publications"
+  title="Our Research"
   text=text
 %}
+
