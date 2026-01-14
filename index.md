@@ -1,9 +1,11 @@
 ---
 ---
 
-# Machine Learning for Precision Neuropsychiatry (ML4PNP)
+# Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab
 
-ML4PNP is a research lab focused on developing machine learning solutions for neuroimaging data, aiming to enable precision medicine in neuropsychiatry by supporting early diagnosis, treatment selection, and outcome prediction at the individual level.
+ML4PNP is a research lab within the Computational Models of Brain and Behavior research unit, embedded in the Research Center for Cognitive Science and Artificial Intelligence at the Tilburg School of Humanities and Digital Sciences, Tilburg University. The lab focuses on developing open-source tools for analyzing large-scale neuroimaging data to advance precision medicine in neuropsychiatry, supporting early diagnosis, treatment selection, and outcome prediction at the level of individual patients. ML4PNP applies advanced machine learning techniques to MRI, EEG, and MEG data, with a particular emphasis on modeling individual variability in brain structure and function through normative modeling and reproducible analysis pipelines.
+
+
 
 {% include section.html %}
 
@@ -11,7 +13,7 @@ ML4PNP is a research lab focused on developing machine learning solutions for ne
 
 {% capture text %}
 
-In our research, we aim at developing machine learning solutions for analysing large-scale neuroimaging data to model individual variability in brain structure and functioning and support precision neuropsychiatry.
+Our research focuses on developing and validating machine learning methods for neuroimaging, with results disseminated through peer-reviewed publications and open scientific outputs.
 
 {%
   include button.html
@@ -34,7 +36,7 @@ In our research, we aim at developing machine learning solutions for analysing l
 
 {% capture text %}
 
-Our lab builds open-source software for machine learning on EEG and MEG data, enabling scalable normative modeling and transparent deployment of methods in neuropsychiatric research.
+We develop and maintain open-source software that implements and benchmarks machine learning methods for neuroimaging data, supporting reproducible research and scalable analysis across studies and sites.
 
 {%
   include button.html
@@ -59,7 +61,7 @@ Our lab builds open-source software for machine learning on EEG and MEG data, en
 
 {% capture text %}
 
-We are an interdisciplinary team of researchers, PhD candidates, and students combining machine learning and neuroimaging expertise to advance precision neuropsychiatry.
+Our team brings together researchers at different career stages with expertise in machine learning, neuroimaging, and clinical neuroscience, working collaboratively in an interdisciplinary research environment.
 
 {%
   include button.html
