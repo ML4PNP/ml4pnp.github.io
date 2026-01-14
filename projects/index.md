@@ -7,10 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our projects bring together method development, data analysis, and clinical collaboration within funded research initiatives, translating computational ideas into sustained and coordinated research efforts.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="current, past" %}
 
 {% include search-info.html %}
 
@@ -18,10 +17,10 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Featured
 
-{% include list.html component="card" data="software" filter="group == 'featured'" %}
+{% include list.html component="card" data="featured_projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
 ## More
 
-{% include list.html component="card" data="software" filter="!group" style="small" %}
+{% include list.html component="card" data="other_projects" filter="!group" style="small" %}
