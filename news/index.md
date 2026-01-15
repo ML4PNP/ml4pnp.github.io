@@ -2,13 +2,12 @@
 title: News
 nav:
   order: 5
-  tooltip: Musings and miscellany
+  tooltip: news and updates
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}News
+# {% include icon.html icon="fa-regular fa-newspaper" %}News
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+This page highlights recent news and updates from the lab, including publications, project milestones, awards, events, and other activities. It provides a snapshot of ongoing work and developments within the lab, as well as broader engagement with the research community.
 
 {% include section.html %}
 
