@@ -117,19 +117,9 @@ Our research focuses on developing and validating machine learning methods for n
 {%
   include figure.html
   image="images/Tilburg-University-Logo.png"
-  caption="Tilburg University"
+  caption=""
 %}
 
 {% endcapture %}
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/logo.png"
-  caption="ML4PNP Lab"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
+{% include cols.html col1=col1%}
