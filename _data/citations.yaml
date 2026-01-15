@@ -1848,6 +1848,26 @@
   seyed-mostafa-kia: true
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.31234/osf.io/r48j5_v1
+  title: The Combined Effects of Prefrontal tDCS and Slow-Paced Breathing on Stress
+    Reactivity, Emotional Reactivity, and Emotion Regulation
+  authors:
+  - Emmanuelle Schoonjans
+  - Jens Allaert
+  - Ymke Verduyn
+  - Joni Houfflyn
+  - Stefanie De Smet
+  - Mitchel Kappen
+  - Cristina Ottaviani
+  - Rudi De Raedt
+  - Marie Anne Vanderhasselt
+  publisher: Center for Open Science
+  date: '2025-12-10'
+  link: https://doi.org/hbj4h3
+  orcid: 0009-0004-2643-8649
+  ymke-verduyn: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.06.23.660997
   title: 'MEGaNorm: Normative Modeling of MEG Brain Oscillations Across the Human
     Lifespan'
@@ -1865,6 +1885,10 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2025-06-23'
   link: https://doi.org/hbjp9h
+  orcid: 0009-0004-2643-8649
+  ymke-verduyn: true
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   description: "Normative modeling provides a principled framework for quantifying\
     \ individual deviations from typical brain development and is increasingly used\
@@ -1900,5 +1924,3 @@
   - open science
   - collaboration
   repo: https://github.com/ML4PNP/MEGaNorm
-  plugin: sources.py
-  file: sources.yaml
