@@ -5,10 +5,9 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Publications
+# {% include icon.html icon="fa-solid fa-newspaper" %}Publications
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research focuses on developing and validating machine learning methods for neuroimaging, with results disseminated through peer-reviewed publications and open scientific outputs. Our publications report methodological advances, empirical findings, and applied studies across EEG, MEG, and MRI data, with a particular emphasis on modeling individual variability and clinically relevant brain phenotypes. In line with open science principles, we aim to make our research transparent and reproducible by sharing code, data when possible, and preprints alongside formal journal publications.
 
 {% include section.html %}
 
