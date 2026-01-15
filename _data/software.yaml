@@ -1,0 +1,22 @@
+- title: MEGaNorm 
+  subtitle: Normative modeling on EEG/MEG
+  group: featured
+  image: images/MEGaNorm_logo.png
+  link: https://github.com/ML4PNP/MEGaNorm
+  description: MEGaNorm is a Python package that wraps MNE-Python and PCNToolkit functionalities for extracting functional imaging-derived phenotypes (f-IDPs) from large-scale EEG and MEG datasets, and then deriving their normative ranges. It allows researchers to analyze large MEG and EEG dataset using high-performance computing facilities, and then build, visualize, and analyze normative models of brain dynamics across individuals.
+  repo: https://github.com/ML4PNP/MEGaNorm
+  tags:
+    - meg
+    - eeg
+    - normative modeling
+
+
+- title: PCNtoolkit 
+  subtitle: Predictive Clinical Neuroscience Toolkit
+  image: images/photo.jpg
+  link: https://github.com/amarquand/PCNtoolkit
+  description: A Python package for normative modelling, spatial statistics and pattern recognition.
+  repo: https://github.com/amarquand/PCNtoolkit
+  tags:
+    - normative modeling
+  
