@@ -4,6 +4,7 @@ image: images/yverduyn.jpg
 role: phd 
 affiliation: Tilburg University
 aliases:
+  - Ymke Verduyn
   - Y. Verduyn
   - Y Verduyn
 
