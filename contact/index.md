@@ -26,21 +26,15 @@ This page provides contact information for the ML4PNP lab. Please use the detail
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+Department of Intelligent Syetems, Tilburg School of Humanities and Digital Science, Tilburg University.
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+Visiting Address: Dante Building, Warandelaan 2, 5037 AB Tilburg, the Netherlands.
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+Phone: +31 (0)13 - 466 8118, E-mail: tshd.dca@tilburguniversity.edu
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
