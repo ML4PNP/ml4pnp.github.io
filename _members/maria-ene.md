@@ -4,6 +4,7 @@ image: images/photo.jpg
 role: undergrad 
 affiliation: Tilburg University
 aliases:
+  - Maria Ene
   - M. Ene
   - M Ene
 
