@@ -4,6 +4,8 @@ image: images/photo.jpg
 role: phd 
 affiliation: Tilburg University
 aliases:
+  - Mohammad Zamanzadeh
+  - Mohammad Zamanzadeh Nasrabadi
   - M. Zamanzadeh
   - M Zamanzadeh
 
