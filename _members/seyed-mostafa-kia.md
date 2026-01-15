@@ -4,6 +4,8 @@ image: images/smkia.jpg
 role: principal-investigator
 affiliation: Tilburg University
 aliases:
+  - Seyed Mostafa Kia
+  - Mostafa Kia
   - S.M. Kia
   - SM Kia
   - M. Kia
