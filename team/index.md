@@ -15,14 +15,14 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
 
 {% include section.html background="images/background.png" dark=true %}
 
-## Collaborators
+# {% include icon.html icon="fa-solid fa-up-right-from-square" %}Collaborators
 
 <ul class="list-unstyled">
   {% for collaborator in site.data.collaborators %}
     <li class="mb-2">
       <a href="{{ collaborator.url }}" target="_blank" rel="noopener">
         {{ collaborator.name }}
-      </a><br>
+      </a>:
       <span class="text-muted">
         {% if collaborator.department %}
           {{ collaborator.department }}{% if collaborator.university %}, {% endif %}
