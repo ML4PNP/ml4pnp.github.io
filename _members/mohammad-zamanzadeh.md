@@ -1,6 +1,6 @@
 ---
 name: Mohammad Zamanzadeh
-image: images/photo.jpg
+image: images/mzaman.jpg
 role: phd 
 affiliation: Tilburg University
 aliases:

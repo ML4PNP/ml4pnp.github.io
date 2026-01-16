@@ -13,11 +13,30 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
 
 {% include list.html data="members" component="portrait" sort="order" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/background.png" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Collaborators
+
+<ul class="list-unstyled">
+  {% for collaborator in site.data.collaborators %}
+    <li class="mb-2">
+      <a href="{{ collaborator.url }}" target="_blank" rel="noopener">
+        {{ collaborator.name }}
+      </a><br>
+      <span class="text-muted">
+        {% if collaborator.department %}
+          {{ collaborator.department }}{% if collaborator.university %}, {% endif %}
+        {% endif %}
+        {% if collaborator.university %}
+          {{ collaborator.university }}
+        {% endif %}
+        {% if collaborator.country %}
+          ({{ collaborator.country }})
+        {% endif %}
+      </span>
+    </li>
+  {% endfor %}
+</ul>
 
 {% include section.html %}
 
