@@ -10,7 +10,6 @@ aliases:
   - M Zamanzadeh
 
 links:
-  home-page:
   google-scholar: N51501MAAAAJ
   orcid: 0009-0003-5080-068X
   github: zamanzadeh98
