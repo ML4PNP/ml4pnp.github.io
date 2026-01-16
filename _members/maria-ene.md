@@ -1,6 +1,6 @@
 ---
 name: Maria Ene
-image: images/photo.jpg
+image: images/mene.jpg
 role: undergrad 
 affiliation: Tilburg University
 aliases:
