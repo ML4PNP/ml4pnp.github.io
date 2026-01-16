@@ -23,7 +23,7 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
   {% for collaborator in sorted_collaborators %}
     <li class="mb-2">
       <a href="{{ collaborator.url }}" target="_blank" rel="noopener">
-        {{ collaborator.title collaborator.name collaborator.last_name}}
+        {{ collaborator.title }} {{ collaborator.name}} {{collaborator.last_name}}
       </a>:
       <span class="text-muted">
         {% if collaborator.department %}
