@@ -17,11 +17,13 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
 
 # {% include icon.html icon="fa-solid fa-up-right-from-square" %}Collaborators
 
+{% assign sorted_collaborators = site.data.collaborators | sort: "last_name" %}
+
 <ul class="list-unstyled">
-  {% for collaborator in site.data.collaborators %}
+  {% for collaborator in sorted_collaborators %}
     <li class="mb-2">
       <a href="{{ collaborator.url }}" target="_blank" rel="noopener">
-        {{ collaborator.name }}
+        {{ collaborator.title collaborator.name collaborator.last_name}}
       </a>:
       <span class="text-muted">
         {% if collaborator.department %}

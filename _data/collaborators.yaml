@@ -1,5 +1,15 @@
-- name: Dr. Harm Brouwer
+- name: Harm
+  last_name: Brouwer
+  title: Dr. 
   url: https://hbrouwer.github.io/
+  department: Computational Cognitive Science
+  university: Tilburg University
+  country: the Netherlands
+
+- name: Marijn
+  last_name: van Wingerden
+  title: Dr. 
+  url: https://research.tilburguniversity.edu/en/persons/marijn-van-wingerden/
   department: Computational Cognitive Science
   university: Tilburg University
   country: the Netherlands
