@@ -45,4 +45,12 @@
   department: Department of Cognitive Neuropsychology
   university: Tilburg University
   country: the Netherlands
+  
+- name: Tomas 
+  last_name: Ros
+  title: Dr. 
+  url: https://www.tomasros.com/
+  department: Department of Clinical Neurosciences
+  university: University of Geneva
+  country: Switzerland
 
