@@ -2,7 +2,7 @@
   last_name: Brouwer
   title: Dr. 
   url: https://hbrouwer.github.io/
-  department: Computational Cognitive Science
+  department: Department of Computational Cognitive Science
   university: Tilburg University
   country: the Netherlands
 
@@ -10,7 +10,7 @@
   last_name: van Wingerden
   title: Dr. 
   url: https://research.tilburguniversity.edu/en/persons/marijn-van-wingerden/
-  department: Computational Cognitive Science
+  department: Department of Computational Cognitive Science
   university: Tilburg University
   country: the Netherlands
 
@@ -18,7 +18,7 @@
   last_name: Rostami Kandroodi
   title: Dr. 
   url: https://research.tilburguniversity.edu/en/persons/mojtaba-rostami-kandroodi/
-  department: Intelligent Systems
+  department: Department of Intelligent Systems
   university: Tilburg University
   country: the Netherlands
 
@@ -26,7 +26,7 @@
   last_name: Wang
   title: Dr. 
   url: https://www.tilburguniversity.edu/staff/g-wang_2
-  department: Medical and Clinical Psychology
+  department: Department of Medical and Clinical Psychology
   university: Tilburg University
   country: the Netherlands
 
@@ -36,5 +36,13 @@
   url: https://www.uu.nl/staff/HGSchnack
   department: Department of Languages, Literature and Communication
   university: Utrecht University
+  country: the Netherlands
+
+- name: Wouter 
+  last_name: De Baene
+  title: Dr. 
+  url: https://research.tilburguniversity.edu/en/persons/wouter-de-baene/
+  department: Department of Cognitive Neuropsychology
+  university: Tilburg University
   country: the Netherlands
 
