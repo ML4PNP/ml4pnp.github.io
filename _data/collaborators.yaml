@@ -93,3 +93,11 @@
   department: Institute for Neuro Imaging and Informatics
   university: University of Southern California
   country: USA
+
+- name: Thomas 
+  last_name: Wolfers
+  title: Dr. 
+  url: https://thomaswolfers.github.io/
+  department: Mental Health Mapping lab
+  university: Friedrich-Schiller University Jena
+  country: Germany
