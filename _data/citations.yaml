@@ -1958,3 +1958,103 @@
   ymke-verduyn: true
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1093/schbul/sbag016
+  title: pendingpublications
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://doi.org/hbn7k2
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41598-025-23662-z
+  title: Reliability and state-dependency of EEG connectivity, complexity and network
+    characteristics
+  authors:
+  - L. S. Dominicus
+  - D. Y. Lodema
+  - B. Oranje
+  - M. G. Zandstra
+  - A. P. C. Hermans
+  - L. Imhof
+  - W. M. Otte
+  - A. Hillebrand
+  - K. Ambrosen
+  - C. J. Stam
+  - B. H. Ebdrup
+  - E. van Dellen
+  publisher: Scientific Reports
+  date: '2025-11-04'
+  link: https://doi.org/hbn7k3
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/pcn.13791
+  title: "Advancing treatment response prediction in first\u2010episode psychosis:\
+    \ integrating clinical and electroencephalography features"
+  authors:
+  - Livia Dominicus
+  - Melissa Zandstra
+  - Josephine Franse
+  - Wim Otte
+  - Arjan Hillebrand
+  - Simone de Graaf
+  - Karen Ambrosen
+  - "Birte Yding Glenth\xF8j"
+  - Andrew Zalesky
+  - Kirsten Borup Bojesen
+  - "Mikkel S\xF8rensen"
+  - Floortje Scheepers
+  - Cornelis Stam
+  - Bob Oranje
+  - Bjorn Ebdrup
+  - Edwin van Dellen
+  publisher: Psychiatry and Clinical Neurosciences
+  date: '2025-02-03'
+  link: https://doi.org/hbn7k4
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fnins.2023.1176825
+  title: 'Associations between psychotropic drugs and rsEEG connectivity and network
+    characteristics: a cross-sectional study in hospital-admitted psychiatric patients'
+  authors:
+  - Melissa G. Zandstra
+  - Hannah Meijs
+  - Metten Somers
+  - Cornelis J. Stam
+  - Bieke de Wilde
+  - Jan van Hecke
+  - Peter Niemegeers
+  - Jurjen J. Luykx
+  - Edwin van Dellen
+  publisher: Frontiers in Neuroscience
+  date: '2023-09-15'
+  link: https://doi.org/hbn7k5
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/jmri.27384
+  title: "Reliability and Reproducibility of Neuromelanin\u2010Sensitive Imaging of\
+    \ the Substantia Nigra: A Comparison of Three Different Sequences"
+  authors:
+  - Marieke van der Pluijm
+  - Clifford Cassidy
+  - Melissa Zandstra
+  - Elon Wallert
+  - Kora de Bruin
+  - Jan Booij
+  - Lieuwe de Haan
+  - Guillermo Horga
+  - Elsmarieke van de Giessen
+  publisher: Journal of Magnetic Resonance Imaging
+  date: '2020-10-09'
+  link: https://doi.org/gjgxbj
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
+  plugin: orcid.py
+  file: orcid.yaml
