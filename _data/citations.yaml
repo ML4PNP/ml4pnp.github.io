@@ -1,5 +1,96 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41380-025-03365-7
+  title: 'Structural brain abnormalities and aggression in schizophrenia: mega-analysis
+    of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium'
+  authors:
+  - Jelle Lamsma
+  - Adrian Raine
+  - Seyed M. Kia
+  - Wiepke Cahn
+  - Dominic Arold
+  - Nerisa Banaj
+  - Annarita Barone
+  - Katharina Brosch
+  - Rachel Brouwer
+  - Arturo Brunetti
+  - Vince D. Calhoun
+  - Qian H. Chew
+  - Sunah Choi
+  - Young-Chul Chung
+  - Mariateresa Ciccarelli
+  - Derin Cobia
+  - Sirio Cocozza
+  - Udo Dannlowski
+  - Paola Dazzan
+  - Andrea de Bartolomeis
+  - Marta Di Forti
+  - Alexandre Dumais
+  - Jesse T. Edmond
+  - Stefan Ehrlich
+  - Ulrika Evermann
+  - "Kira Flinkenfl\xFCgel"
+  - Foivos Georgiadis
+  - David C. Glahn
+  - Janik Goltermann
+  - Melissa J. Green
+  - Dominik Grotegerd
+  - Amalia Guerrero-Pedraza
+  - Minji Ha
+  - Elliot L. Hong
+  - Hilleke Hulshoff Pol
+  - Felice Iasevoli
+  - Stefan Kaiser
+  - Vasily Kaleda
+  - Andriana Karuk
+  - Minah Kim
+  - Tilo Kircher
+  - Matthias Kirschner
+  - Peter Kochunov
+  - Jun Soo Kwon
+  - Irina Lebedeva
+  - Rebekka Lencer
+  - Tiago R. Marques
+  - Susanne Meinert
+  - Robin Murray
+  - "Igor Nenadi\u0107"
+  - Dana Nguyen
+  - Godfrey Pearlson
+  - Fabrizio Piras
+  - Edith Pomarol-Clotet
+  - Giuseppe Pontillo
+  - "St\xE9phane Potvin"
+  - Adrian Preda
+  - "Yann Quid\xE9"
+  - Amanda Rodrigue
+  - Kelly Rootes-Murdy
+  - Raymond Salvador
+  - Kang Sim
+  - Antonin Skoch
+  - Gianfranco Spalletta
+  - Filip Spaniel
+  - Frederike Stein
+  - Florian Thomas-Odenthal
+  - "Andr\xE0s Tik\xE0sz"
+  - David Tomecek
+  - Alexander Tomyshev
+  - Mario Tranfa
+  - Uyanga Tsogt
+  - Jessica A. Turner
+  - Theo G. M. van Erp
+  - Neeltje E. M. van Haren
+  - Jim van Os
+  - Daniela Vecchio
+  - Lei Wang
+  - Adrian Wroblewski
+  - Thomas Nickl-Jockschat
+  publisher: Molecular Psychiatry
+  date: '2025-12-03'
+  link: https://doi.org/hbrm7r
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1136/bmjment-2025-301594
   title: 'Prognostic predictions in psychosis: exploring the complementary role of
     machine learning models'
@@ -39,6 +130,43 @@
   publisher: BMJ Mental Health
   date: '2025-06-01'
   link: https://doi.org/hbjp4r
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bpsc.2025.03.014
+  title: Multiscale Heterogeneity of White Matter Morphometry in Psychiatric Disorders
+  authors:
+  - Ashlea Segal
+  - Robert E. Smith
+  - Sidhant Chopra
+  - Stuart Oldham
+  - Linden Parkes
+  - Kevin Aquino
+  - Seyed Mostafa Kia
+  - Thomas Wolfers
+  - Barbara Franke
+  - Martine Hoogman
+  - Christian F. Beckmann
+  - Lars T. Westlye
+  - Ole A. Andreassen
+  - Andrew Zalesky
+  - Ben J. Harrison
+  - Christopher G. Davey
+  - Carles Soriano-Mas
+  - "Narc\xEDs Cardoner"
+  - Jeggan Tiego
+  - "Murat Y\xFCcel"
+  - Leah Braganza
+  - Chao Suo
+  - Michael Berk
+  - Sue Cotton
+  - Mark A. Bellgrove
+  - Andre F. Marquand
+  - Alex Fornito
+  publisher: 'Biological Psychiatry: Cognitive Neuroscience and Neuroimaging'
+  date: '2025-04-01'
+  link: https://doi.org/hbrm7s
   orcid: 0000-0002-7128-814X
   seyed-mostafa-kia: true
   plugin: orcid.py
@@ -1956,6 +2084,47 @@
   link: https://doi.org/hbj4h3
   orcid: 0009-0004-2643-8649
   ymke-verduyn: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.brs.2026.103058
+  title: 'Vital-affective symptom connectivity during electroconvulsive therapy distinguishes
+    depression remission outcomes: A cross-lagged panel network study'
+  authors:
+  - Melissa G. Zandstra
+  - Gabriela Lunansky
+  - Floortje E. Scheepers
+  - Tessa F. Blanken
+  - Tom K. Birkenhager
+  - Dieneke Bloemkolk
+  - Birit F.P. Broekman
+  - Philip van Eijndhoven
+  - Eric van Exel
+  - Frank L. Gerritse
+  - Johanna M. Hegeman
+  - Willemijn Heijnen
+  - Rob M. Kok
+  - Dore Loef
+  - Roel J.T. Mocking
+  - Jasper O. Nuninga
+  - Mardien L. Oudega
+  - Didi Rhebergen
+  - Henricus G. Ruhe
+  - Bart P.F. Rutten
+  - Bart Schut
+  - Iris E. Sommer
+  - Indira Tendolkar
+  - Rosanne J. Turner
+  - "Esm\xE9e Verwijk"
+  - Hanneke van Welie
+  - Noor Woerdman
+  - Annemiek Dols
+  - Edwin van Dellen
+  - Metten Somers
+  publisher: Brain Stimulation
+  date: '2026-03-01'
+  link: https://doi.org/hbrm7t
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1093/schbul/sbag016
