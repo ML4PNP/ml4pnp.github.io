@@ -1,5 +1,26 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s42003-026-09825-2
+  title: Normative modeling of MEG brain oscillations across the human lifespan
+  authors:
+  - Mohammad Zamanzadeh
+  - Ymke Verduyn
+  - Augustijn de Boer
+  - Tomas Ros
+  - Thomas Wolfers
+  - Richard Dinga
+  - "Marie \u0160af\xE1\u0159 Postma"
+  - Andre F. Marquand
+  - Marijn van Wingerden
+  - Seyed Mostafa Kia
+  publisher: Communications Biology
+  date: '2026-03-17'
+  link: https://doi.org/hbtpms
+  orcid: 0009-0003-5080-068X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
+  mohammad-zamanzadeh: true
 - id: doi:10.1038/s41380-025-03365-7
   title: 'Structural brain abnormalities and aggression in schizophrenia: mega-analysis
     of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium'
@@ -2086,6 +2107,16 @@
   ymke-verduyn: true
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1093/schbul/sbag016
+  title: pendingpublications
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://doi.org/hbn7k2
+  orcid: 0000-0003-0913-805X
+  melissa-zandstra: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.brs.2026.103058
   title: 'Vital-affective symptom connectivity during electroconvulsive therapy distinguishes
     depression remission outcomes: A cross-lagged panel network study'
@@ -2123,16 +2154,6 @@
   publisher: Brain Stimulation
   date: '2026-03-01'
   link: https://doi.org/hbrm7t
-  orcid: 0000-0003-0913-805X
-  melissa-zandstra: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/schbul/sbag016
-  title: pendingpublications
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://doi.org/hbn7k2
   orcid: 0000-0003-0913-805X
   melissa-zandstra: true
   plugin: orcid.py
