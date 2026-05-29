@@ -13,7 +13,7 @@ Our research focuses on developing and validating machine learning methods for n
 
 ## Highlighted
 
-{% include citation.html lookup="MEGaNorm" style="rich" %}
+{% include citation.html lookup="Normative modeling of MEG" style="rich" %}
 
 {% include section.html %}
 
