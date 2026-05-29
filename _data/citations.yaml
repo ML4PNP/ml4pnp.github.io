@@ -18,9 +18,41 @@
   link: https://doi.org/hbtpms
   orcid: 0009-0003-5080-068X
   seyed-mostafa-kia: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
   mohammad-zamanzadeh: true
+  type: paper
+  description: "Normative modeling provides a principled framework for quantifying\
+    \ individual deviations from typical brain development and is increasingly used\
+    \ to study heterogeneity in neuropsychiatric conditions. While widely applied\
+    \ to structural phenotypes, functional normative models remain underdeveloped.\
+    \ Here, we introduce MEGaNorm, the first normative modeling framework for charting\
+    \ lifespan trajectories of resting-state magnetoencephalography (MEG) brain oscillations.\
+    \ Using a large, multi-site dataset comprising 1,846 individuals aged 6\u2013\
+    88 and spanning three MEG systems, we model relative oscillatory power in canonical\
+    \ frequency bands using hierarchical Bayesian regression, accounting for age,\
+    \ sex, and site effects. To support interpretation at multiple scales, we introduce\
+    \ Neuro-Oscillo Charts, visual tools that summarize normative trajectories at\
+    \ the population level and quantify individual-level deviations, enabling personalized\
+    \ assessment of functional brain dynamics. Applying this framework to a Parkinson\u2019\
+    s disease cohort (n = 160), we show that normative deviation scores reveal disease-related\
+    \ abnormalities and uncover a continuum of patients in theta\u2013beta deviation\
+    \ space. This work provides the first lifespan-encompassing normative reference\
+    \ for MEG oscillations, enabling population-level characterization and individualized\
+    \ benchmarking. All models and tools are openly available and designed for federated,\
+    \ continual adaptation as new data become available, offering a scalable resource\
+    \ for precision neuropsychiatry."
+  image: https://github.com/ML4PNP/MEGaNorm/raw/main/docs/images/pipeline_overview.png
+  buttons:
+  - type: source
+    text: Manuscript Source
+    link: https://www.nature.com/articles/s42003-026-09825-2
+  - type: source
+    text: GitHub
+    link: https://github.com/ML4PNP/MEGaNorm
+  - type: website
+    link: https://www.nature.com/articles/s42003-026-09825-2
+  repo: https://github.com/ML4PNP/MEGaNorm
 - id: doi:10.1038/s41380-025-03365-7
   title: 'Structural brain abnormalities and aggression in schizophrenia: mega-analysis
     of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium'
@@ -228,7 +260,7 @@
   - "Ren\xE9 S. Kahn"
   - Wiepke Cahn
   - Hugo G. Schnack
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-02-02'
   link: https://doi.org/hbjp4s
   orcid: 0000-0002-7128-814X
@@ -372,7 +404,7 @@
   - Lars T. Westlye
   - Ingrid Melle
   - Andre Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-04-22'
   link: https://doi.org/g9jwm7
   orcid: 0000-0002-7128-814X
@@ -400,17 +432,18 @@
 - id: doi:10.1101/2024.12.15.628527
   title: Lifespan Normative Modeling of Brain Microstructure
   authors:
-  - "Julio E. Villal\xF3n-Reina"
+  - Julio E. Villalon Reina
   - Alyssa H. Zhu
-  - Sebastian Benavidez
-  - Clara A. Moreau
+  - Leila Nabulsi
+  - Sophia I. Thomopoulos
+  - Clara E. Moreau
   - Yixue Feng
   - Tamoghna Chattopadhyay
-  - Leila Nabulsi
+  - Sebastian Benavidez
   - Leila Kushan
   - John P. John
   - Himanshu Joshi
-  - Sophia I. Thomopoulos
+  - Iyad Ba Gari
   - Katherine E. Lawrence
   - Talia M. Nir
   - Neda Jahanshad
@@ -418,7 +451,7 @@
   - Seyed Mostafa Kia
   - Andre F. Marquand
   - Paul M. Thompson
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-12-17'
   link: https://doi.org/hbjp43
   orcid: 0000-0002-7128-814X
@@ -447,7 +480,7 @@
   - Andre Marquand
   - Jan K. Buitelaar
   - Alex Fornito
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-10-22'
   link: https://doi.org/hbjp44
   orcid: 0000-0002-7128-814X
@@ -484,7 +517,7 @@
   - Mark A Bellgrove
   - Andre F Marquand
   - Alex Fornito
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-08-06'
   link: https://doi.org/hbjp45
   orcid: 0000-0002-7128-814X
@@ -506,7 +539,7 @@
   - Max Hinne
   - Christian F. Beckmann
   - Andre Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-10-07'
   link: https://doi.org/gsxxkk
   orcid: 0000-0002-7128-814X
@@ -620,7 +653,7 @@
   - Lei Wang
   - Adrian Wroblewski
   - Thomas Nickl-Jockschat
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-02-05'
   link: https://doi.org/hbjp47
   orcid: 0000-0002-7128-814X
@@ -746,7 +779,7 @@
   - C. F. Beckmann
   - R. L. Muetzel
   - A. Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-03-02'
   link: https://doi.org/hbjp5b
   orcid: 0000-0002-7128-814X
@@ -814,7 +847,7 @@
   - "Ren\xE9 S. Kahn"
   - Wiepke Cahn
   - Hugo G. Schnack
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-07-07'
   link: https://doi.org/hbjp5f
   orcid: 0000-0002-7128-814X
@@ -1045,7 +1078,7 @@
   - Andre F. Marquand
   - James H. Cole
   - Paresh Malhotra
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-11-04'
   link: https://doi.org/hbjp5k
   orcid: 0000-0002-7128-814X
@@ -1067,7 +1100,7 @@
   - Danilo Bzdok
   - Christian F. Beckmann
   - Andre Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-03-14'
   link: https://doi.org/hbjp5m
   orcid: 0000-0002-7128-814X
@@ -1165,7 +1198,7 @@
   - Mark A. Bellgrove
   - Andre F. Marquand
   - Alex Fornito
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-03-10'
   link: https://doi.org/hbjp5q
   orcid: 0000-0002-7128-814X
@@ -1182,7 +1215,7 @@
   - Jonathan M. Schott
   - Andre F. Marquand
   - James H. Cole
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2022-07-03'
   link: https://doi.org/hbjp5r
   orcid: 0000-0002-7128-814X
@@ -1204,7 +1237,7 @@
   - Henricus G. Ruhe
   - Christian F. Beckmann
   - Andre F. Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-08-10'
   link: https://doi.org/gsvdn7
   orcid: 0000-0002-7128-814X
@@ -1246,7 +1279,7 @@
   - Andrew Zalesky
   - Lianne Schmaal
   - Andre Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-02-11'
   link: https://doi.org/gsw4hx
   orcid: 0000-0002-7128-814X
@@ -1288,7 +1321,7 @@
   - Henricus G. Ruhe
   - Christian Beckmann
   - Andre F. Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-08-08'
   link: https://doi.org/gpcvt4
   orcid: 0000-0002-7128-814X
@@ -1308,7 +1341,7 @@
   - Lars T. Westlye
   - Christian F. Beckmann
   - Andre F. Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-05-30'
   link: https://doi.org/hbjp5s
   orcid: 0000-0002-7128-814X
@@ -1359,7 +1392,7 @@
   - Seyed Mostafa Kia
   - Christian F. Beckmann
   - Andre F. Marquand
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2021-06-14'
   link: https://doi.org/gk39n5
   orcid: 0000-0002-7128-814X
@@ -1394,7 +1427,7 @@
   - Ole A Andreassen
   - Andre F Marquand
   - Lars T Westlye
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-05-11'
   link: https://doi.org/hbjp5v
   orcid: 0000-0002-7128-814X
@@ -1605,8 +1638,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:26403498
-  title: ISSN 2640-3498 (Online) | Proceedings of Machine Learning Research | The
-    ISSN Portal
+  title: ISSN 2640-3498 - Proceedings of Machine Learning Research
   authors: []
   publisher: ''
   date: ''
@@ -2032,46 +2064,14 @@
   - Andre F. Marquand
   - Marijn van Wingerden
   - Seyed Mostafa Kia
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-23'
+  publisher: openRxiv
+  date: '2025-06-25'
   link: https://doi.org/hbjp9h
   orcid: 0009-0004-2643-8649
   mohammad-zamanzadeh: true
-  plugin: sources.py
-  file: sources.yaml
+  plugin: orcid.py
+  file: orcid.yaml
   ymke-verduyn: true
-  type: paper
-  description: "Normative modeling provides a principled framework for quantifying\
-    \ individual deviations from typical brain development and is increasingly used\
-    \ to study heterogeneity in neuropsychiatric conditions. While widely applied\
-    \ to structural phenotypes, functional normative models remain underdeveloped.\
-    \ Here, we introduce MEGaNorm, the first normative modeling framework for charting\
-    \ lifespan trajectories of resting-state magnetoencephalography (MEG) brain oscillations.\
-    \ Using a large, multi-site dataset comprising 1,846 individuals aged 6\u2013\
-    88 and spanning three MEG systems, we model relative oscillatory power in canonical\
-    \ frequency bands using hierarchical Bayesian regression, accounting for age,\
-    \ sex, and site effects. To support interpretation at multiple scales, we introduce\
-    \ Neuro-Oscillo Charts, visual tools that summarize normative trajectories at\
-    \ the population level and quantify individual-level deviations, enabling personalized\
-    \ assessment of functional brain dynamics. Applying this framework to a Parkinson\u2019\
-    s disease cohort (n = 160), we show that normative deviation scores reveal disease-related\
-    \ abnormalities and uncover a continuum of patients in theta\u2013beta deviation\
-    \ space. This work provides the first lifespan-encompassing normative reference\
-    \ for MEG oscillations, enabling population-level characterization and individualized\
-    \ benchmarking. All models and tools are openly available and designed for federated,\
-    \ continual adaptation as new data become available, offering a scalable resource\
-    \ for precision neuropsychiatry."
-  image: https://github.com/ML4PNP/MEGaNorm/raw/main/docs/images/pipeline_overview.png
-  buttons:
-  - type: source
-    text: Manuscript Source
-    link: https://www.biorxiv.org/content/10.1101/2025.06.23.660997v1
-  - type: source
-    text: GitHub
-    link: https://github.com/ML4PNP/MEGaNorm
-  - type: website
-    link: https://www.biorxiv.org/content/10.1101/2025.06.23.660997v1
-  repo: https://github.com/ML4PNP/MEGaNorm
 - id: doi:10.1016/j.compbiomed.2024.109240
   title: 'Exploring potential ADHD biomarkers through advanced machine learning: An
     examination of audiovisual integration networks'
@@ -2108,10 +2108,19 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1093/schbul/sbag016
-  title: pendingpublications
-  authors: []
-  publisher: ''
-  date: ''
+  title: Symptom Network Dynamics during Antipsychotic Treatment in First-Episode
+    Psychosis
+  authors:
+  - Melissa G Zandstra
+  - Floortje E Scheepers
+  - Gabriela Lunansky
+  - Silvana Galderisi
+  - "Birte Y Glenth\xF8j"
+  - Inge Winter-van Rossum
+  - Metten Somers
+  - Edwin van Dellen
+  publisher: Schizophrenia Bulletin
+  date: '2026-03-01'
   link: https://doi.org/hbn7k2
   orcid: 0000-0003-0913-805X
   melissa-zandstra: true
