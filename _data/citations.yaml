@@ -53,6 +53,35 @@
   - type: website
     link: https://www.nature.com/articles/s42003-026-09825-2
   repo: https://github.com/ML4PNP/MEGaNorm
+- id: doi:10.1038/s41467-026-72875-x
+  title: Lifespan normative modeling of brain microstructure
+  authors:
+  - "Julio E. Villal\xF3n-Reina"
+  - Alyssa H. Zhu
+  - Leila Nabulsi
+  - Sophia I. Thomopoulos
+  - Clara A. Moreau
+  - Yixue Feng
+  - Tamoghna Chattopadhyay
+  - Sebastian M. Benavidez
+  - Leila Kushan
+  - John P. John
+  - Himanshu Joshi
+  - Iyad Ba Gari
+  - Katherine E. Lawrence
+  - Talia M. Nir
+  - Neda Jahanshad
+  - Carrie E. Bearden
+  - Seyed Mostafa Kia
+  - Andre F. Marquand
+  - Paul M. Thompson
+  publisher: Nature Communications
+  date: '2026-05-27'
+  link: https://doi.org/hb6c44
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41380-025-03365-7
   title: 'Structural brain abnormalities and aggression in schizophrenia: mega-analysis
     of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium'
