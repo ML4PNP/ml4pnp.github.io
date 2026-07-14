@@ -1,3 +1,11 @@
+- name: Koen
+  last_name: Haak
+  title: Dr. 
+  url: https://sites.google.com/view/koenhaak/
+  department: Department of Intelligent Systems
+  university: Tilburg University
+  country: the Netherlands
+
 - name: Harm
   last_name: Brouwer
   title: Dr. 
