@@ -7,7 +7,7 @@ tags: news
 
 We are happy to share our new review paper, **“Beyond Seeing Only Illness in Abnormality: Clinical Challenges and Methodological Promises on the Road Towards Precision Psychiatry”**, published in *Psychiatry Research Communications*.
 
-Precision psychiatry aims to deliver *the right treatment to the right patient at the right time*. Yet despite substantial methodological advances, translating this vision into clinical practice remains challenging. In this review, *[Ymke Verduyn](https://ml4pnp.github.io/members/ymke-verduyn.html)** identify four interdependent challenges that need to be addressed:
+Precision psychiatry aims to deliver *the right treatment to the right patient at the right time*. Yet despite substantial methodological advances, translating this vision into clinical practice remains challenging. In this review, **[Ymke Verduyn](https://ml4pnp.github.io/members/ymke-verduyn.html)** identify four interdependent challenges that need to be addressed:
 
 1. **From diagnostic categories to transdiagnostic mechanisms** – moving beyond rigid diagnostic labels towards mechanisms and dimensions shared across disorders.
 2. **From homogeneous groups to individual heterogeneity** – recognizing that individuals with the same diagnosis can differ substantially in symptoms, underlying biology, and treatment response.
