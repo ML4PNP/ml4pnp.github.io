@@ -1,5 +1,34 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s44220-026-00656-y
+  title: Multiscale heterogeneity of atypical functional connectivity in autism
+  authors:
+  - Iva Ilioska
+  - Marianne Oldehinkel
+  - Alberto Llera
+  - "Maro\u0161 Rovn\xFD"
+  - Ting Mei
+  - Seyed Mostafa Kia
+  - Dorothea L. Floris
+  - Julian Tillmann
+  - Rosemary J. Holt
+  - Eva Loth
+  - Tony Charman
+  - Declan G. M. Murphy
+  - Christine Ecker
+  - Tobias Banaschewski
+  - Maarten Mennes
+  - Christian F. Beckmann
+  - Andre Marquand
+  - Jan K. Buitelaar
+  - Alex Fornito
+  publisher: Nature Mental Health
+  date: '2026-06-01'
+  link: https://doi.org/hcfw2v
+  orcid: 0000-0002-7128-814X
+  seyed-mostafa-kia: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s42003-026-09825-2
   title: Normative modeling of MEG brain oscillations across the human lifespan
   authors:
