@@ -45,11 +45,12 @@
   publisher: Communications Biology
   date: '2026-03-17'
   link: https://doi.org/hbtpms
-  orcid: 0009-0003-5080-068X
+  orcid: 0009-0004-2643-8649
   seyed-mostafa-kia: true
   plugin: sources.py
   file: sources.yaml
   mohammad-zamanzadeh: true
+  ymke-verduyn: true
   type: paper
   description: "Normative modeling provides a principled framework for quantifying\
     \ individual deviations from typical brain development and is increasingly used\
@@ -2125,11 +2126,10 @@
   publisher: openRxiv
   date: '2025-06-25'
   link: https://doi.org/hbjp9h
-  orcid: 0009-0004-2643-8649
+  orcid: 0009-0003-5080-068X
   mohammad-zamanzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-  ymke-verduyn: true
 - id: doi:10.1016/j.compbiomed.2024.109240
   title: 'Exploring potential ADHD biomarkers through advanced machine learning: An
     examination of audiovisual integration networks'
@@ -2143,6 +2143,20 @@
   link: https://doi.org/g93n38
   orcid: 0009-0003-5080-068X
   mohammad-zamanzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.psycom.2026.100279
+  title: 'Beyond seeing only illness in abnormality: Clinical challenges and methodological
+    promises on the road towards precision psychiatry'
+  authors:
+  - Ymke Verduyn
+  - Seyed Mostafa Kia
+  - Harm Brouwer
+  publisher: Psychiatry Research Communications
+  date: '2026-09-01'
+  link: https://doi.org/hchpcf
+  orcid: 0009-0004-2643-8649
+  ymke-verduyn: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.31234/osf.io/r48j5_v1
