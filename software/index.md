@@ -15,10 +15,10 @@ We develop and maintain open-source software that implements and benchmarks mach
 
 ## In-house software
 
-{% include list.html component="card" data="software" filter="group == 'featured'" %}
+{% include list.html component="card" data="software" filter="group == 'featured'" style="wide" %}
 
 {% include section.html %}
 
 ## External software contributions
 
-{% include list.html component="card" data="software" filter="!group" style="small" %}
+{% include list.html component="card" data="software" filter="!group" style="wide" %}
