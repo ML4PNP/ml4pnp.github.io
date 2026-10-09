@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-newspaper" %}News
 
-This page highlights recent news and updates from the lab, including publications, project milestones, awards, events, and other activities. It provides a snapshot of ongoing work and developments within the lab, as well as broader engagement with the research community.
+Follow life at ML4PNP: new research, software releases, experiments at MindLabs, lab visitors, and updates from our team.
 
 {% include section.html %}
 

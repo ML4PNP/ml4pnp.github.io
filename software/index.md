@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-box" %}Software
 
-We develop and maintain open-source software that implements and benchmarks machine learning methods for neuroimaging data, supporting reproducible research and scalable analysis across studies and sites. Our software emphasizes robustness, transparency, and interoperability, enabling researchers to apply, evaluate, and extend state-of-the-art methods across different datasets and experimental settings. By prioritizing open development practices and well-documented workflows, we aim to facilitate methodological reuse, foster collaboration, and support the translation of computational methods into neuroimaging and clinical research.
+We build open-source tools for reproducible neuroimaging research. MEGaNorm connects EEG and MEG processing with normative modeling, and we contribute to PCNtoolkit for modeling individual variation in brain data.
 
 {% include search-info.html %}
 
