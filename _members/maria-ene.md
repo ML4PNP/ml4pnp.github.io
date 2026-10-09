@@ -1,4 +1,5 @@
 ---
+seo_description: "Learn about Maria Ene, a former member of ML4PNP at Tilburg University, and explore their research background and interests."
 name: Maria Ene
 image: images/mene.jpg
 role: undergrad 

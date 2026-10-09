@@ -1,4 +1,6 @@
 ---
+seo_title: "Research Projects"
+seo_description: "Explore ML4PNP projects at Tilburg University, including MEGaNorm, P600Norm, normative brain modeling, and machine learning for healthcare."
 title: Projects
 nav:
   order: 1

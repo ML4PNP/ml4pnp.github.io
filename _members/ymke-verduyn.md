@@ -1,4 +1,5 @@
 ---
+seo_description: "Learn about Ymke Verduyn, a member of ML4PNP at Tilburg University, and explore their research background and interests."
 name: Ymke Verduyn
 image: images/yverduyn.jpg
 role: phd 

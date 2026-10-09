@@ -1,4 +1,6 @@
 ---
+seo_title: "Research Publications"
+seo_description: "Read ML4PNP publications on normative brain modeling, EEG, MEG, MRI, and machine learning for precision neuropsychiatry."
 title: Publications
 nav:
   order: 4

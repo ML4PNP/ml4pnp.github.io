@@ -1,4 +1,5 @@
 ---
+seo_description: "Learn about Kateryna Skurativska, a member of ML4PNP at Tilburg University, and explore their research background and interests."
 name: Kateryna Skurativska
 image: images/kskurativska.jpg
 role: phd

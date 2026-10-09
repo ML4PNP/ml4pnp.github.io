@@ -1,3 +1,3 @@
-<!--
-  put your search engine verification (e.g. Google Search Console) tag here
--->
+{% if site.google_site_verification and site.google_site_verification != "" %}
+<meta name="google-site-verification" content="{{ site.google_site_verification | xml_escape }}">
+{% endif %}

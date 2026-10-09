@@ -1,4 +1,6 @@
 ---
+seo_title: "Contact the Lab"
+seo_description: "Contact ML4PNP at Tilburg University about research collaborations, student opportunities, normative modeling, and neuroimaging software."
 title: Contact
 nav:
   order: 6

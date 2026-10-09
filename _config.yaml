@@ -1,7 +1,21 @@
 # site properties and page defaults
 title: Machine Learning for Precision Neuropsychiatry
 subtitle: ML4PNP
-description: Research lab on applications of machine learning for precision neuropsychiatry.
+description: ML4PNP at Tilburg University develops normative brain models and open-source EEG, MEG, and MRI tools for research in precision neuropsychiatry.
+url: https://ml4pnp.github.io
+baseurl: ""
+social_image: images/share.jpg
+
+# Shared identity for search engines and sharing previews.
+organization:
+  logo: images/logo.png
+  parent_name: Tilburg University
+  parent_url: https://www.tilburguniversity.edu/
+  same_as:
+    - https://github.com/ML4PNP
+
+# Paste only the content value of Google's verification tag here.
+google_site_verification: ""
 header: images/background.png
 footer: images/background.png
 proofer: false

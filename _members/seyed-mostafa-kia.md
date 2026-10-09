@@ -1,4 +1,5 @@
 ---
+seo_description: "Learn about Seyed Mostafa Kia, a member of ML4PNP at Tilburg University, and explore their research background and interests."
 name: Seyed Mostafa Kia
 image: images/smkia.jpg
 role: principal-investigator

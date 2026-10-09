@@ -1,4 +1,6 @@
 ---
+seo_title: "Team and Alumni"
+seo_description: "Meet the researchers, students, alumni, and collaborators of ML4PNP, the precision neuropsychiatry machine learning lab at Tilburg University."
 title: Team
 nav:
   order: 3

@@ -1,4 +1,5 @@
 ---
+seo_description: "Learn about Roos Piersma, a member of ML4PNP at Tilburg University, and explore their research background and interests."
 name: Roos Piersma
 image: images/rpiersma.jpeg
 role: undergrad 

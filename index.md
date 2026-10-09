@@ -1,4 +1,6 @@
 ---
+seo_title: "ML4PNP | Machine Learning for Precision Neuropsychiatry"
+seo_description: "ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare."
 ---
 
 # Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab

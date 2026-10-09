@@ -1,4 +1,6 @@
 ---
+seo_title: "Lab News"
+seo_description: "News from ML4PNP at Tilburg University: research findings, software releases, EEG experiments, lab visitors, and team updates."
 title: News
 nav:
   order: 5

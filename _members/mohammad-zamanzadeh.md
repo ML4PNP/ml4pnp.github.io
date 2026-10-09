@@ -1,4 +1,5 @@
 ---
+seo_description: "Learn about Mohammad Zamanzadeh, a member of ML4PNP at Tilburg University, and explore their research background and interests."
 name: Mohammad Zamanzadeh
 image: images/mzaman.jpg
 role: phd 

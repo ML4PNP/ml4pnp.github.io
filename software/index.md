@@ -1,4 +1,6 @@
 ---
+seo_title: "Open-Source Neuroimaging Software"
+seo_description: "Explore MEGaNorm for EEG and MEG processing and normative modeling, alongside ML4PNP contributions to the PCNtoolkit."
 title: Software
 nav:
   order: 2

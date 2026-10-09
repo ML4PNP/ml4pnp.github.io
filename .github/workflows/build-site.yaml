@@ -43,7 +43,7 @@ jobs:
 
       - name: Set root url
         run: |
-          printf "\n\nurl: ${{ steps.pages.outputs.origin }}" >> _config.yaml
+          ruby -ryaml -e 'path = "_config.yaml"; config = YAML.load_file(path); config["url"] = ARGV.fetch(0); File.write(path, config.to_yaml)' "${{ steps.pages.outputs.origin }}"
 
       - name: Build live version of site
         run: |
