@@ -2,6 +2,7 @@
 name: Maria Ene
 image: images/mene.jpg
 role: undergrad 
+description: Former Undergraduate Student
 affiliation: Tilburg University
 aliases:
   - Maria Ene
@@ -14,7 +15,7 @@ links:
 
 order: 6
 
-group: active
+group: alumni
 
 ---
 
