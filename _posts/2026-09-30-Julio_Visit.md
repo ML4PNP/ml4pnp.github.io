@@ -19,4 +19,4 @@ The visit also provided a great opportunity to discuss ongoing developments in n
 
 Thank you, Julio, for visiting us and for the stimulating presentation and discussions!
 
-![Julio Villalón-Reina has visited ML4PNP](mages/julio_visit.jpg)
+![Julio Villalón-Reina has visited ML4PNP](/images/julio_visit.jpg)
