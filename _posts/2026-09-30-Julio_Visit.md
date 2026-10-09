@@ -18,3 +18,5 @@ The work is described in the recent preprint **[“Distributional and Centile Ca
 The visit also provided a great opportunity to discuss ongoing developments in normative modelling, model calibration, and the methodological requirements for building reliable population reference models.
 
 Thank you, Julio, for visiting us and for the stimulating presentation and discussions!
+
+![Julio Villalón-Reina has visited ML4PNP](mages/julio_visit.jpg)

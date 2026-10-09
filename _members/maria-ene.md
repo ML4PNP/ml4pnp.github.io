@@ -13,7 +13,7 @@ links:
   home-page: https://www.linkedin.com/in/maria-diana-ene-b11105238/
   github: MariaDiana28
 
-order: 6
+order: 1
 
 group: alumni
 
