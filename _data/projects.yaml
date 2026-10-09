@@ -14,7 +14,7 @@
 - title: Normative Range of P600 Morphology as a Diagnostic and Prognostic Tool in Neuropsychiatric Disorders
   subtitle: P600Norm
   group: featured
-  image: images/photo.jpg
+  image: images/p600norm_data_collection.png
   link: https://www.nwo.nl/projecten/vqlab92202
   description: This project uses brain signals and machine learning to support diagnosis and outcome prediction in mental disorders. By modeling individual variability in neural responses during language comprehension, it contributes to more personalized and effective mental health care. The project is funded by the NWO within NWA within the Routes scheme (NeuroLab).
   repo: https://github.com/ML4PNP/
