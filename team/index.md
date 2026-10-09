@@ -11,7 +11,15 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" sort="order" %}
+{% include list.html data="members" component="portrait" sort="order" filter="group != 'alumni'" %}
+
+{% include section.html %}
+
+# {% include icon.html icon="fa-solid fa-user-graduate" %}Alumni
+
+Former members who have contributed to our research and lab community.
+
+{% include list.html data="members" component="portrait" sort="order" filter="group == 'alumni'" %}
 
 {% include section.html background="images/background.png" dark=true %}
 
