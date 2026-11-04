@@ -12,7 +12,7 @@ aliases:
 links:
   home-page: https://www.linkedin.com/in/roos-piersma-816960335/
 
-order: 6
+order: 7
 
 group: active
 
