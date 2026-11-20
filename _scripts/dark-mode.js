@@ -1,25 +1,37 @@
-/*
-  manages light/dark mode.
-*/
-
 {
-  // immediately load saved (or default) mode before page renders
-  document.documentElement.dataset.dark =
-    window.localStorage.getItem("dark-mode") ?? "false";
+  const system = window.matchMedia("(prefers-color-scheme: dark)");
+  const choices = ["auto", "day", "dark"];
+  let choice = "auto";
 
-  const onLoad = () => {
-    // update toggle button to match loaded mode
-    document.querySelector(".dark-toggle").checked =
-      document.documentElement.dataset.dark === "true";
-  };
+  try {
+    const saved = localStorage.getItem("colour-theme");
+    const legacy = localStorage.getItem("dark-mode");
+    if (choices.includes(saved)) choice = saved;
+    else if (legacy === "true") choice = "dark";
+    else if (legacy === "false") choice = "day";
+  } catch {
+    // Storage may be unavailable in private browsing.
+  }
 
-  // after page loads
-  window.addEventListener("load", onLoad);
+  function applyTheme() {
+    const dark = choice === "dark" || (choice === "auto" && system.matches);
+    document.documentElement.dataset.dark = String(dark);
+    document.documentElement.style.colorScheme = dark ? "dark" : "light";
+  }
 
-  // when user toggles mode button
-  window.onDarkToggleChange = (event) => {
-    const value = event.target.checked;
-    document.documentElement.dataset.dark = value;
-    window.localStorage.setItem("dark-mode", value);
-  };
+  applyTheme();
+  system.addEventListener("change", applyTheme);
+  document.addEventListener("DOMContentLoaded", () => {
+    const select = document.getElementById("theme-choice");
+    select.value = choice;
+    select.addEventListener("change", () => {
+      choice = select.value;
+      applyTheme();
+      try {
+        localStorage.setItem("colour-theme", choice);
+      } catch {
+        // The selection still applies to the current page.
+      }
+    });
+  });
 }

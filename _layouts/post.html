@@ -2,9 +2,12 @@
 layout: default
 ---
 
-{% include section.html background=page.image %}
+{% include section.html %}
 
-<h1 class="center">{{ page.title }}</h1>
+<div class="news-heading">
+<a href="{{ '/news/' | relative_url }}">Lab news</a>
+
+<h1>{{ page.title | escape }}</h1>
 
 {%
   include post-info.html
@@ -14,10 +17,18 @@ layout: default
   updated=page.last_modified_at
   tags=page.tags
 %}
+</div>
 
 {% include section.html %}
 
+<article class="news-body">
+{% if page.image %}
+  {% unless content contains page.image %}
+    <img class="news-photo" src="{{ page.image | relative_url | uri_escape }}" alt="">
+  {% endunless %}
+{% endif %}
 {{ content }}
+</article>
 
 {% include section.html %}
 
