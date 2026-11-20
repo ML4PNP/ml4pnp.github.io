@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BFG9XCJ4SS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BFG9XCJ4SS');
+</script>
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ML4PNP | Machine Learning for Precision Neuropsychiatry</title>
+<link rel="icon" href="https://ml4pnp.github.io/preview/pr-2/images/favicon.png">
+<link rel="canonical" href="https://ml4pnp.github.io/preview/pr-2/">
+<meta name="description" content="ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare.">
+
+<meta name="robots" content="noindex, follow">
+
+
+<meta property="og:title" content="ML4PNP | Machine Learning for Precision Neuropsychiatry">
+<meta property="og:site_name" content="ML4PNP">
+<meta property="og:description" content="ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare.">
+<meta property="og:url" content="https://ml4pnp.github.io/preview/pr-2/">
+<meta property="og:image" content="https://ml4pnp.github.io/preview/pr-2/images/share.jpg">
+<meta property="og:image:alt" content="ML4PNP | Machine Learning for Precision Neuropsychiatry">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ML4PNP | Machine Learning for Precision Neuropsychiatry">
+<meta name="twitter:description" content="ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare.">
+<meta name="twitter:image" content="https://ml4pnp.github.io/preview/pr-2/images/share.jpg">
+<meta name="twitter:image:alt" content="ML4PNP | Machine Learning for Precision Neuropsychiatry">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://ml4pnp.github.io/preview/pr-2/#organization",
+      "name": "Machine Learning for Precision Neuropsychiatry",
+      "alternateName": "ML4PNP",
+      "url": "https://ml4pnp.github.io/preview/pr-2/",
+      "logo": "https://ml4pnp.github.io/preview/pr-2/images/logo.png",
+      "email": "s.m.kia@tilburguniversity.edu",
+      "sameAs": ["https://github.com/ML4PNP"],
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Tilburg University",
+        "url": "https://www.tilburguniversity.edu/"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ml4pnp.github.io/preview/pr-2/#website",
+      "name": "ML4PNP",
+      "alternateName": "Machine Learning for Precision Neuropsychiatry",
+      "url": "https://ml4pnp.github.io/preview/pr-2/",
+      "publisher": { "@id": "https://ml4pnp.github.io/preview/pr-2/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ml4pnp.github.io/preview/pr-2/#content",
+      "url": "https://ml4pnp.github.io/preview/pr-2/",
+      "name": "ML4PNP | Machine Learning for Precision Neuropsychiatry",
+      "description": "ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare.",
+      "image": "https://ml4pnp.github.io/preview/pr-2/images/share.jpg",
+      "isPartOf": { "@id": "https://ml4pnp.github.io/preview/pr-2/#website" },
+      
+      "publisher": { "@id": "https://ml4pnp.github.io/preview/pr-2/#organization" }
+    }
+  ]
+}
+</script>
+<link rel="alternate" type="application/atom+xml" title="ML4PNP news" href="https://ml4pnp.github.io/preview/pr-2/feed.xml">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Spectral:wght@400;500&amp;display=swap">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-2/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/editorial.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-2/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  
+
+<!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-2/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-2/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-2/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-2/_scripts/search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-2/_scripts/table-wrap.js"></script>
+
+  <script src="/preview/pr-2/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    <header class="background">
+  <a href="/preview/pr-2/" class="home" aria-label="ML4PNP home">
+    <img src="/preview/pr-2/images/lab-mark.webp" width="40" height="40" alt="">
+    <strong>ML4PNP</strong>
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="main-navigation">
+
+  <nav id="main-navigation" aria-label="Main navigation">
+    
+    
+      
+        <a href="/preview/pr-2/projects/" data-tooltip="Our Projects">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/software/" data-tooltip="Software, tools, and packages">
+          Software
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/publications/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/news/" data-tooltip="news and updates">
+          News
+        </a>
+      
+    
+      
+        <a href="/preview/pr-2/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+  <select id="theme-choice" aria-label="Colour theme">
+    <option value="auto">Auto</option>
+    <option value="day">Day</option>
+    <option value="dark">Dark</option>
+  </select>
+</header>
+
+    <main class="lab-home">
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <div class="lab-intro">
+  <div>
+    <h1>Machine learning for precision neuropsychiatry</h1>
+    <p>How does each person’s brain differ, and what can those differences tell us about brain health? At Tilburg University, we use machine learning with EEG, MEG, and MRI to study individual variation across the lifespan.</p>
+    <div class="intro-links">
+      <a href="/preview/pr-2/projects/">Explore our research <span aria-hidden="true">→</span></a>
+      <a href="/preview/pr-2/publications/">Publications</a>
+      <a href="/preview/pr-2/software/">Software</a>
+    </div>
+  </div>
+  <figure>
+    <a href="/preview/pr-2/2026/10/09/p600-mindlab.html">
+      <img src="/preview/pr-2/images/p600norm-electrodes.webp" width="829" height="464" alt="Electrodes on the EEG cap used in the P600Norm study">
+    </a>
+    <figcaption>P600Norm at MindLabs · Photograph by BRIX</figcaption>
+  </figure>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="research-spotlight">
+  <div>
+    <h2>How do brain rhythms vary across the lifespan?</h2>
+    <p>Using resting-state MEG, we built reference charts that place an individual’s brain rhythms within the expected range for their age.</p>
+    <div class="study-links">
+      <a href="https://doi.org/10.1038/s42003-026-09825-2">Read the paper in <em>Communications Biology</em></a>
+      <a href="https://github.com/ML4PNP/MEGaNorm">MEGaNorm software</a>
+    </div>
+  </div>
+  <dl>
+    <div>
+<dt>Study participants</dt>
+<dd>1,846</dd>
+</div>
+    <div>
+<dt>Age range in years</dt>
+<dd>6–88</dd>
+</div>
+  </dl>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="our-research">Our research</h2>
+
+<div class="cols" style="--cols: 3">
+  
+    
+    <div>
+<h3 id="normative-modeling">Normative Modeling</h3>
+
+<p>We map how brain structure and function vary across people and throughout life. These reference models help us study individual differences that can be missed by comparisons between patient and control groups.</p>
+</div>
+  
+    
+    <div>
+<h3 id="eeg-and-meg-methods">EEG and MEG methods</h3>
+
+<p>We develop reproducible tools for studying brain rhythms and responses to events. Our work spans large-scale MEG analysis and comparisons of stationary and portable EEG recordings.</p>
+</div>
+  
+    
+    <div>
+<h3 id="machine-learning-for-healthcare">Machine Learning for Healthcare</h3>
+
+<p>We develop and study machine learning methods for personalized care and clinical decision support. Our projects include lifestyle recommendations in psychosis and predicting nurses’ perceptions of staffing adequacy.</p>
+</div>
+  
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="latest-from-the-lab">Latest from the lab</h2>
+
+<article>
+  <h3><a href="/preview/pr-2/2026/11/04/daniel.html">Welcome Daniel-Mihai Pocatilu to ML4PNP!</a></h3>
+  <p><time datetime="2026-11-04T00:00:00+00:00">November 4, 2026</time></p>
+  <p>We are happy to welcome Daniel-Mihai Pocatilu as a new Student Research Assistant in the Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab.</p>
+</article>
+
+<article>
+  <h3><a href="/preview/pr-2/2026/10/09/p600-mindlab.html">P600Norm EEG Data Collection Underway at MindLabs</a></h3>
+  <p><time datetime="2026-10-09T00:00:00+00:00">October 9, 2026</time></p>
+  <p>We are excited to announce that data collection has started for our NWA-funded P600Norm project, “Normative Range of P600 Morphology as a Diagnostic and Prognostic Tool in Neuropsychiatric Disorders.”</p>
+</article>
+
+<article>
+  <h3><a href="/preview/pr-2/2026/10/08/roos.html">Welcome Roos to ML4PNP!</a></h3>
+  <p><time datetime="2026-10-08T00:00:00+00:00">October 8, 2026</time></p>
+  <p>We are happy to welcome Roos as a new Research Assistant in the Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab at Tilburg University.</p>
+</article>
+
+<p><a href="/preview/pr-2/news/">All lab news</a></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="work-with-us">Work with us</h2>
+
+<p>Interested in collaborating on normative modeling, neuroimaging, or machine learning for healthcare? <a href="/preview/pr-2/contact/">Get in touch</a> to discuss a research question or potential collaboration.</p>
+
+<p>Students interested in thesis projects or research experience are welcome to contact us about possible opportunities. Tell us about your interests, background, and the period you have in mind.</p>
+
+<p><a href="/preview/pr-2/team/">Meet our team</a> · <a href="/preview/pr-2/contact/">Student and collaboration enquiries</a></p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="at-tilburg-university">At Tilburg University</h2>
+
+<p>ML4PNP is part of the Computational Models of Brain and Behavior research unit within the Research Center for Cognitive Science and Artificial Intelligence, Tilburg School of Humanities and Digital Sciences, Tilburg University.</p>
+
+<figure class="figure">
+  <a href="https://www.tilburguniversity.edu/" class="figure-image" aria-label="Tilburg University">
+    <img src="/preview/pr-2/images/Tilburg-University-Logo.png" style="
+        width: 280px;
+        max-height: unset;
+      " alt="Tilburg University" loading="lazy" onerror="this.src = '/preview/pr-2/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Tilburg University
+
+    </figcaption>
+  
+</figure>
+  </section>
+
+
+    </main>
+    <footer class="background" data-size="wide">
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:s.m.kia@tilburguniversity.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/ML4PNP" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+  
+  <div>
+    © 2026
+    Machine Learning for Precision Neuropsychiatry
+      |  
+    <a href="https://www.tilburguniversity.edu">
+      Tilburg University
+    </a>
+  </div>
+</footer>
+
+  </body>
+</html>
