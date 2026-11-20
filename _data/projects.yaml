@@ -25,7 +25,6 @@
 
 - title: Charting the Normative Electroencephalography in Healthy Aging Population
   subtitle: 
-  image: images/photo.jpg
   link: https://research.tilburguniversity.edu/en/projects/charting-the-normative-electroencephalography-in-healthy-aging-po/
   description: This project develops normative models of functional brain activity using large-scale EEG data from healthy aging populations. It is funded by the Growth Projects programme of Digital Sciences for Society at Tilburg University.
   repo: https://github.com/ML4PNP/MEGaNorm
@@ -36,7 +35,6 @@
 
 - title: Predicting the Nurse Perceived Adequacy of Staffing Scale (NPASS) Score Using Machine Learning
   subtitle: NPASS
-  image: images/photo.jpg
   link: https://research.tilburguniversity.edu/en/projects/predicting-the-nurse-perceived-adequacy-of-staffing-scale-npass-s/
   description: This project develops a machine learning–based system to predict nurse-perceived staffing adequacy using routinely collected hospital operational data. It is funded by the Growth Projects programme of Digital Sciences for Society at Tilburg University.
   repo:   
@@ -47,7 +45,6 @@
 
 - title: A patient-centric lifestyle recommender system for optimizing treatment response in psychosis
   subtitle: U-Heal
-  image: images/photo.jpg
   link: https://ewuu.nl/en/2022/09/nine-ai-projects-funded-to-improve-the-quality-of-life-and-healthcare/
   description: U-Heal develops a human-centered and explainable AI framework for smart psychiatric care in patients with psychosis. This project shifts the focus from clinician-facing tools to patient-centered decision support. The project is funded by the EWUU alliance.
   repo: https://github.com/patterns-in-psychiatry/PPP_LSTM 

@@ -23,7 +23,7 @@ Former members who have contributed to our research and lab community.
 
 {% include list.html data="members" component="portrait" sort="order" filter="group == 'alumni'" %}
 
-{% include section.html background="images/background.png" dark=true %}
+{% include section.html %}
 
 # {% include icon.html icon="fa-solid fa-up-right-from-square" %}Collaborators
 
@@ -49,15 +49,3 @@ Former members who have contributed to our research and lab community.
     </li>
   {% endfor %}
 </ul>
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}

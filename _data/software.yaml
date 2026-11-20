@@ -13,7 +13,6 @@
 
 - title: PCNtoolkit 
   subtitle: Predictive Clinical Neuroscience Toolkit
-  image: images/photo.jpg
   link: https://github.com/amarquand/PCNtoolkit
   description: A Python package for normative modelling, spatial statistics and pattern recognition.
   repo: https://github.com/amarquand/PCNtoolkit
