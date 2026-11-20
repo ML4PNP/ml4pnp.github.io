@@ -13,13 +13,27 @@
     // Storage may be unavailable in private browsing.
   }
 
+  let boundaryTimer;
   function applyTheme() {
-    const dark = choice === "dark" || (choice === "auto" && system.matches);
+    clearTimeout(boundaryTimer);
+    const now = new Date();
+    const hour = now.getHours();
+    const night = hour < 7 || hour >= 20;
+    const dark = choice === "dark" || (choice === "auto" && (system.matches || night));
+    if (choice === "auto") {
+      const next = new Date(now);
+      next.setHours(hour < 7 ? 7 : hour < 20 ? 20 : 31, 0, 0, 0);
+      boundaryTimer = setTimeout(applyTheme, next - now);
+    }
     document.documentElement.dataset.dark = String(dark);
     document.documentElement.style.colorScheme = dark ? "dark" : "light";
   }
 
   applyTheme();
+  window.addEventListener("pageshow", applyTheme);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) applyTheme();
+  });
   system.addEventListener("change", applyTheme);
   document.addEventListener("DOMContentLoaded", () => {
     const select = document.getElementById("theme-choice");

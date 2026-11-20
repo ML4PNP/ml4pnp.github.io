@@ -56,7 +56,7 @@
   width: 100%;
   margin-bottom: 20px;
   aspect-ratio: 1 / 1;
-  border-radius: 3px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -75,4 +75,27 @@
   .portrait-affiliation {
     display: none;
   }
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 180px), 1fr));
+  gap: 36px 20px;
+  align-items: start;
+}
+.team-grid .portrait {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.team-grid .portrait-image { width: min(100%, 154px); }
+.team-grid .portrait .icon { left: max(0px, calc(50% - 77px)); }
+.team-grid .portrait-name {
+  max-width: 100%;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 520px) {
+  .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
