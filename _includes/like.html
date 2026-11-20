@@ -1,0 +1,6 @@
+{% if site.likes_endpoint and site.likes_endpoint != "" and include.item %}
+  <div class="like-control" data-like-key="{{ include.group | escape }}:{{ include.item | escape }}" data-like-label="{{ include.label | escape }}">
+    <button type="button" aria-pressed="false" hidden>Like</button>
+    <small role="status"></small>
+  </div>
+{% endif %}

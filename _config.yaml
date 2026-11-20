@@ -19,6 +19,7 @@ google_site_verification: ""
 header: images/background.png
 footer: images/background.png
 proofer: false
+likes_endpoint: ""
 
 # site social media and other links
 links:

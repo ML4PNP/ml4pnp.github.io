@@ -17,7 +17,7 @@
 {% assign home_url = "/" | absolute_url %}
 {% assign organization_id = home_url | append: "#organization" %}
 {% assign website_id = home_url | append: "#website" %}
-{% assign icon = "images/icon.png" | absolute_url %}
+{% assign icon = "images/favicon.png" | absolute_url %}
 {% assign share = page.social_image | default: page.image | default: site.social_image | absolute_url %}
 {% assign share_alt = page.social_image_alt | default: title %}
 {% assign published = page.date | date_to_xmlschema %}
@@ -119,4 +119,4 @@
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="{{ brand | xml_escape }} news" href="{{ 'feed.xml' | absolute_url | xml_escape }}">
+<link rel="alternate" type="application/atom+xml" title="{{ brand | xml_escape }} news" href="{{ 'feed.xml' | absolute_url | xml_escape }}">

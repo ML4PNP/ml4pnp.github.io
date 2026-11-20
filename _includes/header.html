@@ -11,13 +11,14 @@
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for item in pages %}
+      {% if item.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          href="{{ item.dir | relative_url | uri_escape }}"
+          {% if page.url == item.url %}aria-current="page"{% endif %}
+          data-tooltip="{{ item.nav.tooltip | xml_escape }}"
         >
-          {{ page.title }}
+          {{ item.title }}
         </a>
       {% endif %}
     {% endfor %}

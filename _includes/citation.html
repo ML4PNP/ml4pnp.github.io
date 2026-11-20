@@ -10,7 +10,7 @@
 
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+    {% if include.style == "rich" and citation.image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
@@ -75,14 +75,15 @@
 
       {% if include.style == "rich" %}
         {% if citation.description %}
-          <div class="citation-description">
+          <details class="citation-description">
+            <summary>Abstract</summary>
             {{
               citation.description
               | markdownify
               | remove: "<p>"
               | remove: "</p>"
             }}
-          </div>
+          </details>
         {% endif %}
 
         {% if citation.buttons.size > 0 %}
@@ -99,6 +100,8 @@
             {% endfor %}
           </div>
         {% endif %}
+
+        {% include like.html group="publication" item=citation.id label=citation.title %}
 
         {% if citation.tags.size > 0 or citation.repo %}
           {% include tags.html tags=citation.tags repo=citation.repo %}

@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <main{% if page.url == "/" %} class="lab-home"{% endif %}>
+    <main{% if page.url == "/" %} class="lab-home"{% elsif page.nav %} class="section-index"{% endif %}>
       {% include content.html content=content %}
     </main>
     {% include footer.html %}

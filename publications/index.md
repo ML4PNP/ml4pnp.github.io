@@ -7,19 +7,19 @@ nav:
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-scroll" %}Publications
+# Publications
 
 Explore our research on normative modeling, EEG and MEG, and machine learning for neuropsychiatry. Find papers and available links to code, preprints, and other research outputs below.
 
 {% include section.html %}
 
-## Highlighted
+## Featured publication
 
 {% include citation.html lookup="Normative modeling of MEG" style="rich" %}
 
 {% include section.html %}
 
-## All
+## Publication archive
 
 {% include search-box.html %}
 

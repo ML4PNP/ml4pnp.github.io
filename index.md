@@ -23,6 +23,23 @@ seo_description: "ML4PNP at Tilburg University studies individual brain differen
 
 {% include section.html %}
 
+<div class="research-spotlight">
+  <div>
+    <h2>How do brain rhythms vary across the lifespan?</h2>
+    <p>Using resting-state MEG, we built reference charts that place an individual’s brain rhythms within the expected range for their age.</p>
+    <div class="study-links">
+      <a href="https://doi.org/10.1038/s42003-026-09825-2">Read the paper in <em>Communications Biology</em></a>
+      <a href="https://github.com/ML4PNP/MEGaNorm">MEGaNorm software</a>
+    </div>
+  </div>
+  <dl>
+    <div><dt>Study participants</dt><dd>1,846</dd></div>
+    <div><dt>Age range in years</dt><dd>6–88</dd></div>
+  </dl>
+</div>
+
+{% include section.html %}
+
 ## Our research
 
 {% capture col1 %}
@@ -67,7 +84,7 @@ Interested in collaborating on normative modeling, neuroimaging, or machine lear
 
 Students interested in thesis projects or research experience are welcome to contact us about possible opportunities. Tell us about your interests, background, and the period you have in mind.
 
-[Meet our team]({{ '/team/' | relative_url }}) · [Contact the lab]({{ '/contact/' | relative_url }})
+[Meet our team]({{ '/team/' | relative_url }}) · [Student and collaboration enquiries]({{ '/contact/' | relative_url }})
 
 {% include section.html %}
 

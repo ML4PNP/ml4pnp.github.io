@@ -7,7 +7,7 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# Team
 
 We are an interdisciplinary team of researchers, PhD candidates, and students combining machine learning and neuroimaging expertise to advance precision neuropsychiatry.
 
@@ -17,7 +17,7 @@ We are an interdisciplinary team of researchers, PhD candidates, and students co
 
 {% include section.html %}
 
-# {% include icon.html icon="fa-solid fa-user-graduate" %}Alumni
+## Alumni
 
 Former members who have contributed to our research and lab community.
 
@@ -25,11 +25,11 @@ Former members who have contributed to our research and lab community.
 
 {% include section.html %}
 
-# {% include icon.html icon="fa-solid fa-up-right-from-square" %}Collaborators
+## Collaborators
 
 {% assign sorted_collaborators = site.data.collaborators | sort: "last_name" %}
 
-<ul class="list-unstyled">
+<ul class="collaborator-list">
   {% for collaborator in sorted_collaborators %}
     <li class="mb-2">
       <a href="{{ collaborator.url }}" target="_blank" rel="noopener">

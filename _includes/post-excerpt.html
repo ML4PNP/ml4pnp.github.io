@@ -14,7 +14,7 @@
     {% assign title = post.title %}
     {% assign image = post.image | relative_url | uri_escape %}
 
-    {% if image %}
+    {% if post.image %}
       <a
         href="{{ url }}"
         class="post-excerpt-image"

@@ -7,7 +7,7 @@ nav:
   tooltip: Software, tools, and packages
 ---
 
-# {% include icon.html icon="fa-solid fa-box" %}Software
+# Software
 
 We build open-source tools for reproducible neuroimaging research. MEGaNorm connects EEG and MEG processing with normative modeling, and we contribute to PCNtoolkit for modeling individual variation in brain data.
 

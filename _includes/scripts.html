@@ -1,3 +1,7 @@
+{% if site.likes_endpoint and site.likes_endpoint != "" %}
+  <script defer src="{{ '/assets/likes.js' | relative_url }}" data-likes-api="{{ site.likes_endpoint | escape }}"></script>
+{% endif %}
+
 <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>

@@ -42,6 +42,9 @@
       </p>
     {% endif %}
 
+    {% assign item_key = include.link | default: include.title %}
+    {% include like.html group=page.dir item=item_key label=include.title %}
+
     {% if include.tags or include.repo %}
       {% include tags.html tags=include.tags repo=include.repo %}
     {% endif %}

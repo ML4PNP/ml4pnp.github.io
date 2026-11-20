@@ -28,6 +28,8 @@ layout: default
   {% endunless %}
 {% endif %}
 {{ content }}
+{% include like.html group="news" item=page.url label=page.title %}
+{% include news-feed.html %}
 </article>
 
 {% include section.html %}
