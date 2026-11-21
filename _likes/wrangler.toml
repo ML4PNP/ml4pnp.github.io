@@ -1,0 +1,14 @@
+name = "ml4pnp-likes"
+main = "worker.mjs"
+compatibility_date = "2025-09-01"
+
+[vars]
+SITE_ORIGIN = "https://ml4pnp.github.io"
+
+[observability]
+enabled = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ml4pnp-likes"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

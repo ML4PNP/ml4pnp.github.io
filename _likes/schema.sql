@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS likes (
+  item TEXT NOT NULL,
+  token TEXT NOT NULL,
+  PRIMARY KEY (item, token)
+) WITHOUT ROWID;

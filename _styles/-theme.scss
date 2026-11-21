@@ -3,34 +3,34 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
+  --primary: #376453;
+  --secondary: #c3d7cc;
+  --text: #1d2924;
+  --background: #fafaf6;
+  --background-alt: #eff2ed;
+  --light-gray: #cbd4cc;
+  --gray: #67736b;
+  --dark-gray: #48564d;
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
+  --primary: #a2c8b4;
+  --secondary: #384e42;
+  --text: #e7ece6;
+  --background: #17201c;
+  --background-alt: #1e2a24;
+  --light-gray: #3e4e44;
+  --gray: #a3b1a8;
+  --dark-gray: #becac1;
   --overlay: #ffffff10;
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
-  --code: "Roboto Mono", monospace;
+  --title: "Spectral", Georgia, serif;
+  --heading: "Source Sans 3", system-ui, sans-serif;
+  --body: "Source Sans 3", system-ui, sans-serif;
+  --code: ui-monospace, monospace;
 
   // font sizes
   --large: 1.2rem;

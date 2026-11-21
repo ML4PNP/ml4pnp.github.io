@@ -7,7 +7,7 @@ nav:
   tooltip: Our Projects
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# Projects
 
 Our projects study individual differences in brain activity and develop machine learning methods for healthcare. Explore our work on lifespan brain dynamics with MEGaNorm, language-related EEG responses with P600Norm, and applications in personalized care and nurse staffing.
 
@@ -23,6 +23,6 @@ Our projects study individual differences in brain activity and develop machine 
 
 {% include section.html %}
 
-## More
+## Other projects
 
 {% include list.html component="card" data="projects" filter="!group" style="small" %}

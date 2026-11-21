@@ -1,19 +1,21 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" | regex_strip }}"
-    class="card-image"
-  >
-    <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
-      loading="lazy"
-      {% include fallback.html %}
+  {% if include.image %}
+    <a
+      {% if include.link %}
+        href="{{ include.link | relative_url | uri_escape }}"
+      {% endif %}
+      aria-label="{{ include.title | default: "card link" | regex_strip }}"
+      class="card-image"
     >
-  </a>
+      <img
+        src="{{ include.image | relative_url | uri_escape }}"
+        alt="{{ include.title | default: "card image" | regex_strip }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </a>
+  {% endif %}
 
   <div class="card-text">
     {% if include.title %}
@@ -39,6 +41,9 @@
         {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
+
+    {% assign item_key = include.link | default: include.title %}
+    {% include like.html group=page.dir item=item_key label=include.title %}
 
     {% if include.tags or include.repo %}
       {% include tags.html tags=include.tags repo=include.repo %}

@@ -7,36 +7,24 @@ nav:
   tooltip: Email, address, and location
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# Contact the lab
 
-This page provides contact information for the ML4PNP lab. Please use the details below for general inquiries, collaboration opportunities, student positions, or questions related to our research, software, and projects.
+We welcome enquiries about research collaborations, open-source software, and student research at Tilburg University.
 
-{%
-  include button.html
-  type="email"
-  text="Email"
-  link="s.m.kia@tilburguniversity.edu"
-%}
+## Research collaborations
 
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps"
-  link="https://maps.app.goo.gl/drfSZ37AKYJ2FjAbA"
-%}
+For a joint study, tell us about your research question, the data or methods involved, and where you see a connection with [our projects]({{ '/projects/' | relative_url }}).
 
-{% include section.html dark=true %}
+## Student research
 
-{% capture col1 %}
-Department of Intelligent Syetems, Tilburg School of Humanities and Digital Science, Tilburg University.
-{% endcapture %}
+If you are interested in a thesis or research placement, include your programme, the research topic that interests you, and your preferred dates. [Meet the team]({{ '/team/' | relative_url }}) to explore our research interests.
 
-{% capture col2 %}
-Visiting Address: Dante Building, Warandelaan 2, 5037 AB Tilburg, the Netherlands.
-{% endcapture %}
+[Email the lab at {{ site.links.email }}](mailto:{{ site.links.email }})
 
-{% capture col3 %}
-Phone: +31 (0)13 - 466 8118, E-mail: tshd.dca@tilburguniversity.edu
-{% endcapture %}
+{% include section.html %}
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+## Visit us
+
+Dante Building, Warandelaan 2, 5037 AB Tilburg, the Netherlands. [View the map](https://maps.app.goo.gl/drfSZ37AKYJ2FjAbA).
+
+Tilburg School of Humanities and Digital Sciences, Tilburg University. For school enquiries, email [tshd.dca@tilburguniversity.edu](mailto:tshd.dca@tilburguniversity.edu) or call +31 (0)13 466 8118.

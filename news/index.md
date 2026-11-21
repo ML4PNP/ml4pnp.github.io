@@ -7,9 +7,11 @@ nav:
   tooltip: news and updates
 ---
 
-# {% include icon.html icon="fa-regular fa-newspaper" %}News
+# News
 
 Follow life at ML4PNP: new research, software releases, experiments at MindLabs, lab visitors, and updates from our team.
+
+{% include news-feed.html %}
 
 {% include section.html %}
 

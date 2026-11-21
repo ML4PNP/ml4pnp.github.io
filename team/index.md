@@ -7,29 +7,33 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# Team
 
 We are an interdisciplinary team of researchers, PhD candidates, and students combining machine learning and neuroimaging expertise to advance precision neuropsychiatry.
 
 {% include section.html %}
 
+<div class="team-grid">
 {% include list.html data="members" component="portrait" sort="order" filter="group != 'alumni'" %}
+</div>
 
 {% include section.html %}
 
-# {% include icon.html icon="fa-solid fa-user-graduate" %}Alumni
+## Alumni
 
 Former members who have contributed to our research and lab community.
 
+<div class="team-grid">
 {% include list.html data="members" component="portrait" sort="order" filter="group == 'alumni'" %}
+</div>
 
-{% include section.html background="images/background.png" dark=true %}
+{% include section.html %}
 
-# {% include icon.html icon="fa-solid fa-up-right-from-square" %}Collaborators
+## Collaborators
 
 {% assign sorted_collaborators = site.data.collaborators | sort: "last_name" %}
 
-<ul class="list-unstyled">
+<ul class="collaborator-list">
   {% for collaborator in sorted_collaborators %}
     <li class="mb-2">
       <a href="{{ collaborator.url }}" target="_blank" rel="noopener">
@@ -49,15 +53,3 @@ Former members who have contributed to our research and lab community.
     </li>
   {% endfor %}
 </ul>
-
-{% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}

@@ -3,23 +3,44 @@ seo_title: "ML4PNP | Machine Learning for Precision Neuropsychiatry"
 seo_description: "ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare."
 ---
 
-# Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab
+<div class="lab-intro">
+  <div>
+    <h1><span>Machine Learning for</span> <em>Precision Neuropsychiatry</em></h1>
+    <p>How does each person’s brain differ, and what can those differences tell us about brain health? At Tilburg University, we use machine learning with EEG, MEG, and MRI to study individual variation across the lifespan.</p>
+    <div class="intro-links">
+      <a href="{{ '/projects/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/software/' | relative_url }}">Software</a>
+    </div>
+  </div>
+  <figure>
+    <a href="{% post_url 2026-10-09-p600-mindlab %}">
+      <img src="{{ '/images/p600norm-recording.webp' | relative_url }}" width="831" height="464" alt="Participant wearing an EEG cap at the recording workstation at MindLabs">
+    </a>
+    <figcaption>P600Norm at MindLabs · Photograph by BRIX</figcaption>
+  </figure>
+</div>
 
-How does each person's brain differ, and what can those differences tell us about brain health? At ML4PNP, we combine machine learning with EEG, MEG, and MRI to study individual variation in brain structure and function. We build normative models and open-source tools to support research toward more personalized mental health care. We are based at **Tilburg University**, bringing together expertise in machine learning, neuroimaging, and clinical neuroscience.
+{% include section.html %}
 
-{% include button.html link="/projects/" text="Explore our research" tooltip="Explore our research projects" icon="fa-solid fa-arrow-right" %}
-{% include button.html link="/software/" text="Use our software" tooltip="Explore our open-source software" icon="fa-solid fa-code" %}
+<div class="research-spotlight">
+  <div>
+    <h2>How do brain rhythms vary across the lifespan?</h2>
+    <p>Using resting-state MEG, we built reference charts that place an individual’s brain rhythms within the expected range for their age.</p>
+    <div class="study-links">
+      <a href="https://doi.org/10.1038/s42003-026-09825-2">Read the paper in <em>Communications Biology</em></a>
+      <a href="https://github.com/ML4PNP/MEGaNorm">MEGaNorm software</a>
+    </div>
+  </div>
+  <dl>
+    <div><dt>Study participants</dt><dd>1,846</dd></div>
+    <div><dt>Age range in years</dt><dd>6–88</dd></div>
+  </dl>
+</div>
 
 {% include section.html %}
 
 ## Our research
-
-{% capture research_image_link %}{% post_url 2026-10-09-p600-mindlab %}{% endcapture %}
-{% include figure.html
-  image="images/research.png"
-  link="/projects/"
-  width="1000px"
-%}
 
 {% capture col1 %}
 ### Normative Modeling
@@ -43,50 +64,6 @@ We develop and study machine learning methods for personalized care and clinical
 
 {% include section.html %}
 
-## Explore the lab
-
-{% capture text %}
-
-Our projects map individual differences in brain activity and explore machine learning for healthcare. MEGaNorm studies brain rhythms across the lifespan, while P600Norm investigates language-related brain responses using stationary and portable EEG.
-
-{% include button.html link="/projects/" text="Browse our projects" tooltip="Browse our research projects" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
-
-{% endcapture %}
-
-{% include feature.html image="images/projects.png" link="/projects/" title="Our Projects" flip=true style="bare" text=text %}
-
-{% capture text %}
-
-Meet the researchers and students behind our models, software, and experiments. Our team brings together expertise in machine learning, neuroimaging, and clinical neuroscience at Tilburg University.
-
-{% include button.html link="/team/" text="Meet our team" tooltip="Meet the ML4PNP team" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
-
-{% endcapture %}
-
-{% include feature.html image="images/team.png" link="/team/" title="Our Team" style="bare" text=text %}
-
-{% capture text %}
-
-Use our open-source tools for reproducible neuroimaging research. MEGaNorm connects EEG and MEG processing with normative modeling, and our contributions to PCNtoolkit support the study of individual variation in brain data.
-
-{% include button.html link="/software/" text="Browse our software" tooltip="Browse our open-source software" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
-
-{% endcapture %}
-
-{% include feature.html image="images/software.png" link="/software/" title="Our Software" flip=true style="bare" text=text %}
-
-{% capture text %}
-
-Read our work on normative brain modeling, EEG and MEG, and machine learning for neuropsychiatry. Explore findings on lifespan brain dynamics alongside methods and tools for studying individual differences.
-
-{% include button.html link="/publications/" text="See our publications" tooltip="Read our research publications" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
-
-{% endcapture %}
-
-{% include feature.html image="images/publications.png" link="/publications/" title="Our Publications" style="bare" text=text %}
-
-{% include section.html %}
-
 ## Latest from the lab
 
 {% for news_post in site.posts limit:3 %}
@@ -107,7 +84,7 @@ Interested in collaborating on normative modeling, neuroimaging, or machine lear
 
 Students interested in thesis projects or research experience are welcome to contact us about possible opportunities. Tell us about your interests, background, and the period you have in mind.
 
-[Meet our team]({{ '/team/' | relative_url }}) · [Contact the lab]({{ '/contact/' | relative_url }})
+[Meet our team]({{ '/team/' | relative_url }}) · [Student and collaboration enquiries]({{ '/contact/' | relative_url }})
 
 {% include section.html %}
 
