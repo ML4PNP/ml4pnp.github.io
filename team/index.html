@@ -39,7 +39,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Team and Alumni | ML4PNP</title>
-<link rel="icon" href="https://ml4pnp.github.io/images/icon.png">
+<link rel="icon" href="https://ml4pnp.github.io/images/favicon.png">
 <link rel="canonical" href="https://ml4pnp.github.io/team/">
 <meta name="description" content="Meet the researchers, students, alumni, and collaborators of ML4PNP, the precision neuropsychiatry machine learning lab at Tilburg University.">
 
@@ -101,13 +101,10 @@
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Spectral:ital,wght@0,400;0,500;1,400&amp;display=swap">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -176,11 +173,11 @@
   
 
   
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
-    <link href="/_styles/details.css" rel="stylesheet">
+    <link href="/_styles/editorial.css" rel="stylesheet">
   
 
   
@@ -362,7 +359,9 @@
 
 
 
-  <!-- third party scripts -->
+  
+
+<!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
@@ -388,38 +387,15 @@
 </head>
 
   <body>
-    
-
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.png')" data-dark="true">
-  <a href="/" class="home">
-    
-      <span class="logo">
-        
-          <img src="/images/logo.png" alt="logo">
-        
-      </span>
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">Machine Learning for Precision Neuropsychiatry</span>
-        
-        
-          <span class="subtitle">ML4PNP</span>
-        
-      </span>
-    
+    <header class="background">
+  <a href="/" class="home" aria-label="ML4PNP home">
+    <img src="/images/lab-mark.webp" width="40" height="40" alt="">
+    <strong>ML4PNP</strong>
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="Main navigation">
     
     
       
@@ -435,7 +411,7 @@
       
     
       
-        <a href="/team/" data-tooltip="About our team">
+        <a href="/team/" aria-current="page" data-tooltip="About our team">
           Team
         </a>
       
@@ -459,9 +435,14 @@
       
     
   </nav>
+  <select id="theme-choice" aria-label="Colour theme" title="Auto uses Dark from 20:00 to 07:00 local time and follows your device during the day">
+    <option value="auto">Auto</option>
+    <option value="day">Day</option>
+    <option value="dark">Dark</option>
+  </select>
 </header>
 
-    <main>
+    <main class="section-index">
       <!--
   modify main content of page:
   - add section breaks
@@ -479,8 +460,7 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="team">
-<i class="icon fa-solid fa-users"></i>Team</h1>
+    <h1 id="team">Team</h1>
 
 <p>We are an interdisciplinary team of researchers, PhD candidates, and students combining machine learning and neuroimaging expertise to advance precision neuropsychiatry.</p>
   </section>
@@ -496,13 +476,33 @@
   <size></size>
 -->
 
+<div class="team-grid">
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/seyed-mostafa-kia.html" class="portrait" data-style="" aria-label="Seyed Mostafa Kia">
     
       <i class="icon fa-solid fa-microscope"></i>
     
 
-    <img src="/images/smkia.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/smkia.jpg" class="portrait-image" alt="Seyed Mostafa Kia" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -524,13 +524,20 @@
   </a>
 </div>
 
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/melissa-zandstra.html" class="portrait" data-style="" aria-label="Melissa Zandstra">
     
       <i class="icon fa-solid fa-glasses"></i>
     
 
-    <img src="/images/mzandstra.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/mzandstra.jpg" class="portrait-image" alt="Melissa Zandstra" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -552,13 +559,20 @@
   </a>
 </div>
 
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/mohammad-zamanzadeh.html" class="portrait" data-style="" aria-label="Mohammad Zamanzadeh">
     
       <i class="icon fa-solid fa-graduation-cap"></i>
     
 
-    <img src="/images/mzaman.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/mzaman.jpg" class="portrait-image" alt="Mohammad Zamanzadeh" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -580,13 +594,20 @@
   </a>
 </div>
 
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/ymke-verduyn.html" class="portrait" data-style="" aria-label="Ymke Verduyn">
     
       <i class="icon fa-solid fa-graduation-cap"></i>
     
 
-    <img src="/images/yverduyn.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/yverduyn.jpg" class="portrait-image" alt="Ymke Verduyn" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -608,13 +629,20 @@
   </a>
 </div>
 
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/kateryna-skurativska.html" class="portrait" data-style="" aria-label="Kateryna Skurativska">
     
       <i class="icon fa-solid fa-graduation-cap"></i>
     
 
-    <img src="/images/kskurativska.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/kskurativska.jpg" class="portrait-image" alt="Kateryna Skurativska" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -636,13 +664,20 @@
   </a>
 </div>
 
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/daniel-pucatilu.html" class="portrait" data-style="" aria-label="Daniel-Mihai Pocatilu">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
 
-    <img src="/images/dpocatilu.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/dpocatilu.jpeg" class="portrait-image" alt="Daniel-Mihai Pocatilu" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -664,13 +699,20 @@
   </a>
 </div>
 
+  
+    
+
+    
+
+
+
 <div class="portrait-wrapper">
   <a href="/members/roos-piersma.html" class="portrait" data-style="" aria-label="Roos Piersma">
     
       <i class="icon fa-solid fa-user-graduate"></i>
     
 
-    <img src="/images/rpiersma.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/rpiersma.jpeg" class="portrait-image" alt="Roos Piersma" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -691,6 +733,11 @@
     
   </a>
 </div>
+
+  
+
+
+</div>
   </section>
 
   
@@ -704,10 +751,29 @@
   <size></size>
 -->
 
-<h1 id="alumni">
-<i class="icon fa-solid fa-user-graduate"></i>Alumni</h1>
+<h2 id="alumni">Alumni</h2>
 
 <p>Former members who have contributed to our research and lab community.</p>
+
+<div class="team-grid">
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+    
+
+    
+
+
 
 <div class="portrait-wrapper">
   <a href="/members/maria-ene.html" class="portrait" data-style="" aria-label="Maria Ene">
@@ -715,7 +781,7 @@
       <i class="icon fa-solid fa-user-graduate"></i>
     
 
-    <img src="/images/mene.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/mene.jpg" class="portrait-image" alt="Maria Ene" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
       <span class="portrait-name">
@@ -736,23 +802,27 @@
     
   </a>
 </div>
+
+  
+
+
+</div>
   </section>
 
   
   
   
 
-  <section class="background" data-size="2" data-dark="true" style="--image: url('/images/background.png')">
+  <section class="background" data-size="page">
     <!--
-  <background>images/background.png</background>
-  <dark>true</dark>
-  <size>2</size>
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
-<h1 id="collaborators">
-<i class="icon fa-solid fa-up-right-from-square"></i>Collaborators</h1>
+<h2 id="collaborators">Collaborators</h2>
 
-<ul class="list-unstyled">
+<ul class="collaborator-list">
   
     <li class="mb-2">
       <a href="https://hbrouwer.github.io/" target="_blank" rel="noopener">
@@ -995,65 +1065,9 @@
 </ul>
   </section>
 
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<div class="grid" data-style="square">
-  
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/photo.jpg" style="
-        width: auto;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/photo.jpg" style="
-        width: auto;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/photo.jpg" style="
-        width: auto;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-</figure>
-
-
-</div>
-  </section>
-
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
+    <footer class="background" data-size="wide">
   <div>
     
       
@@ -1096,8 +1110,6 @@
       Tilburg University
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

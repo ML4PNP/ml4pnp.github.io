@@ -39,7 +39,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Welcome Kateryna Skurativska to ML4PNP! | ML4PNP</title>
-<link rel="icon" href="https://ml4pnp.github.io/images/icon.png">
+<link rel="icon" href="https://ml4pnp.github.io/images/favicon.png">
 <link rel="canonical" href="https://ml4pnp.github.io/2026/09/04/Kateryna.html">
 <meta name="description" content="We are very happy to welcome Kateryna Skurativska as a new PhD candidate in the Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab at Tilburg University.">
 
@@ -61,7 +61,7 @@
 
   <meta name="author" content="S.M. Kia">
   <meta property="article:published_time" content="2026-09-04T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-11-04T06:38:03+00:00">
+  <meta property="article:modified_time" content="2026-11-21T00:27:48+00:00">
 
 
 <script type="application/ld+json">
@@ -102,7 +102,7 @@
       
       "headline": "Welcome Kateryna Skurativska to ML4PNP!",
       "datePublished": "2026-09-04T00:00:00+00:00",
-      "dateModified": "2026-11-04T06:38:03+00:00",
+      "dateModified": "2026-11-21T00:27:48+00:00",
       "mainEntityOfPage": "https://ml4pnp.github.io/2026/09/04/Kateryna.html",
       
       "author": [
@@ -137,13 +137,10 @@
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Spectral:ital,wght@0,400;0,500;1,400&amp;display=swap">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -212,11 +209,11 @@
   
 
   
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
-    <link href="/_styles/details.css" rel="stylesheet">
+    <link href="/_styles/editorial.css" rel="stylesheet">
   
 
   
@@ -344,7 +341,9 @@
 
 
 
-  <!-- third party scripts -->
+  
+
+<!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
@@ -370,38 +369,15 @@
 </head>
 
   <body>
-    
-
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.png')" data-dark="true">
-  <a href="/" class="home">
-    
-      <span class="logo">
-        
-          <img src="/images/logo.png" alt="logo">
-        
-      </span>
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">Machine Learning for Precision Neuropsychiatry</span>
-        
-        
-          <span class="subtitle">ML4PNP</span>
-        
-      </span>
-    
+    <header class="background">
+  <a href="/" class="home" aria-label="ML4PNP home">
+    <img src="/images/lab-mark.webp" width="40" height="40" alt="">
+    <strong>ML4PNP</strong>
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="Main navigation">
     
     
       
@@ -441,6 +417,11 @@
       
     
   </nav>
+  <select id="theme-choice" aria-label="Colour theme" title="Auto uses Dark from 20:00 to 07:00 local time and follows your device during the day">
+    <option value="auto">Auto</option>
+    <option value="day">Day</option>
+    <option value="dark">Dark</option>
+  </select>
 </header>
 
     <main>
@@ -460,15 +441,18 @@
   
   
 
-  <section class="background" data-size="1" style="--image: url('/images/kskurativska.jpg')">
+  <section class="background" data-size="page">
     <!--
-  <background>images/kskurativska.jpg</background>
+  <background></background>
   <dark></dark>
-  <size>1</size>
+  <size></size>
 -->
 
 
-<h1 class="center">Welcome Kateryna Skurativska to ML4PNP!</h1>
+<div class="news-heading">
+<a href="/news/">Lab news</a>
+
+<h1>Welcome Kateryna Skurativska to ML4PNP!</h1>
 
 <div class="post-info">
   
@@ -497,7 +481,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>November 04, 2026</span>
+      <span>November 21, 2026</span>
     </span>
   
 </div>
@@ -508,11 +492,16 @@
 
   <div class="tags">
     
-      <a href="/blog?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
+      <a href="/news/?search=%22tag:%20news%22" class="tag" data-tooltip='Show items with the tag "news"'>
         news
       </a>
     
   </div>
+
+
+
+
+</div>
   </section>
 
   
@@ -527,6 +516,12 @@
 -->
 
 
+<article class="news-body">
+
+  
+    <img class="news-photo" src="/images/kskurativska.jpg" alt="">
+  
+
 <p>We are very happy to welcome <strong><a href="https://ml4pnp.github.io/members/kateryna-skurativska.html">Kateryna Skurativska</a></strong> as a new PhD candidate in the <strong>Machine Learning for Precision Neuropsychiatry (ML4PNP) Lab</strong> at Tilburg University.</p>
 
 <p>Kateryna joins us as a doctoral fellow in the European <strong><a href="https://indibrain.eu/">IndiBrain Doctoral Network</a></strong>, which aims to understand individual differences in brain plasticity and dynamics and use this knowledge to advance personalized neuroscience.</p>
@@ -540,6 +535,13 @@
 <p>Before joining Tilburg University, Kateryna completed her Master’s degree in Data Science at the University of Padua, where she worked with neuroimaging data and machine learning to predict Autism Spectrum Disorder.</p>
 
 <p>Welcome to the team, Kateryna! We look forward to the exciting research ahead.</p>
+
+
+
+<p class="news-feed"><a href="/feed.xml">Subscribe to lab news</a><br>
+Add this feed link to your RSS or Atom reader to receive new posts.</p>
+
+</article>
   </section>
 
   
@@ -576,16 +578,7 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
+    <footer class="background" data-size="wide">
   <div>
     
       
@@ -628,8 +621,6 @@
       Tilburg University
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

@@ -39,7 +39,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>404 | ML4PNP</title>
-<link rel="icon" href="https://ml4pnp.github.io/images/icon.png">
+<link rel="icon" href="https://ml4pnp.github.io/images/favicon.png">
 <link rel="canonical" href="https://ml4pnp.github.io/404.html">
 <meta name="description" content="ML4PNP at Tilburg University develops normative brain models and open-source EEG, MEG, and MRI tools for research in precision neuropsychiatry.">
 
@@ -101,13 +101,10 @@
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Spectral:ital,wght@0,400;0,500;1,400&amp;display=swap">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -176,11 +173,11 @@
   
 
   
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
-    <link href="/_styles/details.css" rel="stylesheet">
+    <link href="/_styles/editorial.css" rel="stylesheet">
   
 
   
@@ -310,7 +307,9 @@
 
 
 
-  <!-- third party scripts -->
+  
+
+<!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
@@ -336,38 +335,15 @@
 </head>
 
   <body>
-    
-
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.png')" data-dark="true">
-  <a href="/" class="home">
-    
-      <span class="logo">
-        
-          <img src="/images/logo.png" alt="logo">
-        
-      </span>
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">Machine Learning for Precision Neuropsychiatry</span>
-        
-        
-          <span class="subtitle">ML4PNP</span>
-        
-      </span>
-    
+    <header class="background">
+  <a href="/" class="home" aria-label="ML4PNP home">
+    <img src="/images/lab-mark.webp" width="40" height="40" alt="">
+    <strong>ML4PNP</strong>
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="Main navigation">
     
     
       
@@ -407,6 +383,11 @@
       
     
   </nav>
+  <select id="theme-choice" aria-label="Colour theme" title="Auto uses Dark from 20:00 to 07:00 local time and follows your device during the day">
+    <option value="auto">Auto</option>
+    <option value="day">Day</option>
+    <option value="dark">Dark</option>
+  </select>
 </header>
 
     <main>
@@ -442,16 +423,7 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
+    <footer class="background" data-size="wide">
   <div>
     
       
@@ -494,8 +466,6 @@
       Tilburg University
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

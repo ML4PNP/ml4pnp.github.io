@@ -39,7 +39,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research Publications | ML4PNP</title>
-<link rel="icon" href="https://ml4pnp.github.io/images/icon.png">
+<link rel="icon" href="https://ml4pnp.github.io/images/favicon.png">
 <link rel="canonical" href="https://ml4pnp.github.io/publications/">
 <meta name="description" content="Read ML4PNP publications on normative brain modeling, EEG, MEG, MRI, and machine learning for precision neuropsychiatry.">
 
@@ -101,13 +101,10 @@
   ]
 }
 </script>
-<link rel="alternate" type="application/rss+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="ML4PNP news" href="https://ml4pnp.github.io/feed.xml">
 
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&amp;family=Spectral:ital,wght@0,400;0,500;1,400&amp;display=swap">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -176,11 +173,11 @@
   
 
   
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
-    <link href="/_styles/details.css" rel="stylesheet">
+    <link href="/_styles/editorial.css" rel="stylesheet">
   
 
   
@@ -362,7 +359,9 @@
 
 
 
-  <!-- third party scripts -->
+  
+
+<!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
 <script src="https://unpkg.com/mark.js@8" defer></script>
@@ -388,38 +387,15 @@
 </head>
 
   <body>
-    
-
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.png')" data-dark="true">
-  <a href="/" class="home">
-    
-      <span class="logo">
-        
-          <img src="/images/logo.png" alt="logo">
-        
-      </span>
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">Machine Learning for Precision Neuropsychiatry</span>
-        
-        
-          <span class="subtitle">ML4PNP</span>
-        
-      </span>
-    
+    <header class="background">
+  <a href="/" class="home" aria-label="ML4PNP home">
+    <img src="/images/lab-mark.webp" width="40" height="40" alt="">
+    <strong>ML4PNP</strong>
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show navigation" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="Main navigation">
     
     
       
@@ -441,7 +417,7 @@
       
     
       
-        <a href="/publications/" data-tooltip="Published works">
+        <a href="/publications/" aria-current="page" data-tooltip="Published works">
           Publications
         </a>
       
@@ -459,9 +435,14 @@
       
     
   </nav>
+  <select id="theme-choice" aria-label="Colour theme" title="Auto uses Dark from 20:00 to 07:00 local time and follows your device during the day">
+    <option value="auto">Auto</option>
+    <option value="day">Day</option>
+    <option value="dark">Dark</option>
+  </select>
 </header>
 
-    <main>
+    <main class="section-index">
       <!--
   modify main content of page:
   - add section breaks
@@ -479,8 +460,7 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="publications">
-<i class="icon fa-solid fa-scroll"></i>Publications</h1>
+    <h1 id="publications">Publications</h1>
 
 <p>Explore our research on normative modeling, EEG and MEG, and machine learning for neuropsychiatry. Find papers and available links to code, preprints, and other research outputs below.</p>
   </section>
@@ -496,7 +476,7 @@
   <size></size>
 -->
 
-<h2 id="highlighted">Highlighted</h2>
+<h2 id="featured-publication">Featured publication</h2>
 
 <div class="citation-container">
   <div class="citation">
@@ -529,10 +509,11 @@
 
       
         
-          <div class="citation-description">
+          <details class="citation-description">
+            <summary>Abstract</summary>
             Normative modeling provides a principled framework for quantifying individual deviations from typical brain development and is increasingly used to study heterogeneity in neuropsychiatric conditions. While widely applied to structural phenotypes, functional normative models remain underdeveloped. Here, we introduce MEGaNorm, the first normative modeling framework for charting lifespan trajectories of resting-state magnetoencephalography (MEG) brain oscillations. Using a large, multi-site dataset comprising 1,846 individuals aged 6–88 and spanning three MEG systems, we model relative oscillatory power in canonical frequency bands using hierarchical Bayesian regression, accounting for age, sex, and site effects. To support interpretation at multiple scales, we introduce Neuro-Oscillo Charts, visual tools that summarize normative trajectories at the population level and quantify individual-level deviations, enabling personalized assessment of functional brain dynamics. Applying this framework to a Parkinson’s disease cohort (n = 160), we show that normative deviation scores reveal disease-related abnormalities and uncover a continuum of patients in theta–beta deviation space. This work provides the first lifespan-encompassing normative reference for MEG oscillations, enabling population-level characterization and individualized benchmarking. All models and tools are openly available and designed for federated, continual adaptation as new data become available, offering a scalable resource for precision neuropsychiatry.
 
-          </div>
+          </details>
         
 
         
@@ -587,6 +568,9 @@
         
 
         
+
+
+        
           
 
 
@@ -613,7 +597,7 @@
   <size></size>
 -->
 
-<h2 id="all">All</h2>
+<h2 id="publication-archive">Publication archive</h2>
 
 <div class="search-box">
   <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
@@ -628,10 +612,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hcmrq7" class="citation-image" aria-label="The Combined Effects of Prefrontal tDCS and Slow Paced Breathing on Stress and Emotions">
-        <img src="" alt="The Combined Effects of Prefrontal tDCS and Slow Paced Breathing on Stress and Emotions" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -661,6 +641,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -668,10 +651,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hchpcf" class="citation-image" aria-label="Beyond seeing only illness in abnormality: Clinical challenges and methodological promises on the road towards precision psychiatry">
-        <img src="" alt="Beyond seeing only illness in abnormality: Clinical challenges and methodological promises on the road towards precision psychiatry" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -701,6 +680,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -708,10 +690,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbrm7s" class="citation-image" aria-label="Multiscale Heterogeneity of White Matter Morphometry in Psychiatric Disorders">
-        <img src="" alt="Multiscale Heterogeneity of White Matter Morphometry in Psychiatric Disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -741,6 +719,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -748,10 +729,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hcfw2v" class="citation-image" aria-label="Multiscale heterogeneity of atypical functional connectivity in autism">
-        <img src="" alt="Multiscale heterogeneity of atypical functional connectivity in autism" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -781,6 +758,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -788,10 +768,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hb6c44" class="citation-image" aria-label="Lifespan normative modeling of brain microstructure">
-        <img src="" alt="Lifespan normative modeling of brain microstructure" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -819,6 +795,9 @@
         
 
         
+
+        
+
 
         
       
@@ -857,10 +836,11 @@
 
       
         
-          <div class="citation-description">
+          <details class="citation-description">
+            <summary>Abstract</summary>
             Normative modeling provides a principled framework for quantifying individual deviations from typical brain development and is increasingly used to study heterogeneity in neuropsychiatric conditions. While widely applied to structural phenotypes, functional normative models remain underdeveloped. Here, we introduce MEGaNorm, the first normative modeling framework for charting lifespan trajectories of resting-state magnetoencephalography (MEG) brain oscillations. Using a large, multi-site dataset comprising 1,846 individuals aged 6–88 and spanning three MEG systems, we model relative oscillatory power in canonical frequency bands using hierarchical Bayesian regression, accounting for age, sex, and site effects. To support interpretation at multiple scales, we introduce Neuro-Oscillo Charts, visual tools that summarize normative trajectories at the population level and quantify individual-level deviations, enabling personalized assessment of functional brain dynamics. Applying this framework to a Parkinson’s disease cohort (n = 160), we show that normative deviation scores reveal disease-related abnormalities and uncover a continuum of patients in theta–beta deviation space. This work provides the first lifespan-encompassing normative reference for MEG oscillations, enabling population-level characterization and individualized benchmarking. All models and tools are openly available and designed for federated, continual adaptation as new data become available, offering a scalable resource for precision neuropsychiatry.
 
-          </div>
+          </details>
         
 
         
@@ -915,6 +895,9 @@
         
 
         
+
+
+        
           
 
 
@@ -931,10 +914,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbrm7t" class="citation-image" aria-label="Vital-affective symptom connectivity during electroconvulsive therapy distinguishes depression remission outcomes: A cross-lagged panel network study">
-        <img src="" alt="Vital-affective symptom connectivity during electroconvulsive therapy distinguishes depression remission outcomes: A cross-lagged panel network study" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -964,6 +943,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -971,10 +953,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbn7k2" class="citation-image" aria-label="Symptom Network Dynamics during Antipsychotic Treatment in First-Episode Psychosis">
-        <img src="" alt="Symptom Network Dynamics during Antipsychotic Treatment in First-Episode Psychosis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1004,6 +982,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1013,10 +994,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbrm7r" class="citation-image" aria-label="Structural brain abnormalities and aggression in schizophrenia: mega-analysis of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium">
-        <img src="" alt="Structural brain abnormalities and aggression in schizophrenia: mega-analysis of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1046,6 +1023,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1053,10 +1033,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbn7k3" class="citation-image" aria-label="Reliability and state-dependency of EEG connectivity, complexity and network characteristics">
-        <img src="" alt="Reliability and state-dependency of EEG connectivity, complexity and network characteristics" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1086,6 +1062,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1093,10 +1072,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbj4x7" class="citation-image" aria-label="MEGaNorm: Normative Modeling of MEG Brain Oscillations Across the Human Lifespan">
-        <img src="" alt="MEGaNorm: Normative Modeling of MEG Brain Oscillations Across the Human Lifespan" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1126,6 +1101,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1133,10 +1111,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp9h" class="citation-image" aria-label="MEGaNorm: Normative Modeling of MEG Brain Oscillations Across the Human Lifespan">
-        <img src="" alt="MEGaNorm: Normative Modeling of MEG Brain Oscillations Across the Human Lifespan" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1166,6 +1140,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1173,10 +1150,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp4r" class="citation-image" aria-label="Prognostic predictions in psychosis: exploring the complementary role of machine learning models">
-        <img src="" alt="Prognostic predictions in psychosis: exploring the complementary role of machine learning models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1206,6 +1179,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1213,10 +1189,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbn7k4" class="citation-image" aria-label="Advancing treatment response prediction in first episode psychosis: integrating clinical and electroencephalography features">
-        <img src="" alt="Advancing treatment response prediction in first episode psychosis: integrating clinical and electroencephalography features" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1246,6 +1218,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1253,10 +1228,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp4s" class="citation-image" aria-label="Prognostic predictions in psychosis: exploring the complementary role of machine learning models">
-        <img src="" alt="Prognostic predictions in psychosis: exploring the complementary role of machine learning models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1286,6 +1257,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1295,10 +1269,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp43" class="citation-image" aria-label="Lifespan Normative Modeling of Brain Microstructure">
-        <img src="" alt="Lifespan Normative Modeling of Brain Microstructure" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1328,6 +1298,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1335,10 +1308,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/g93n38" class="citation-image" aria-label="Exploring potential ADHD biomarkers through advanced machine learning: An examination of audiovisual integration networks">
-        <img src="" alt="Exploring potential ADHD biomarkers through advanced machine learning: An examination of audiovisual integration networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1368,6 +1337,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1375,10 +1347,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp44" class="citation-image" aria-label="Multiscale heterogeneity of functional connectivity in autism">
-        <img src="" alt="Multiscale heterogeneity of functional connectivity in autism" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1408,6 +1376,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1415,10 +1386,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp4t" class="citation-image" aria-label="Psychosis Prognosis Predictor: A continuous and uncertainty aware prediction of treatment outcome in first episode psychosis">
-        <img src="" alt="Psychosis Prognosis Predictor: A continuous and uncertainty aware prediction of treatment outcome in first episode psychosis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1448,6 +1415,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1455,10 +1425,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp4v" class="citation-image" aria-label="Nonlinear latent representations of high-dimensional task-fMRI data: Unveiling cognitive and behavioral insights in heterogeneous spatial maps">
-        <img src="" alt="Nonlinear latent representations of high-dimensional task-fMRI data: Unveiling cognitive and behavioral insights in heterogeneous spatial maps" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1488,6 +1454,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1495,10 +1464,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp45" class="citation-image" aria-label="Multiscale heterogeneity of white matter morphometry in psychiatric disorders">
-        <img src="" alt="Multiscale heterogeneity of white matter morphometry in psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1528,6 +1493,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1535,10 +1503,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gt74wn" class="citation-image" aria-label="A 10-Year Longitudinal Study of Brain Cortical Thickness in People with First-Episode Psychosis Using Normative Models">
-        <img src="" alt="A 10-Year Longitudinal Study of Brain Cortical Thickness in People with First-Episode Psychosis Using Normative Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1568,6 +1532,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1575,10 +1542,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp4z" class="citation-image" aria-label="Gender and emotion recognition from EEG and eye movement patterns">
-        <img src="" alt="Gender and emotion recognition from EEG and eye movement patterns" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1608,6 +1571,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1615,10 +1581,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/g9jwm7" class="citation-image" aria-label="A 10-Year Longitudinal Study of Brain Cortical Thickness in People with First-Episode Psychosis using Normative Models">
-        <img src="" alt="A 10-Year Longitudinal Study of Brain Cortical Thickness in People with First-Episode Psychosis using Normative Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1648,6 +1610,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1655,10 +1620,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp46" class="citation-image" aria-label="Non-Gaussian normative modelling with hierarchical Bayesian regression">
-        <img src="" alt="Non-Gaussian normative modelling with hierarchical Bayesian regression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1688,6 +1649,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1695,10 +1659,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp47" class="citation-image" aria-label="Structural brain abnormalities and aggressive behaviour in schizophrenia: Mega-analysis of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium">
-        <img src="" alt="Structural brain abnormalities and aggressive behaviour in schizophrenia: Mega-analysis of data from 2095 patients and 2861 healthy controls via the ENIGMA consortium" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1728,6 +1688,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1735,10 +1698,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp42" class="citation-image" aria-label="Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models">
-        <img src="" alt="Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1768,6 +1727,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1775,10 +1737,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp4x" class="citation-image" aria-label="Alzheimer s disease heterogeneity revealed by neuroanatomical normative modeling">
-        <img src="" alt="Alzheimer s disease heterogeneity revealed by neuroanatomical normative modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1808,6 +1766,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1817,10 +1778,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5c" class="citation-image" aria-label="Extreme deviations from the normative model reveal cortical heterogeneity and associations with negative symptom severity in first-episode psychosis from the OPTiMiSE and GAP studies">
-        <img src="" alt="Extreme deviations from the normative model reveal cortical heterogeneity and associations with negative symptom severity in first-episode psychosis from the OPTiMiSE and GAP studies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1850,6 +1807,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1857,10 +1817,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp48" class="citation-image" aria-label="Predictive Clinical Neuroscience Portal PCNportal : instant online access to research-grade normative models for clinical neuroscientists.">
-        <img src="" alt="Predictive Clinical Neuroscience Portal PCNportal : instant online access to research-grade normative models for clinical neuroscientists." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1890,6 +1846,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1897,10 +1856,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gtw94g" class="citation-image" aria-label="Revealing the impact of psychiatric comorbidities on treatment outcome in early psychosis using counterfactual model explanation">
-        <img src="" alt="Revealing the impact of psychiatric comorbidities on treatment outcome in early psychosis using counterfactual model explanation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1930,6 +1885,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1937,10 +1895,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbn7k5" class="citation-image" aria-label="Associations between psychotropic drugs and rsEEG connectivity and network characteristics: a cross-sectional study in hospital-admitted psychiatric patients">
-        <img src="" alt="Associations between psychotropic drugs and rsEEG connectivity and network characteristics: a cross-sectional study in hospital-admitted psychiatric patients" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -1970,6 +1924,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -1977,10 +1934,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gsmsbg" class="citation-image" aria-label="A stable and replicable neural signature of lifespan adversity in the adult brain">
-        <img src="" alt="A stable and replicable neural signature of lifespan adversity in the adult brain" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2010,6 +1963,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2017,10 +1973,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gtcpcf" class="citation-image" aria-label="Regional, circuit and network heterogeneity of brain abnormalities in psychiatric disorders">
-        <img src="" alt="Regional, circuit and network heterogeneity of brain abnormalities in psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2050,6 +2002,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2057,10 +2012,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5d" class="citation-image" aria-label="Predictive Clinical Neuroscience Portal PCNportal : instant online access to research-grade normative models for clinical neuroscientists.">
-        <img src="" alt="Predictive Clinical Neuroscience Portal PCNportal : instant online access to research-grade normative models for clinical neuroscientists." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2090,6 +2041,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2097,10 +2051,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5f" class="citation-image" aria-label="Psychosis Prognosis Predictor: A Continuous and Uncertainty-Aware Prediction of Treatment Outcome in First-Episode Psychosis">
-        <img src="" alt="Psychosis Prognosis Predictor: A Continuous and Uncertainty-Aware Prediction of Treatment Outcome in First-Episode Psychosis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2130,6 +2080,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2137,10 +2090,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5g" class="citation-image" aria-label="Revealing Individual Neuroanatomical Heterogeneity in Alzheimer Disease Using Neuroanatomical Normative Modeling">
-        <img src="" alt="Revealing Individual Neuroanatomical Heterogeneity in Alzheimer Disease Using Neuroanatomical Normative Modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2170,6 +2119,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2177,10 +2129,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5b" class="citation-image" aria-label="Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models">
-        <img src="" alt="Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2210,6 +2158,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2219,10 +2170,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/g5qjqx" class="citation-image" aria-label="Closing the life-cycle of normative modeling using federated hierarchical Bayesian regression">
-        <img src="" alt="Closing the life-cycle of normative modeling using federated hierarchical Bayesian regression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2252,6 +2199,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2259,10 +2209,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/g984n2" class="citation-image" aria-label="Accommodating site variation in neuroimaging data using normative and hierarchical Bayesian models">
-        <img src="" alt="Accommodating site variation in neuroimaging data using normative and hierarchical Bayesian models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2292,6 +2238,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2299,10 +2248,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5k" class="citation-image" aria-label="Examining real-world Alzheimer s disease heterogeneity using neuroanatomical normative modelling">
-        <img src="" alt="Examining real-world Alzheimer s disease heterogeneity using neuroanatomical normative modelling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2332,6 +2277,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2339,10 +2287,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gsxxkk" class="citation-image" aria-label="Non-Gaussian Normative Modelling With Hierarchical Bayesian Regression">
-        <img src="" alt="Non-Gaussian Normative Modelling With Hierarchical Bayesian Regression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2372,6 +2316,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2379,10 +2326,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5r" class="citation-image" aria-label="Revealing Individual Neuroanatomical Heterogeneity in Alzheimer s Disease">
-        <img src="" alt="Revealing Individual Neuroanatomical Heterogeneity in Alzheimer s Disease" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2412,6 +2355,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2419,10 +2365,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gsb9j5" class="citation-image" aria-label="The normative modeling framework for computational psychiatry">
-        <img src="" alt="The normative modeling framework for computational psychiatry" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2452,6 +2394,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2459,10 +2404,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-85056454550&partnerID=MN8TOARS" class="citation-image" aria-label="MLCN 2018 preface">
-        <img src="" alt="MLCN 2018 preface" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2492,6 +2433,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2499,10 +2443,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp49" class="citation-image" aria-label="Age-related brain deviations and aggression">
-        <img src="" alt="Age-related brain deviations and aggression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2532,6 +2472,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2539,10 +2482,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5q" class="citation-image" aria-label="Regional, circuit, and network heterogeneity of brain abnormalities in psychiatric disorders">
-        <img src="" alt="Regional, circuit, and network heterogeneity of brain abnormalities in psychiatric disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2572,6 +2511,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2579,10 +2521,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5j" class="citation-image" aria-label="Charting brain growth and aging at high spatial precision">
-        <img src="" alt="Charting brain growth and aging at high spatial precision" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2612,6 +2550,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2619,10 +2560,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5h" class="citation-image" aria-label="Author response: Charting brain growth and aging at high spatial precision">
-        <img src="" alt="Author response: Charting brain growth and aging at high spatial precision" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2652,6 +2589,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2659,10 +2599,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="" class="citation-image" aria-label="Machine learning in clinical neuroimaging: 5th international workshop, MLCN 2022 held in conjunction with MICCAI 2022, Singapore, September 18, 2022, proceedings">
-        <img src="" alt="Machine learning in clinical neuroimaging: 5th international workshop, MLCN 2022 held in conjunction with MICCAI 2022, Singapore, September 18, 2022, proceedings" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2692,6 +2628,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2699,10 +2638,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5p" class="citation-image" aria-label="PROMISSING: Pruning Missing Values in Neural Networks">
-        <img src="" alt="PROMISSING: Pruning Missing Values in Neural Networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2732,6 +2667,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2739,10 +2677,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5n" class="citation-image" aria-label="Multi-site Normative Modeling of Diffusion Tensor Imaging Metrics Using Hierarchical Bayesian Regression">
-        <img src="" alt="Multi-site Normative Modeling of Diffusion Tensor Imaging Metrics Using Hierarchical Bayesian Regression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2772,6 +2706,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2781,10 +2718,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gsvdn7" class="citation-image" aria-label="The Normative Modeling Framework for Computational Psychiatry">
-        <img src="" alt="The Normative Modeling Framework for Computational Psychiatry" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2814,6 +2747,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2821,10 +2757,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gpcvt4" class="citation-image" aria-label="Charting Brain Growth and Aging at High Spatial Precision">
-        <img src="" alt="Charting Brain Growth and Aging at High Spatial Precision" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2854,6 +2786,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2861,10 +2796,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gs4vhh" class="citation-image" aria-label="Individualized prediction of three- and six-year outcomes of psychosis in a longitudinal multicenter study: a machine learning approach">
-        <img src="" alt="Individualized prediction of three- and six-year outcomes of psychosis in a longitudinal multicenter study: a machine learning approach" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2894,6 +2825,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2901,10 +2835,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gk39n5" class="citation-image" aria-label="Normative modeling of neuroimaging data using generalized additive models of location scale and shape">
-        <img src="" alt="Normative modeling of neuroimaging data using generalized additive models of location scale and shape" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2934,6 +2864,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2941,10 +2874,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5s" class="citation-image" aria-label="Federated Multi-Site Normative Modeling using Hierarchical Bayesian Regression">
-        <img src="" alt="Federated Multi-Site Normative Modeling using Hierarchical Bayesian Regression" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -2974,6 +2903,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -2981,10 +2913,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5m" class="citation-image" aria-label="Explanatory latent representation of heterogeneous spatial maps of task-fMRI in large-scale datasets">
-        <img src="" alt="Explanatory latent representation of heterogeneous spatial maps of task-fMRI in large-scale datasets" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3014,6 +2942,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3021,10 +2952,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gjw8tv" class="citation-image" aria-label="Replicating extensive brain structural heterogeneity in individuals with schizophrenia and bipolar disorder">
-        <img src="" alt="Replicating extensive brain structural heterogeneity in individuals with schizophrenia and bipolar disorder" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3054,6 +2981,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3061,10 +2991,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gsw4hx" class="citation-image" aria-label="Accommodating site variation in neuroimaging data using normative and hierarchical Bayesian models">
-        <img src="" alt="Accommodating site variation in neuroimaging data using normative and hierarchical Bayesian models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3094,6 +3020,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3101,10 +3030,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5t" class="citation-image" aria-label="Machine Learning in Clinical Neuroimaging">
-        <img src="" alt="Machine Learning in Clinical Neuroimaging" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3134,6 +3059,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3143,10 +3071,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/g6zknc" class="citation-image" aria-label="Fractionating autism based on neuroanatomical normative modeling">
-        <img src="" alt="Fractionating autism based on neuroanatomical normative modeling" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3176,6 +3100,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3183,10 +3110,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gjgxbj" class="citation-image" aria-label="Reliability and Reproducibility of Neuromelanin Sensitive Imaging of the Substantia Nigra: A Comparison of Three Different Sequences">
-        <img src="" alt="Reliability and Reproducibility of Neuromelanin Sensitive Imaging of the Substantia Nigra: A Comparison of Three Different Sequences" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3216,6 +3139,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3223,10 +3149,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5v" class="citation-image" aria-label="Replicating extensive brain structural heterogeneity in individuals with schizophrenia and bipolar disorder">
-        <img src="" alt="Replicating extensive brain structural heterogeneity in individuals with schizophrenia and bipolar disorder" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3256,6 +3178,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3263,10 +3188,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp53" class="citation-image" aria-label="Linear methods for classification">
-        <img src="" alt="Linear methods for classification" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3296,6 +3217,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3303,10 +3227,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="" class="citation-image" aria-label="Machine learning in clinical neuroimaging and radiogenomics in neuro-oncology: third international workshop, MLCN 2020, and second international workshop, RNO-AI 2020, held in conjunction with MICCAI 2020, Lima, Peru, October 4-8, 2020: proceedings">
-        <img src="" alt="Machine learning in clinical neuroimaging and radiogenomics in neuro-oncology: third international workshop, MLCN 2020, and second international workshop, RNO-AI 2020, held in conjunction with MICCAI 2020, Lima, Peru, October 4-8, 2020: proceedings" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3336,6 +3256,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3343,10 +3266,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5z" class="citation-image" aria-label="Hierarchical Bayesian Regression for Multi-Site Normative Modeling of Neuroimaging Data">
-        <img src="" alt="Hierarchical Bayesian Regression for Multi-Site Normative Modeling of Neuroimaging Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3376,6 +3295,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3383,10 +3305,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5x" class="citation-image" aria-label="Hierarchical Bayesian Regression for Multi-site Normative Modeling of Neuroimaging Data">
-        <img src="" alt="Hierarchical Bayesian Regression for Multi-site Normative Modeling of Neuroimaging Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3416,6 +3334,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3423,10 +3344,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp5w" class="citation-image" aria-label="Gender and Emotion Recognition from Implicit User Behavior Signals">
-        <img src="" alt="Gender and Emotion Recognition from Implicit User Behavior Signals" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3456,6 +3373,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3465,10 +3385,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gq2wk2" class="citation-image" aria-label="From pattern classification to stratification: towards conceptualizing the heterogeneity of Autism Spectrum Disorder">
-        <img src="" alt="From pattern classification to stratification: towards conceptualizing the heterogeneity of Autism Spectrum Disorder" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3498,6 +3414,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3505,10 +3424,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp52" class="citation-image" aria-label="Correction: Conceptualizing mental disorders as deviations from normative functioning">
-        <img src="" alt="Correction: Conceptualizing mental disorders as deviations from normative functioning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3538,6 +3453,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3545,10 +3463,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/ggdcsc" class="citation-image" aria-label="Conceptualizing mental disorders as deviations from normative functioning">
-        <img src="" alt="Conceptualizing mental disorders as deviations from normative functioning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3578,6 +3492,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3585,10 +3502,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp54" class="citation-image" aria-label="86. Understanding the Heterogeneous Phenotype of Psychiatric Disorders Using Normative Models">
-        <img src="" alt="86. Understanding the Heterogeneous Phenotype of Psychiatric Disorders Using Normative Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3618,6 +3531,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3627,10 +3543,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gct8q6" class="citation-image" aria-label="Deep learning for automatic stereotypical motor movement detection using wearable sensors in autism spectrum disorders">
-        <img src="" alt="Deep learning for automatic stereotypical motor movement detection using wearable sensors in autism spectrum disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3660,6 +3572,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3667,10 +3582,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/g8ftkw" class="citation-image" aria-label="Normative Modeling of Neuroimaging Data Using Scalable Multi-task Gaussian Processes">
-        <img src="" alt="Normative Modeling of Neuroimaging Data Using Scalable Multi-task Gaussian Processes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3700,6 +3611,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3707,10 +3621,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp57" class="citation-image" aria-label="Scalable Multi-Task Gaussian Process Tensor Regression for Normative Modeling of Structured Variation in Neuroimaging Data">
-        <img src="" alt="Scalable Multi-Task Gaussian Process Tensor Regression for Normative Modeling of Structured Variation in Neuroimaging Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3740,6 +3650,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3747,10 +3660,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp56" class="citation-image" aria-label="Normative Modeling of Neuroimaging Data using Scalable Multi-Task Gaussian Processes">
-        <img src="" alt="Normative Modeling of Neuroimaging Data using Scalable Multi-Task Gaussian Processes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3780,6 +3689,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3787,10 +3699,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp55" class="citation-image" aria-label="Neural Processes Mixed-Effect Models for Deep Normative Modeling of Clinical Neuroimaging Data">
-        <img src="" alt="Neural Processes Mixed-Effect Models for Deep Normative Modeling of Clinical Neuroimaging Data" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3820,6 +3728,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3829,10 +3740,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/ghws38" class="citation-image" aria-label="Gender and emotion recognition with implicit user signals">
-        <img src="" alt="Gender and emotion recognition with implicit user signals" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3862,6 +3769,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3869,10 +3779,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/ghws36" class="citation-image" aria-label="Discovering gender differences in facial emotion recognition via implicit behavioral cues">
-        <img src="" alt="Discovering gender differences in facial emotion recognition via implicit behavioral cues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3902,6 +3808,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3909,10 +3818,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gbkf6w" class="citation-image" aria-label="Group-level spatio-temporal pattern recovery in MEG decoding using multi-task joint feature learning">
-        <img src="" alt="Group-level spatio-temporal pattern recovery in MEG decoding using multi-task joint feature learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3942,6 +3847,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3949,10 +3857,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6c" class="citation-image" aria-label="Interpretability of Multivariate Brain Maps in Linear Brain Decoding: Definition, and Heuristic Quantification in Multivariate Analysis of MEG Time-Locked Effects">
-        <img src="" alt="Interpretability of Multivariate Brain Maps in Linear Brain Decoding: Definition, and Heuristic Quantification in Multivariate Analysis of MEG Time-Locked Effects" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -3982,6 +3886,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -3989,10 +3896,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6b" class="citation-image" aria-label="Gender and Emotion Recognition with Implicit User Signals">
-        <img src="" alt="Gender and Emotion Recognition with Implicit User Signals" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4022,6 +3925,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4029,10 +3935,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp59" class="citation-image" aria-label="Discovering Gender Differences in Facial Emotion Recognition via Implicit Behavioral Cues">
-        <img src="" alt="Discovering Gender Differences in Facial Emotion Recognition via Implicit Behavioral Cues" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4062,6 +3964,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4069,10 +3974,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp58" class="citation-image" aria-label="Deep Learning for Automatic Stereotypical Motor Movement Detection using Wearable Sensors in Autism Spectrum Disorders">
-        <img src="" alt="Deep Learning for Automatic Stereotypical Motor Movement Detection using Wearable Sensors in Autism Spectrum Disorders" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4102,6 +4003,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4111,10 +4015,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6g" class="citation-image" aria-label="Stereotypical Motor Movement Detection in Dynamic Feature Space">
-        <img src="" alt="Stereotypical Motor Movement Detection in Dynamic Feature Space" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4144,6 +4044,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4151,10 +4054,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6f" class="citation-image" aria-label="Multi-Task Learning for Interpretation of Brain Decoding Models">
-        <img src="" alt="Multi-Task Learning for Interpretation of Brain Decoding Models" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4184,6 +4083,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4191,10 +4093,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6d" class="citation-image" aria-label="Modeling the cooling performance of vortex tube using a genetic algorithm-based artificial neural network">
-        <img src="" alt="Modeling the cooling performance of vortex tube using a genetic algorithm-based artificial neural network" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4224,6 +4122,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4233,10 +4134,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/gfxd9p" class="citation-image" aria-label="DECAF: MEG-Based Multimodal Database for Decoding Affective Physiological Responses">
-        <img src="" alt="DECAF: MEG-Based Multimodal Database for Decoding Affective Physiological Responses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4266,6 +4163,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4273,10 +4173,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6h" class="citation-image" aria-label="Movie Genre Classification by Exploiting MEG Brain Signals">
-        <img src="" alt="Movie Genre Classification by Exploiting MEG Brain Signals" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4306,6 +4202,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4315,10 +4214,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6k" class="citation-image" aria-label="Sensor-level maps with the kernel two-sample test">
-        <img src="" alt="Sensor-level maps with the kernel two-sample test" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4348,6 +4243,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4355,10 +4253,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6j" class="citation-image" aria-label="MEG decoding across subjects">
-        <img src="" alt="MEG decoding across subjects" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4388,6 +4282,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4397,10 +4294,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6q" class="citation-image" aria-label="User-centric Affective Video Tagging from MEG and Peripheral Physiological Responses">
-        <img src="" alt="User-centric Affective Video Tagging from MEG and Peripheral Physiological Responses" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4430,6 +4323,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4437,10 +4333,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6p" class="citation-image" aria-label="The Kernel Two-Sample Test vs. Brain Decoding">
-        <img src="" alt="The Kernel Two-Sample Test vs. Brain Decoding" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4470,6 +4362,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4477,10 +4372,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6n" class="citation-image" aria-label="Discrete Cosine Transform for MEG Signal Decoding">
-        <img src="" alt="Discrete Cosine Transform for MEG Signal Decoding" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4510,6 +4401,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4517,10 +4411,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://doi.org/hbjp6m" class="citation-image" aria-label="Decoding affect in videos employing the MEG brain signal">
-        <img src="" alt="Decoding affect in videos employing the MEG brain signal" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4550,6 +4440,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4559,10 +4452,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001229369900024" class="citation-image" aria-label="Web of Science">
-        <img src="" alt="Web of Science" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4592,6 +4481,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4599,10 +4491,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://portal.issn.org/resource/ISSN/26403498" class="citation-image" aria-label="ISSN 2640-3498 - Proceedings of Machine Learning Research">
-        <img src="" alt="ISSN 2640-3498 - Proceedings of Machine Learning Research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4632,6 +4520,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4639,10 +4530,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12297953" class="citation-image" aria-label="Web of Science">
-        <img src="" alt="Web of Science" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4672,6 +4559,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4679,10 +4569,6 @@
 
 <div class="citation-container">
   <div class="citation">
-    
-      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:001043129200008" class="citation-image" aria-label="Web of Science">
-        <img src="" alt="Web of Science" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
     
 
     <div class="citation-text">
@@ -4712,6 +4598,9 @@
         
 
         
+
+
+        
       
     </div>
   </div>
@@ -4720,16 +4609,7 @@
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.png')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
+    <footer class="background" data-size="wide">
   <div>
     
       
@@ -4772,8 +4652,6 @@
       Tilburg University
     </a>
   </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

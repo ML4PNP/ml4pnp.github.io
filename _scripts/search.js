@@ -55,6 +55,7 @@
     const hasText = (string) =>
       (
         element.innerText +
+        (element.querySelector(".citation-description")?.textContent || "") +
         getAttr(element, "tooltip") +
         getAttr(element, "search")
       )

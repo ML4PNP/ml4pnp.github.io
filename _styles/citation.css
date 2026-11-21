@@ -8,7 +8,7 @@
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  border-bottom: 1px solid var(--light-gray);
 }
 
 .citation-image {
@@ -47,7 +47,7 @@
 }
 
 .citation-title {
-  font-weight: var(--semi-bold);
+  font: 500 1.45rem/1.23 var(--title);
 }
 
 .citation-text > .icon {
