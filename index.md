@@ -5,7 +5,7 @@ seo_description: "ML4PNP at Tilburg University studies individual brain differen
 
 <div class="lab-intro">
   <div>
-    <h1>Machine learning for <em>precision neuropsychiatry</em></h1>
+    <h1><span>Machine Learning for</span> <em>Precision Neuropsychiatry</em></h1>
     <p>How does each person’s brain differ, and what can those differences tell us about brain health? At Tilburg University, we use machine learning with EEG, MEG, and MRI to study individual variation across the lifespan.</p>
     <div class="intro-links">
       <a href="{{ '/projects/' | relative_url }}">Explore our research <span aria-hidden="true">→</span></a>
@@ -15,10 +15,9 @@ seo_description: "ML4PNP at Tilburg University studies individual brain differen
   </div>
   <figure>
     <a href="{% post_url 2026-10-09-p600-mindlab %}">
-      <img class="recording-photo" src="{{ '/images/p600norm-recording.webp' | relative_url }}" width="831" height="464" alt="Participant wearing an EEG cap at the recording workstation at MindLabs">
-      <img class="electrode-detail" src="{{ '/images/p600norm-electrodes.webp' | relative_url }}" width="829" height="464" alt="Electrodes on the EEG cap used in the P600Norm study">
+      <img src="{{ '/images/p600norm-recording.webp' | relative_url }}" width="831" height="464" alt="Participant wearing an EEG cap at the recording workstation at MindLabs">
     </a>
-    <figcaption>P600Norm at MindLabs · Photographs by BRIX</figcaption>
+    <figcaption>P600Norm at MindLabs · Photograph by BRIX</figcaption>
   </figure>
 </div>
 
