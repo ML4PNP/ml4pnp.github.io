@@ -8,8 +8,10 @@
       {% assign picture = story.slide_image | default: story.image %}
       <figure class="featured-story"{% if story_count > 0 %} hidden{% endif %}>
         <a href="{{ story.url | relative_url }}">
-          <span class="story-media">{% if picture %}<img src="{{ picture | relative_url | escape }}" alt="" {% if story_count > 0 %}loading="lazy"{% endif %}>{% endif %}</span>
-          <span class="story-headline">{{ story.title | escape }}</span>
+          <span class="story-media">
+            {% if picture %}<img src="{{ picture | relative_url | escape }}" alt="" {% if story_count > 0 %}loading="lazy"{% endif %}>{% endif %}
+            <span class="story-headline">{{ story.title | escape }}</span>
+          </span>
         </a>
         {% if story.slide_credit %}<figcaption>{{ story.slide_credit | escape }}</figcaption>{% endif %}
       </figure>

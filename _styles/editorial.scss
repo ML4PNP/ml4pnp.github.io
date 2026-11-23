@@ -192,7 +192,7 @@ a:focus-visible, select:focus-visible, summary:focus-visible, input:focus-visibl
   grid-template-columns: minmax(0, 1fr);
 }
 .story-stage .featured-story { grid-area: 1 / 1; min-width: 0; }
-/* All captions contribute to the row height, including the longest headline. */
+/* Reserve the photo credit row across all slides. */
 .story-stage .featured-story[hidden] { display: block; visibility: hidden; }
 .story-media {
   display: block;
@@ -213,9 +213,13 @@ a:focus-visible, select:focus-visible, summary:focus-visible, input:focus-visibl
 .featured-story a { color: var(--text); text-decoration: none; }
 .featured-story a:hover .story-headline { text-decoration: underline; }
 .story-headline {
-  display: block;
-  margin-top: 12px;
-  font: 500 clamp(1.2rem, 2vw, 1.5rem)/1.2 var(--title);
+  position: absolute;
+  inset: auto 0 0;
+  padding: 1.7em clamp(12px, 3cqi, 18px) 0.65em;
+  color: #fff;
+  background: linear-gradient(to bottom, transparent, rgba(13, 23, 19, 0.86) 1.6em, #0d1713);
+  font: 500 clamp(1rem, 4.6cqi, 1.45rem)/1.14 var(--title);
+  overflow-wrap: anywhere;
   text-wrap: pretty;
 }
 .story-controls:not([hidden]) {
