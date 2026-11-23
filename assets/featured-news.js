@@ -2,49 +2,37 @@
   const region = document.querySelector(".featured-news");
   const slides = region.querySelectorAll(".featured-story");
   const controls = region.querySelector(".story-controls");
-  const rotation = controls.querySelector("[data-rotation]");
   const position = controls.querySelector("[data-position]");
-  const markers = controls.querySelectorAll(".story-track i");
+  const track = controls.querySelector(".story-track");
   const motion = matchMedia("(prefers-reduced-motion: reduce)");
-  let playing = !motion.matches;
+  const seconds = Number(region.dataset.delay);
+  const delay = Number.isFinite(seconds) && seconds >= 0 ? seconds * 1000 : 5000;
   let index = 0;
   let timer;
 
   function show(step) {
-    markers[index].classList.remove("current");
     slides[index].hidden = true;
     index = (index + step + slides.length) % slides.length;
     slides[index].hidden = false;
-    markers[index].classList.add("current");
     position.textContent = (index + 1) + " / " + slides.length;
+    track.style.setProperty("--story-offset", (100 * index) + "%");
   }
 
   function schedule() {
     clearInterval(timer);
-    rotation.dataset.playing = String(playing);
-    const label = (playing ? "Pause" : "Play") + " automatic story rotation";
-    rotation.setAttribute("aria-label", label);
-    rotation.title = label;
-    if (playing && !document.hidden && !region.matches(":hover")) {
-      timer = setInterval(() => show(1), 5000);
+    if (delay && !motion.matches && !document.hidden && !region.matches(":hover, :focus-within")) {
+      timer = setInterval(() => show(1), delay);
     }
   }
 
-  function pause() {
-    playing = false;
-    schedule();
-  }
-
-  controls.querySelector("[data-next]").onclick = () => { pause(); show(1); };
-  controls.querySelector("[data-previous]").onclick = () => { pause(); show(-1); };
-  rotation.onclick = () => { playing = !playing; schedule(); };
-  region.addEventListener("focusin", event => {
-    if (event.target.matches(":focus-visible")) pause();
-  });
+  controls.querySelector("[data-next]").onclick = () => { show(1); schedule(); };
+  controls.querySelector("[data-previous]").onclick = () => { show(-1); schedule(); };
   region.addEventListener("mouseenter", schedule);
   region.addEventListener("mouseleave", schedule);
+  region.addEventListener("focusin", schedule);
+  region.addEventListener("focusout", () => queueMicrotask(schedule));
   document.addEventListener("visibilitychange", schedule);
-  motion.addEventListener("change", () => { if (motion.matches) pause(); });
+  motion.addEventListener("change", schedule);
   controls.hidden = false;
   schedule();
 })();

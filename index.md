@@ -1,4 +1,6 @@
 ---
+# Seconds per story. Use 0 for manual navigation only.
+featured_news_delay: 5
 featured_news:
   - 2026-10-09-p600-mindlab
   - 2026-03-25-paper
