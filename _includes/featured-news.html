@@ -8,8 +8,8 @@
       {% assign picture = story.slide_image | default: story.image %}
       <figure class="featured-story"{% if story_count > 0 %} hidden{% endif %}>
         <a href="{{ story.url | relative_url }}">
-          {% if picture %}<img src="{{ picture | relative_url | escape }}" alt="" {% if story_count > 0 %}loading="lazy"{% endif %}>{% endif %}
-          <span>{{ story.title | escape }}</span>
+          <span class="story-media">{% if picture %}<img src="{{ picture | relative_url | escape }}" alt="" {% if story_count > 0 %}loading="lazy"{% endif %}>{% endif %}</span>
+          <span class="story-headline">{{ story.title | escape }}</span>
         </a>
         {% if story.slide_credit %}<figcaption>{{ story.slide_credit | escape }}</figcaption>{% endif %}
       </figure>
@@ -20,10 +20,13 @@
 {% endcapture %}
 {% if story_count > 0 %}
   <div class="featured-news" role="region" aria-label="Featured lab news">
-    {{ slides }}
+    <div class="story-stage">{{ slides }}</div>
     {% if story_count > 1 %}
       <div class="story-controls" hidden>
-        <button type="button" data-rotation>Pause</button>
+        <span class="story-track" aria-hidden="true">
+          {% for n in (1..story_count) %}<i{% if forloop.first %} class="current"{% endif %}></i>{% endfor %}
+        </span>
+        <button type="button" data-rotation aria-label="Pause automatic story rotation"></button>
         <button type="button" data-previous aria-label="Previous story">←</button>
         <span data-position>1 / {{ story_count }}</span>
         <button type="button" data-next aria-label="Next story">→</button>

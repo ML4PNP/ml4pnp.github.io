@@ -4,22 +4,27 @@
   const controls = region.querySelector(".story-controls");
   const rotation = controls.querySelector("[data-rotation]");
   const position = controls.querySelector("[data-position]");
+  const markers = controls.querySelectorAll(".story-track i");
   const motion = matchMedia("(prefers-reduced-motion: reduce)");
   let playing = !motion.matches;
   let index = 0;
   let timer;
 
   function show(step) {
+    markers[index].classList.remove("current");
     slides[index].hidden = true;
     index = (index + step + slides.length) % slides.length;
     slides[index].hidden = false;
+    markers[index].classList.add("current");
     position.textContent = (index + 1) + " / " + slides.length;
   }
 
   function schedule() {
     clearInterval(timer);
-    rotation.textContent = playing ? "Pause" : "Play";
-    rotation.setAttribute("aria-label", rotation.textContent + " automatic story rotation");
+    rotation.dataset.playing = String(playing);
+    const label = (playing ? "Pause" : "Play") + " automatic story rotation";
+    rotation.setAttribute("aria-label", label);
+    rotation.title = label;
     if (playing && !document.hidden && !region.matches(":hover")) {
       timer = setInterval(() => show(1), 5000);
     }
