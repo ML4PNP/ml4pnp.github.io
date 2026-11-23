@@ -476,7 +476,7 @@
 
 
   <div class="featured-news" role="region" aria-label="Featured lab news">
-    
+    <div class="story-stage">
   
   
     
@@ -485,8 +485,10 @@
       
       <figure class="featured-story">
         <a href="/2026/10/09/p600-mindlab.html">
-          <img src="/images/p600norm-recording.webp" alt="">
-          <span>P600Norm EEG Data Collection Underway at MindLabs</span>
+          <span class="story-media">
+            <img src="/images/p600norm-recording.webp" alt="">
+            <span class="story-headline">P600Norm EEG Data Collection Underway at MindLabs</span>
+          </span>
         </a>
         <figcaption>Photograph by BRIX</figcaption>
       </figure>
@@ -500,8 +502,10 @@
       
       <figure class="featured-story" hidden="">
         <a href="/2026/03/25/paper.html">
-          <img src="/images/featured/MEGaNorm_logo.webp" alt="" loading="lazy">
-          <span>New Publication in Nature Communications Biology, Normative Modeling of Brain Dynamics</span>
+          <span class="story-media">
+            <img src="/images/featured/MEGaNorm_logo.webp" alt="" loading="lazy">
+            <span class="story-headline">New Publication in Nature Communications Biology, Normative Modeling of Brain Dynamics</span>
+          </span>
         </a>
         
       </figure>
@@ -515,8 +519,10 @@
       
       <figure class="featured-story" hidden="">
         <a href="/2026/06/20/ohbm2026.html">
-          <img src="/images/featured/ohbm2026.webp" alt="" loading="lazy">
-          <span>ML4PNP at OHBM 2026</span>
+          <span class="story-media">
+            <img src="/images/featured/ohbm2026.webp" alt="" loading="lazy">
+            <span class="story-headline">ML4PNP at OHBM 2026</span>
+          </span>
         </a>
         
       </figure>
@@ -530,8 +536,10 @@
       
       <figure class="featured-story" hidden="">
         <a href="/2026/08/17/Ymke-Review.html">
-          <img src="/images/featured/cascade.webp" alt="" loading="lazy">
-          <span>New Review on State of the Art in Precision Neuropsychiatry</span>
+          <span class="story-media">
+            <img src="/images/featured/cascade.webp" alt="" loading="lazy">
+            <span class="story-headline">New Review on State of the Art in Precision Neuropsychiatry</span>
+          </span>
         </a>
         
       </figure>
@@ -545,17 +553,22 @@
       
       <figure class="featured-story" hidden="">
         <a href="/2026/09/30/Julio_Visit.html">
-          <img src="/images/featured/julio_visit.webp" alt="" loading="lazy">
-          <span>Julio Villalón-Reina has visited ML4PNP</span>
+          <span class="story-media">
+            <img src="/images/featured/julio_visit.webp" alt="" loading="lazy">
+            <span class="story-headline">Julio Villalón-Reina has visited ML4PNP</span>
+          </span>
         </a>
         
       </figure>
       
       
-
+</div>
     
       <div class="story-controls" hidden="">
-        <button type="button" data-rotation="">Pause</button>
+        <span class="story-track" aria-hidden="true">
+          <i class="current"></i><i></i><i></i><i></i><i></i>
+        </span>
+        <button type="button" data-rotation="" aria-label="Pause automatic story rotation"></button>
         <button type="button" data-previous="" aria-label="Previous story">←</button>
         <span data-position="">1 / 5</span>
         <button type="button" data-next="" aria-label="Next story">→</button>
