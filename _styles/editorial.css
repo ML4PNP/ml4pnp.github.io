@@ -396,21 +396,22 @@ a:focus-visible, select:focus-visible, summary:focus-visible, input:focus-visibl
 }
 
 .story-track {
-  display: flex;
-  gap: 4px;
+  overflow: hidden;
   width: min(34%, 130px);
+  height: 4px;
   margin-right: auto;
-}
-
-.story-track i {
-  flex: 1;
-  height: 3px;
-  background: var(--light-gray);
   border-radius: 2px;
+  background: var(--light-gray);
 }
 
-.story-track .current {
+.story-track::after {
+  content: "";
+  display: block;
+  width: calc(100% / var(--story-count));
+  height: 100%;
+  border-radius: inherit;
   background: var(--primary);
+  transform: translateX(var(--story-offset, 0%));
 }
 
 .story-controls button {
@@ -437,21 +438,6 @@ a:focus-visible, select:focus-visible, summary:focus-visible, input:focus-visibl
   color: var(--dark-gray);
   font: 0.84rem/1 var(--body);
   font-variant-numeric: tabular-nums;
-}
-
-.story-controls [data-rotation]::before {
-  content: "";
-  box-sizing: border-box;
-  height: 12px;
-  width: 9px;
-  border-inline: 3px solid currentColor;
-}
-
-.story-controls [data-playing=false]::before {
-  width: 0;
-  border: solid transparent;
-  border-width: 6px 0 6px 10px;
-  border-left-color: currentColor;
 }
 
 /*# sourceMappingURL=editorial.css.map */
