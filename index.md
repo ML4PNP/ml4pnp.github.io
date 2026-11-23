@@ -1,4 +1,10 @@
 ---
+featured_news:
+  - 2026-10-09-p600-mindlab
+  - 2026-03-25-paper
+  - 2026-06-20-ohbm2026
+  - 2026-08-17-Ymke-Review
+  - 2026-09-30-Julio_Visit
 seo_title: "ML4PNP | Machine Learning for Precision Neuropsychiatry"
 seo_description: "ML4PNP at Tilburg University studies individual brain differences through normative modeling, EEG, MEG, MRI, and machine learning for healthcare."
 ---
@@ -13,12 +19,7 @@ seo_description: "ML4PNP at Tilburg University studies individual brain differen
       <a href="{{ '/software/' | relative_url }}">Software</a>
     </div>
   </div>
-  <figure>
-    <a href="{% post_url 2026-10-09-p600-mindlab %}">
-      <img src="{{ '/images/p600norm-recording.webp' | relative_url }}" width="831" height="464" alt="Participant wearing an EEG cap at the recording workstation at MindLabs">
-    </a>
-    <figcaption>P600Norm at MindLabs · Photograph by BRIX</figcaption>
-  </figure>
+  {% include featured-news.html %}
 </div>
 
 {% include section.html %}

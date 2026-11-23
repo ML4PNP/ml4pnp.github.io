@@ -1,5 +1,6 @@
 ---
 title: New Review on State of the Art in Precision Neuropsychiatry
+slide_image: images/featured/cascade.webp
 image: images/cascade.jpg
 author: S.M. Kia
 tags: news

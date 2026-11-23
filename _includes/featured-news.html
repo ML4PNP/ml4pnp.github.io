@@ -1,0 +1,34 @@
+{% assign story_count = 0 %}
+{% capture slides %}
+  {% assign selected = page.featured_news | uniq %}
+  {% for entry in selected %}
+    {% assign path = entry | prepend: "_posts/" | append: ".md" %}
+    {% assign story = site.posts | where: "path", path | first %}
+    {% if story %}
+      {% assign picture = story.slide_image | default: story.image %}
+      <figure class="featured-story"{% if story_count > 0 %} hidden{% endif %}>
+        <a href="{{ story.url | relative_url }}">
+          {% if picture %}<img src="{{ picture | relative_url | escape }}" alt="" {% if story_count > 0 %}loading="lazy"{% endif %}>{% endif %}
+          <span>{{ story.title | escape }}</span>
+        </a>
+        {% if story.slide_credit %}<figcaption>{{ story.slide_credit | escape }}</figcaption>{% endif %}
+      </figure>
+      {% assign story_count = story_count | plus: 1 %}
+      {% if story_count == 5 %}{% break %}{% endif %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% if story_count > 0 %}
+  <div class="featured-news" role="region" aria-label="Featured lab news">
+    {{ slides }}
+    {% if story_count > 1 %}
+      <div class="story-controls" hidden>
+        <button type="button" data-rotation>Pause</button>
+        <button type="button" data-previous aria-label="Previous story">←</button>
+        <span data-position>1 / {{ story_count }}</span>
+        <button type="button" data-next aria-label="Next story">→</button>
+      </div>
+      <script defer src="{{ '/assets/featured-news.js' | relative_url }}"></script>
+    {% endif %}
+  </div>
+{% endif %}

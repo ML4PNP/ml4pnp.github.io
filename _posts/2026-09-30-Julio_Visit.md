@@ -1,5 +1,6 @@
 ---
 title: "Julio Villalón-Reina has visited ML4PNP"
+slide_image: images/featured/julio_visit.webp
 image: images/julio_visit.jpg
 author: S.M. Kia
 tags: news
